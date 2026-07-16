@@ -1,0 +1,50 @@
+paths:
+  alphafold_dir: "/home/danilo/Caroline/coletotox_min/00_inputs/AlphaFold"
+  tmp_dir: "/home/danilo/Caroline/coletotox_min/01_intermediate"
+  features_dir: "/home/danilo/Caroline/coletotox_min/02_features"
+  toxin_dir: "/home/danilo/Caroline/coletotox_min/00_inputs/toxin"
+  results_dir:  "/home/danilo/Caroline/coletotox_min/04_results"
+
+gating:
+  plddt_min_mean: 70
+
+structure:
+  dssp_exec: "mkdssp"
+  contact_cutoff_A: 8.0
+  disulfide_cutoff_A: 2.2
+  rsa_core_threshold: 0.25
+  hydrophobic_residues: ["A","V","I","L","M","F","W","Y"]
+
+fold:
+  method: "self_cluster"
+  min_seq_id: 0.2
+  cov: 0.5
+  cov_mode: 1
+  cluster_mode: 0      # 0 é padrão; mude só se souber o que quer
+  threads: 32
+
+pu:
+  random_seed: 13
+  test_frac: 0.2
+  val_frac: 0.1
+  seed_min_plddt_mean: 70
+  seed_max_pfam_evalue: 1e-6
+  seed_require_secreted: false
+  seed_require_cys_rich: false
+
+  # regras para criar POSITIVOS heurísticos
+  heuristics:
+    require_signalp: true
+    min_cys: 4
+    len_min: 30
+    len_max: 120
+    min_plddt_mean: 70
+
+  model:
+    n_estimators: 80        # bags
+    max_samples: 0.7
+    base_estimator: "hgb"   # "rf" ou "hgb"
+    base_max_depth: 6
+    base_learning_rate: 0.08
+    base_max_leaf_nodes: 31
+    base_min_samples_leaf: 25

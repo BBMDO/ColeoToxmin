@@ -1,0 +1,13 @@
+gallery_order	fold_cluster	candidate_id	species	pu_score	mean_plddt	original_rank	structure_found
+1	geotrupes_spiniger_2	diphucephala_sp_2	Diphucephala sp	0.997600	91.08	1	1
+2	dastarcus_helophoroides_2	eophileurus_sp_1	Eophileurus sp	0.991100	94.48	2	1
+3	elateroides_flabellicornis_2	alurnus_ornatus_2	Alurnus ornatus	0.979400	94.19	18	1
+4	dorcus_parallelipipedus_1	zophobas_atratus_1	Zophobas atratus	0.973400	93.18	28	1
+5	sitophilus_zeamais_1	sitophilus_zeamais_1	Sitophilus zeamais	0.943300	92.34	49	1
+6	elateroides_flabellicornis_1	elateroides_flabellicornis_1	Elateroides flabellicornis	0.881600	84.66	61	1
+7	triodontella_sp_2	triodontella_sp_2	Triodontella sp	0.870400	92.48	64	1
+8	diphucephala_sp_4	diphucephala_sp_4	Diphucephala sp	0.866300	92.94	65	1
+9	dichotomius_satanas_6	dichotomius_satanas_7	Dichotomius satanas	0.845700	91.83	67	1
+10	brassicogethes_aeneus_1	brassicogethes_aeneus_1	Brassicogethes aeneus	0.822400	89.85	72	1
+11	maechidius_sp_1	brassicogethes_aeneus_2	Brassicogethes aeneus	0.777800	86.65	75	1
+12	aphodius_scrutator_4	aphodius_scrutator_4	Aphodius scrutator	0.769500	86.00	76	1

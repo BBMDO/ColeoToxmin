@@ -1,0 +1,11 @@
+cluster_id	n_members	pfam_mode	pfam_mode_n	pfam_mode_frac
+dastarcus_helophoroides_2	47	trypsin	47	1.0
+maechidius_sp_1	42	kunitz_bpti	42	1.0
+geotrupes_spiniger_2	33	til	33	1.0
+elateroides_flabellicornis_2	13	peptidase_m13	13	1.0
+elaphrus_aureus_1	10	kazal_2	5	0.5
+aethina_tumida_3	5	trypsin	5	1.0
+dichotomius_satanas_2	4	pacifastin_i	4	1.0
+neoserica_sp_3	4	coesterase	4	1.0
+dorcus_parallelipipedus_1	3	coesterase	3	1.0
+dichotomius_satanas_6	2	his_phos_2	2	1.0

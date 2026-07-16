@@ -1,0 +1,11 @@
+paths:
+  alphafold_dir: "/home/danilo/Caroline/coletotox_min/AlphaFold"
+  toxin_dir: "/home/danilo/Caroline/coletotox_min/00_inputs/toxin"
+  tmp_dir: "/home/danilo/Caroline/coletotox_min/01_intermediate"
+  features_dir: "/home/danilo/Caroline/coletotox_min/02_features"
+
+hmm:
+  mode: "pfam_full"
+  pfam_db_hmm: "/home/danilo/Caroline/coletotox_min/00_inputs/refs/pfam/Pfam-A.hmm"
+  evalue: 1e-3
+  cpu: 16
