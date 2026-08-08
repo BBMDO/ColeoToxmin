@@ -1,0 +1,41 @@
+PyMOL command: /usr/bin/pymol -cq
+Rendering MC01: gjbk00000000_1
+Rendering MC02: gkjd00000000_3
+Rendering MC03: gaco00000000_1
+Rendering MC04: gdmq00000000_1
+Rendering MC05: hydroscapha_redfordi_1
+Rendering MC06: brassicogethes_aeneus_2
+Rendering MC11: gfuh00000000_2
+Rendering MC25: sitophilus_oryzae_2
+Rendering MC10: gdnw00000000_1
+Rendering MC09: gdlg00000000_1
+Rendering MC13: psylliodes_chrysocephalus_2
+Rendering MC23: maechidius_sp_1
+Rendering MC15: eophileurus_sp_2
+Rendering MC07: aphodius_scrutator_2
+Rendering MC19: gkjj00000000_1
+Rendering MC18: ghma00000000_3
+Rendering MC21: heteronyx_sp_3
+Rendering MC08: dichotomius_satanas_4
+Rendering MC16: euwallacea_fornicatus_1
+Rendering MC20: hbua00000000_1
+Rendering MC12: lepiserica_sp_1
+Rendering MC14: bolboceras_sp_1
+Rendering MC26: spercheus_emarginatus_2
+Rendering MC24: orphnus_sp_2
+Rendering MC17: geotrupes_spiniger_2
+Rendering MC22: hygrobia_hermanni_1
+Publication Figure 5 created.
+
+Low-confidence main panels:
+cluster_id                candidate_id  plddt_mean
+      MC03              gaco00000000_1   50.742836
+      MC13 psylliodes_chrysocephalus_2   58.573538
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/Figure_5_mature_structure_gallery_PUBLICATION.png
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/Figure_5_mature_structure_gallery_PUBLICATION.pdf
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/Figure_S3_all_structural_clusters_PUBLICATION.png
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/Figure_S3_all_structural_clusters_PUBLICATION.pdf
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/Figure_5_selected_clusters_PUBLICATION.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/14_structure_gallery_publication/structure_gallery_PUBLICATION_report.txt

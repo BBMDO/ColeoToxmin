@@ -1,0 +1,31 @@
+PUBLICATION STRUCTURAL GALLERY
+======================================================================
+
+Total structures rendered: 26/26
+Main Figure 5 panels: 12
+
+MAIN FIGURE 5
+----------------------------------------------------------------------
+cluster_id                candidate_id  cluster_size  mature_len  plddt_mean        functional_label                structural_label confidence_symbol
+      MC01              gjbk00000000_1            15          42   87.161429 Protease inhibitor-like    Close structural counterpart                  
+      MC02              gkjd00000000_3            10          61   85.631803 Protease inhibitor-like    Close structural counterpart                  
+      MC03              gaco00000000_1             9          67   50.742836 Protease inhibitor-like    Close structural counterpart                 †
+      MC04              gdmq00000000_1             6          36   72.608889              Unresolved    Close structural counterpart                  
+      MC05      hydroscapha_redfordi_1             5          40   92.196750           Defensin-like    Close structural counterpart                  
+      MC06     brassicogethes_aeneus_2             4          33   93.033637 Protease inhibitor-like    Close structural counterpart                  
+      MC07        aphodius_scrutator_2             2          35   89.863714 Protease inhibitor-like Distant structural relationship                  
+      MC11              gfuh00000000_2             2          24   89.810000              Unresolved    Close structural counterpart                  
+      MC10              gdnw00000000_1             2          33   88.736363              Unresolved Moderate structural counterpart                  
+      MC09              gdlg00000000_1             2          45   79.804222 Protease inhibitor-like Moderate structural counterpart                  
+      MC13 psylliodes_chrysocephalus_2             2          65   58.573538 Protease inhibitor-like Moderate structural counterpart                 †
+      MC08       dichotomius_satanas_4             2          29   89.050689              Unresolved No close structural counterpart                  
+
+LOW-CONFIDENCE PANELS
+----------------------------------------------------------------------
+cluster_id                candidate_id  plddt_mean
+      MC03              gaco00000000_1   50.742836
+      MC13 psylliodes_chrysocephalus_2   58.573538
+
+MC08
+----------------------------------------------------------------------
+MC08 remains highlighted because no close structural counterpart was detected after sensitive searches against both PDB and AlphaFold/Swiss-Prot.

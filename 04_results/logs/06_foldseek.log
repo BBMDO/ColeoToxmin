@@ -1,0 +1,793 @@
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search
+easy-search /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/all_vs_all.tsv /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search --format-output query,target,evalue,bits,alntmscore,qtmscore,ttmscore,fident,alnlen,qcov,tcov -e 1e-3 --max-seqs 1000 --threads 64 
+
+MMseqs Version:                    	10.941cd33
+Seq. id. threshold                 	0
+Coverage threshold                 	0
+Coverage mode                      	0
+Max reject                         	2147483647
+Max accept                         	2147483647
+Add backtrace                      	false
+TMscore threshold                  	0
+TMscore threshold mode             	0
+TMalign hit order                  	0
+TMalign fast                       	1
+Preload mode                       	0
+Threads                            	64
+Verbosity                          	3
+LDDT threshold                     	0
+Sort by structure bit score        	1
+Alignment type                     	2
+Exact TMscore                      	0
+Substitution matrix                	aa:3di.out,nucl:3di.out
+Alignment mode                     	3
+Alignment mode                     	0
+E-value threshold                  	0.001
+Min alignment length               	0
+Seq. id. mode                      	0
+Alternative alignments             	0
+Max sequence length                	65535
+Compositional bias                 	1
+Compositional bias                 	1
+Gap open cost                      	aa:10,nucl:10
+Gap extension cost                 	aa:1,nucl:1
+Compressed                         	0
+Seed substitution matrix           	aa:3di.out,nucl:3di.out
+Sensitivity                        	9.5
+k-mer length                       	6
+Target search mode                 	0
+k-score                            	seq:2147483647,prof:2147483647
+Max results per query              	1000
+Split database                     	0
+Split mode                         	2
+Split memory limit                 	0
+Diagonal scoring                   	true
+Exact k-mer matching               	0
+Mask residues                      	0
+Mask residues probability          	0.999995
+Mask lower case residues           	1
+Mask lower letter repeating N times	6
+Minimum diagonal score             	30
+Selected taxa                      	
+Spaced k-mers                      	1
+Spaced k-mer pattern               	
+Local temporary path               	
+Use GPU                            	0
+Use GPU server                     	0
+Wait for GPU server                	600
+Prefilter mode                     	0
+Exhaustive search mode             	false
+Search iterations                  	1
+Remove temporary files             	true
+MPI runner                         	
+Force restart with latest tmp      	false
+Cluster search                     	0
+Path to ProstT5                    	
+Chain name mode                    	0
+Createdb extraction mode           	0
+Interface distance threshold       	8
+Write mapping file                 	0
+Mask b-factor threshold            	0
+Coord store mode                   	2
+Write lookup file                  	1
+Input format                       	0
+File Inclusion Regex               	.*
+File Exclusion Regex               	^$
+Alignment format                   	0
+Format alignment output            	query,target,evalue,bits,alntmscore,qtmscore,ttmscore,fident,alnlen,qcov,tcov
+Database output                    	false
+Report mode                        	2
+Greedy best hits                   	false
+
+Alignment backtraces will be computed, since they were requested by output format.
+createdb /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query --gpu 0 --chain-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 64 -v 3 
+
+Output file: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query
+[=================================================================] 76 0s 23ms
+Time for merging to query_ss: 0h 0m 0s 74ms
+Time for merging to query_h: 0h 0m 0s 114ms
+Time for merging to query_ca: 0h 0m 0s 94ms
+Time for merging to query: 0h 0m 0s 83ms
+Ignore 0 out of 76.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 879ms
+createdb /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target --gpu 0 --chain-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 64 -v 3 
+
+Output file: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target
+[=================================================================] 76 0s 20ms
+Time for merging to target_ss: 0h 0m 0s 48ms
+Time for merging to target_h: 0h 0m 0s 47ms
+Time for merging to target_ca: 0h 0m 0s 47ms
+Time for merging to target: 0h 0m 0s 48ms
+Ignore 0 out of 76.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 569ms
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp
+search /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/result /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp -a 1 --threads 64 --alignment-mode 3 -e 0.001 -s 9.5 -k 6 --max-seqs 1000 --remove-tmp-files 1 
+
+prefilter /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 64 --compressed 0 -v 3 
+
+Query database size: 76 type: Aminoacid
+Estimated memory consumption: 978M
+Target database size: 76 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 76 0s 1ms
+Index table: Masked residues: 139
+Index table: fill
+[=================================================================] 76 0s 0ms
+Index statistics
+Entries:          2550
+DB size:          488 MB
+Avg k-mer size:   0.000040
+Top 10 k-mers
+    IDDDDD	9
+    WFDVAI	7
+    VVSVVV	7
+    THDVCV	6
+    VVQVVV	5
+    DPSVVV	5
+    VSVRVV	4
+    DIIIDD	3
+    GIIIDD	3
+    PTMIDD	3
+Time for index table init: 0h 0m 0s 444ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 76
+Target db start 1 to 76
+[================================================================] =76 0s 4ms
+
+3016.178843 k-mers per position
+215 DB matches per sequence
+0 overflows
+15 sequences passed prefiltering per query sequence
+16 median result list length
+6 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 66ms
+Time for processing: 0h 0m 0s 890ms
+structurealign /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/pref /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/strualn --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --sort-by-structure-bits 1 --alignment-type 2 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 1 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.001 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 64 --compressed 0 -v 3 
+
+[=================================================================] 76 0s 66ms
+Time for merging to strualn: 0h 0m 0s 86ms
+Time for processing: 0h 0m 0s 429ms
+mvdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/strualn /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/aln -v 3 
+
+Time for processing: 0h 0m 0s 143ms
+mvdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/aln /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/result -v 3 
+
+Time for processing: 0h 0m 0s 148ms
+Removing temporary files
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/search_tmp/11588488445423480631/pref -v 3 
+
+Time for processing: 0h 0m 0s 47ms
+convertalis /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/result /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/all_vs_all.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 0 --format-output query,target,evalue,bits,alntmscore,qtmscore,ttmscore,fident,alnlen,qcov,tcov --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 64 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 76 0s 18ms
+Time for merging to all_vs_all.tsv: 0h 0m 0s 44ms
+Time for processing: 0h 0m 0s 229ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/result -v 3 
+
+Time for processing: 0h 0m 0s 13ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target_ca -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/target_ss -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query_h -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/search/7376450846904852018/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 0ms
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster
+easy-cluster /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/mature_clusters /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster -c 0.60 --cov-mode 0 --alignment-type 1 --threads 64 
+
+MMseqs Version:                     	10.941cd33
+Substitution matrix                 	aa:3di.out,nucl:3di.out
+Seed substitution matrix            	aa:3di.out,nucl:3di.out
+Sensitivity                         	4
+k-mer length                        	0
+Target search mode                  	0
+k-score                             	seq:2147483647,prof:2147483647
+Max sequence length                 	65535
+Max results per query               	300
+Split database                      	0
+Split mode                          	2
+Split memory limit                  	0
+Coverage threshold                  	0.6
+Coverage mode                       	0
+Compositional bias                  	1
+Compositional bias                  	1
+Diagonal scoring                    	true
+Exact k-mer matching                	0
+Mask residues                       	0
+Mask residues probability           	0.999995
+Mask lower case residues            	1
+Mask lower letter repeating N times 	6
+Minimum diagonal score              	30
+Selected taxa                       	
+Spaced k-mers                       	1
+Preload mode                        	0
+Spaced k-mer pattern                	
+Local temporary path                	
+Threads                             	64
+Compressed                          	0
+Verbosity                           	3
+TMscore threshold                   	0
+TMscore threshold mode              	0
+LDDT threshold                      	0
+Sort by structure bit score         	1
+Alignment type                      	1
+Exact TMscore                       	0
+Add backtrace                       	false
+Alignment mode                      	0
+Alignment mode                      	0
+E-value threshold                   	10
+Seq. id. threshold                  	0
+Min alignment length                	0
+Seq. id. mode                       	0
+Alternative alignments              	0
+Max reject                          	2147483647
+Max accept                          	2147483647
+Gap open cost                       	aa:10,nucl:10
+Gap extension cost                  	aa:1,nucl:1
+TMalign hit order                   	0
+TMalign fast                        	1
+Cluster mode                        	0
+Max connected component depth       	1000
+Similarity type                     	2
+Weight file name                    	
+Cluster Weight threshold            	0.9
+Single step clustering              	false
+Cascaded clustering steps           	3
+Cluster reassign                    	false
+Remove temporary files              	true
+Force restart with latest tmp       	false
+MPI runner                          	
+k-mers per sequence                 	21
+Scale k-mers per sequence           	aa:0.000,nucl:0.200
+Adjust k-mer length                 	false
+Shift hash                          	67
+Include only extendable             	false
+Skip repeating k-mers               	false
+Rescore mode                        	0
+Remove hits by seq. id. and coverage	false
+Sort results                        	0
+Use GPU                             	0
+Path to ProstT5                     	
+Chain name mode                     	0
+Createdb extraction mode            	0
+Interface distance threshold        	8
+Write mapping file                  	0
+Mask b-factor threshold             	0
+Coord store mode                    	2
+Write lookup file                   	1
+Input format                        	0
+File Inclusion Regex                	.*
+File Exclusion Regex                	^$
+
+createdb /mnt/external/TC/alphafold3_revision/analysis_mature/01_models_pdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input --gpu 0 --chain-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 64 -v 3 
+
+Output file: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input
+[=================================================================] 76 0s 20ms
+Time for merging to input_ss: 0h 0m 0s 64ms
+Time for merging to input_h: 0h 0m 0s 61ms
+Time for merging to input_ca: 0h 0m 0s 50ms
+Time for merging to input: 0h 0m 0s 58ms
+Ignore 0 out of 76.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 0s 656ms
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp
+cluster /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp -c 0.6 --cov-mode 0 --threads 64 --alignment-type 1 --remove-tmp-files 1 
+
+Set cluster sensitivity to -s 8.000000
+Set cluster mode SET COVER
+Set cluster iterations to 3
+kmermatcher /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref --sub-mat 'aa:3di.out,nucl:3di.out' --alph-size aa:21,nucl:5 --min-seq-id 0 --kmer-per-seq 300 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --cov-mode 0 -k 0 -c 0.6 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+kmermatcher /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref --sub-mat 'aa:3di.out,nucl:3di.out' --alph-size aa:21,nucl:5 --min-seq-id 0 --kmer-per-seq 300 --spaced-kmer-mode 1 --kmer-per-seq-scale aa:0.000,nucl:0.200 --adjust-kmer-len 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --cov-mode 0 -k 0 -c 0.6 --max-seq-len 65535 --hash-shift 67 --split-memory-limit 0 --include-only-extendable 0 --ignore-multi-kmer 0 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Database size: 76 type: Aminoacid
+Reduced amino acid alphabet: (A F) (C V) (D B) (E Z) (G H) (I M T) (K W) (L J) (N R S) (P) (Q) (Y) (X) 
+
+Generate k-mers list for 1 split
+[=================================================================] 76 0s 6ms
+Sort kmer 0h 0m 0s 0ms
+Sort by rep. sequence 0h 0m 0s 0ms
+Time for fill: 0h 0m 0s 0ms
+Time for merging to pref: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 48ms
+structurerescorediagonal /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_rescore1 --exact-tmscore 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --alignment-type 1 --sub-mat 'aa:3di.out,nucl:3di.out' -a 0 --alignment-mode 3 --alignment-output-mode 0 --wrapped-scoring 0 -e 0.01 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0.6 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 0 --comp-bias-corr-scale 1 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 64 --compressed 0 -v 3 
+
+[=================================================================] 76 0s 21ms
+Time for merging to pref_rescore1: 0h 0m 0s 46ms
+Time for processing: 0h 0m 0s 256ms
+clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_rescore1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 76 0s 3ms
+Sort entries
+Find missing connections
+Found 30 new connections.
+Reconstruct initial order
+[=================================================================] 76 0s 3ms
+Add missing connections
+[=================================================================] 76 0s 0ms
+
+Time for read in: 0h 0m 0s 114ms
+Total time: 0h 0m 0s 135ms
+
+Size of the sequence database: 76
+Size of the alignment database: 76
+Number of clusters: 51
+
+Writing results 0h 0m 0s 0ms
+Time for merging to pre_clust: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 171ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter1 -v 3 --subdb-mode 1 
+
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter1 --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to pref_filter1: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 13ms
+filterdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter2 --filter-file /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy --threads 64 --compressed 0 -v 3 
+
+Filtering using file(s)
+[=================================================================] 51 0s 7ms
+Time for merging to pref_filter2: 0h 0m 0s 44ms
+Time for processing: 0h 0m 0s 189ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln.linclust --min-seq-id 0 -c 0.6 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 0 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input
+Target database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input
+[=================================================================] 51 0s 5ms
+Time for merging to aln.linclust: 0h 0m 0s 64ms
+Time for processing: 0h 0m 0s 223ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs -v 3 --subdb-mode 1 
+
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to pre_clustered_seqs: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 44ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs_ss --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to pre_clustered_seqs_ss: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 20ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/order_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ca /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs_ca --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to pre_clustered_seqs_ca: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 20ms
+clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln.linclust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clust.linclust --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 51 0s 0ms
+Sort entries
+Find missing connections
+Found 6 new connections.
+Reconstruct initial order
+[=================================================================] 51 0s 0ms
+Add missing connections
+[=================================================================] 51 0s 0ms
+
+Time for read in: 0h 0m 0s 80ms
+Total time: 0h 0m 0s 105ms
+
+Size of the sequence database: 51
+Size of the alignment database: 51
+Number of clusters: 45
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clust.linclust: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 138ms
+mergeclusters /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clust.linclust --threads 64 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 51 0s 6ms
+Clustering step 2
+[=================================================================] 45 0s 22ms
+Write merged clustering
+[=================================================================] 76 0s 124ms
+Time for merging to clu_redundancy: 0h 0m 0s 54ms
+Time for processing: 0h 0m 0s 193ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy -v 3 --subdb-mode 1 
+
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step_redundancy: 0h 0m 0s 1ms
+Time for processing: 0h 0m 0s 25ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ss --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step_redundancy_ss: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 13ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_ca /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ca --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step_redundancy_ca: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 13ms
+prefilter /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step0 --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 1 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 100 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.6 --cov-mode 0 --comp-bias-corr 0 --comp-bias-corr-scale 1 --diag-score 0 --exact-kmer-matching 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --min-ungapped-score 0 --add-self-matches 1 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 64 --compressed 0 -v 3 
+
+Query database size: 45 type: Aminoacid
+Estimated memory consumption: 977M
+Target database size: 45 type: Aminoacid
+Index table k-mer threshold: 154 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 45 0s 0ms
+Index table: Masked residues: 107
+Index table: fill
+[=================================================================] 45 0s 0ms
+Index statistics
+Entries:          68
+DB size:          488 MB
+Avg k-mer size:   0.000001
+Top 10 k-mers
+    RQKFGA	1
+    FTWWHA	1
+    FDKAKA	1
+    KWAQRA	1
+    DAKWHC	1
+    GTRRNC	1
+    KTIIGD	1
+    HNRIID	1
+    DNITID	1
+    WIIVID	1
+Time for index table init: 0h 0m 0s 460ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 154
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 45
+Target db start 1 to 45
+[=================================================================] 45 0s 0ms
+
+0.492295 k-mers per position
+1 DB matches per sequence
+0 overflows
+1 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step0: 0h 0m 0s 81ms
+Time for processing: 0h 0m 0s 809ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step0 --min-seq-id 0 -c 0.6 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 0 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy
+Target database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy
+[===============================================================] =45 =0s 6ms
+Time for merging to aln_step0: 0h 0m 0s 44ms
+Time for processing: 0h 0m 0s 256ms
+clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 45 0s 3ms
+Sort entries
+Find missing connections
+Found 0 new connections.
+Reconstruct initial order
+[=================================================================] 45 0s 0ms
+Add missing connections
+[=================================================================] 45 0s 0ms
+
+Time for read in: 0h 0m 0s 93ms
+Total time: 0h 0m 0s 117ms
+
+Size of the sequence database: 45
+Size of the alignment database: 45
+Number of clusters: 45
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step0: 0h 0m 0s 5ms
+Time for processing: 0h 0m 0s 150ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 -v 3 --subdb-mode 1 
+
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step1: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 27ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ss --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step1_ss: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 12ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_ca /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ca --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step1_ca: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 12ms
+prefilter /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step1 --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 4.5 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 200 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.6 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --min-ungapped-score 30 --add-self-matches 1 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 64 --compressed 0 -v 3 
+
+Query database size: 45 type: Aminoacid
+Estimated memory consumption: 977M
+Target database size: 45 type: Aminoacid
+Index table k-mer threshold: 123 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 45 0s 0ms
+Index table: Masked residues: 107
+Index table: fill
+[=================================================================] 45 0s 0ms
+Index statistics
+Entries:          609
+DB size:          488 MB
+Avg k-mer size:   0.000010
+Top 10 k-mers
+    WDDVAI	2
+    DPWWHN	2
+    ADQWDP	2
+    GQPRDT	2
+    LQIIDA	1
+    DKFQDA	1
+    DDKWDA	1
+    DDLWDA	1
+    PPPLFA	1
+    RQKFGA	1
+Time for index table init: 0h 0m 0s 555ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 123
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 45
+Target db start 1 to 45
+[=================================================================] 45 0s 1ms
+
+11.791484 k-mers per position
+11 DB matches per sequence
+0 overflows
+1 sequences passed prefiltering per query sequence
+1 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step1: 0h 0m 0s 96ms
+Time for processing: 0h 0m 1s 1ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step1 --min-seq-id 0 -c 0.6 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 0 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1
+Target database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1
+[=================================================================] 45 0s 9ms
+Time for merging to aln_step1: 0h 0m 0s 65ms
+Time for processing: 0h 0m 0s 285ms
+clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 45 0s 3ms
+Sort entries
+Find missing connections
+Found 1 new connections.
+Reconstruct initial order
+[=================================================================] 45 0s 0ms
+Add missing connections
+[=================================================================] 45 0s 0ms
+
+Time for read in: 0h 0m 0s 94ms
+Total time: 0h 0m 0s 120ms
+
+Size of the sequence database: 45
+Size of the alignment database: 45
+Number of clusters: 42
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step1: 0h 0m 0s 6ms
+Time for processing: 0h 0m 0s 176ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 -v 3 --subdb-mode 1 
+
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step2: 0h 0m 0s 3ms
+Time for processing: 0h 0m 0s 38ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2_ss --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step2_ss: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 24ms
+createsubdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_ca /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2_ca --subdb-mode 1 --id-mode 0 -v 3 
+
+Time for merging to input_step2_ca: 0h 0m 0s 4ms
+Time for processing: 0h 0m 0s 25ms
+prefilter /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2_ss /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step2 --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 8 -k 0 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 1000 --split 0 --split-mode 2 --split-memory-limit 0 -c 0.6 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --min-ungapped-score 30 --add-self-matches 1 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 64 --compressed 0 -v 3 
+
+Query database size: 42 type: Aminoacid
+Estimated memory consumption: 977M
+Target database size: 42 type: Aminoacid
+Index table k-mer threshold: 91 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 42 0s 0ms
+Index table: Masked residues: 107
+Index table: fill
+[=================================================================] 42 0s 0ms
+Index statistics
+Entries:          1112
+DB size:          488 MB
+Avg k-mer size:   0.000017
+Top 10 k-mers
+    PDDDVS	3
+    DPSVVV	3
+    GDPPPD	2
+    PVDDTD	2
+    DPWWHN	2
+    PDPDPP	2
+    PDVSVR	2
+    PPPDPV	2
+    VSVRVV	2
+    DDFDDA	1
+Time for index table init: 0h 0m 0s 446ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 91
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 42
+Target db start 1 to 42
+[=================================================================] 42 0s 2ms
+
+608.565568 k-mers per position
+38 DB matches per sequence
+0 overflows
+2 sequences passed prefiltering per query sequence
+2 median result list length
+0 sequences with 0 size result lists
+Time for merging to pref_step2: 0h 0m 0s 76ms
+Time for processing: 0h 0m 0s 814ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step2 --min-seq-id 0 -c 0.6 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 0 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2
+Target database: /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2
+[=================================================================] 42 0s 6ms
+Time for merging to aln_step2: 0h 0m 0s 64ms
+Time for processing: 0h 0m 0s 286ms
+clust /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step2 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step2 --cluster-mode 0 --max-iterations 1000 --similarity-type 2 --threads 64 --compressed 0 -v 3 --cluster-weight-threshold 0.9 
+
+Clustering mode: Set Cover
+[=================================================================] 42 0s 0ms
+Sort entries
+Find missing connections
+Found 4 new connections.
+Reconstruct initial order
+[=================================================================] 42 0s 0ms
+Add missing connections
+[=================================================================] 42 0s 0ms
+
+Time for read in: 0h 0m 0s 97ms
+Total time: 0h 0m 0s 123ms
+
+Size of the sequence database: 42
+Size of the alignment database: 42
+Number of clusters: 26
+
+Writing results 0h 0m 0s 0ms
+Time for merging to clu_step2: 0h 0m 0s 2ms
+Time for processing: 0h 0m 0s 152ms
+mergeclusters /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step2 --threads 64 --compressed 0 -v 3 
+
+Clustering step 1
+[=================================================================] 45 0s 8ms
+Clustering step 2
+[=================================================================] 45 0s 22ms
+Clustering step 3
+[=================================================================] 42 0s 44ms
+Clustering step 4
+[=================================================================] 26 0s 61ms
+Write merged clustering
+[=================================================================] 76 0s 155ms
+Time for merging to clu: 0h 0m 0s 56ms
+Time for processing: 0h 0m 0s 250ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 25ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step0 -v 3 
+
+Time for processing: 0h 0m 0s 18ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step0 -v 3 
+
+Time for processing: 0h 0m 0s 26ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step0 -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step1 -v 3 
+
+Time for processing: 0h 0m 0s 18ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step1 -v 3 
+
+Time for processing: 0h 0m 0s 26ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step1 -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_step2 -v 3 
+
+Time for processing: 0h 0m 0s 31ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln_step2 -v 3 
+
+Time for processing: 0h 0m 0s 50ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clu_step2 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step1_h -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step2_h -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter1 -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_rescore1 -v 3 
+
+Time for processing: 0h 0m 0s 48ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clust -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/input_step_redundancy_h -v 3 
+
+Time for processing: 0h 0m 0s 1ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pref_filter2 -v 3 
+
+Time for processing: 0h 0m 0s 47ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/aln.linclust -v 3 
+
+Time for processing: 0h 0m 0s 45ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/clust.linclust -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_tmp/3085265221573985347/pre_clustered_seqs -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+createtsv /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/cluster.tsv --threads 64 -v 3 
+
+Time for merging to cluster.tsv: 0h 0m 0s 46ms
+Time for processing: 0h 0m 0s 221ms
+result2repseq /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_rep --db-load-mode 0 --compressed 0 --threads 64 -v 3 
+
+[=================================================================] 26 0s 8ms
+Time for merging to clu_rep: 0h 0m 0s 67ms
+Time for processing: 0h 0m 0s 272ms
+result2flat /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_rep /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/rep_seq.fasta --use-fasta-header -v 3 
+
+Time for processing: 0h 0m 0s 5ms
+createseqfiledb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_seqs --threads 64 -v 3 
+
+[=================================================================] 26 0s 4ms
+Time for merging to clu_seqs: 0h 0m 0s 51ms
+Time for processing: 0h 0m 0s 175ms
+result2flat /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_seqs /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/all_seqs.fasta -v 3 
+
+Time for processing: 0h 0m 0s 32ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/input_h -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_seqs -v 3 
+
+Time for processing: 0h 0m 0s 37ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu_rep -v 3 
+
+Time for processing: 0h 0m 0s 2ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/02_foldseek/tmp/cluster/12605587509811628920/clu -v 3 
+
+Time for processing: 0h 0m 0s 38ms
+Clusters: 26

@@ -1,0 +1,21 @@
+Clusters classified: 26
+
+External structural classes:
+external_structure_class
+too_short_for_reliable_structural_novelty_assessment    6
+close_known_structural_counterpart                      6
+no_close_counterpart_detected                           5
+moderate_known_structural_counterpart                   5
+distant_structural_relationship                         4
+
+Final validation priority:
+final_validation_priority
+standard    21
+high         3
+moderate     2
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/09_external_structure_interpretation/cluster_external_structure_classification.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/09_external_structure_interpretation/priority_clusters_without_close_counterparts.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/09_external_structure_interpretation/external_structure_classification_summary.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/09_external_structure_interpretation/external_structure_classification_report.txt

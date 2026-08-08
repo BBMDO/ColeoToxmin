@@ -1,0 +1,24 @@
+FINAL FIGURE 5 STRUCTURAL ATLAS
+======================================================================
+
+Total clusters: 26
+Total mature peptide candidates represented: 76
+
+STRUCTURAL CLASS DISTRIBUTION
+----------------------------------------------------------------------
+                  structural_class_final  n_clusters  n_candidates
+            Close structural counterpart           8            52
+         Moderate structural counterpart           5             8
+         Distant structural relationship           4             5
+No close structural counterpart detected           3             4
+       Too short for reliable assessment           6             7
+
+MC08
+----------------------------------------------------------------------
+Candidate: dichotomius_satanas_4
+Cluster size: 2
+Mature peptide length: 29 aa
+Mean pLDDT: 89.05
+Functional category: Unresolved
+Structural interpretation: No close structural counterpart detected
+Sensitive external structural search: no close counterpart detected in PDB or AlphaFold/Swiss-Prot.

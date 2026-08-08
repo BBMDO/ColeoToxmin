@@ -1,0 +1,19 @@
+Clusters: 26
+
+Structural classes:
+                  structural_class_final  n_clusters  n_candidates
+            Close structural counterpart           8            52
+         Moderate structural counterpart           5             8
+         Distant structural relationship           4             5
+No close structural counterpart detected           3             4
+       Too short for reliable assessment           6             7
+
+MC08:
+cluster_id          candidate_id  cluster_size  mature_len  plddt_mean functional_category_final                   structural_class_final
+      MC08 dichotomius_satanas_4             2          29   89.050689                Unresolved No close structural counterpart detected
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/12_final_figures/Figure_5_final_structural_atlas.png
+/mnt/external/TC/alphafold3_revision/analysis_mature/12_final_figures/Figure_5_final_structural_atlas.pdf
+/mnt/external/TC/alphafold3_revision/analysis_mature/12_final_figures/Table_S_final_structural_cluster_summary.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/12_final_figures/Figure_5_final_structural_atlas_report.txt

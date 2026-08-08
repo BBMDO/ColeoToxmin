@@ -1,0 +1,26 @@
+Clusters analyzed: 26
+Selected for external structural search: 14
+
+Top 15:
+ priority_rank cluster_id            candidate_id  cluster_size  n_species  plddt_mean  max_intercluster_tm  novelty_evidence_score  validation_priority_score  combined_priority_score    priority_class
+             1       MC04          gdmq00000000_1             6          5   72.608889                  NaN                    0.90                   0.656514                 0.802606     high_priority
+             2       MC14         bolboceras_sp_1             1          1   97.687273                  NaN                    1.00                   0.488436                 0.795375     high_priority
+             3       MC26 spercheus_emarginatus_2             1          1   96.912222                  NaN                    1.00                   0.484561                 0.793824     high_priority
+             4       MC24            orphnus_sp_2             1          1   93.491110                  NaN                    1.00                   0.467456                 0.786982     high_priority
+             5       MC17    geotrupes_spiniger_2             1          1   92.185833                  NaN                    1.00                   0.460929                 0.784372     high_priority
+             6       MC19          gkjj00000000_1             1          1   88.658572                  NaN                    1.00                   0.443293                 0.777317     high_priority
+             7       MC22     hygrobia_hermanni_1             1          1   85.830001                  NaN                    1.00                   0.429150                 0.771660     high_priority
+             8       MC12         lepiserica_sp_1             2          2   94.367500                  NaN                    0.90                   0.556299                 0.762519     high_priority
+             9       MC11          gfuh00000000_2             2          2   89.810000                  NaN                    0.90                   0.533511                 0.753404     high_priority
+            10       MC08   dichotomius_satanas_4             2          2   89.050689                  NaN                    0.90                   0.529715                 0.751886     high_priority
+            11       MC15        eophileurus_sp_2             1          1   70.601515                  NaN                    1.00                   0.353008                 0.741203     high_priority
+            12       MC10          gdnw00000000_1             2          1   88.736363                  NaN                    0.90                   0.492429                 0.736971     high_priority
+            13       MC01          gjbk00000000_1            15          8   87.161429                  NaN                    0.45                   0.935807                 0.644323 moderate_priority
+            14       MC05  hydroscapha_redfordi_1             5          4   92.196750                  NaN                    0.45                   0.700207                 0.550083 moderate_priority
+            15       MC06 brassicogethes_aeneus_2             4          3   93.033637                  NaN                    0.45                   0.646757                 0.528703    lower_priority
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/07_novelty_ranking/structural_novelty_ranking.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/07_novelty_ranking/priority_clusters_for_external_structure_search.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/07_novelty_ranking/priority_cluster_representatives.fasta
+/mnt/external/TC/alphafold3_revision/analysis_mature/07_novelty_ranking/structural_novelty_ranking_report.txt

@@ -1,0 +1,19 @@
+Clusters: 26
+
+Final interpretations:
+final_structural_interpretation
+close_known_structural_counterpart                        6
+too_short_for_reliable_structural_novelty_assessment      6
+moderate_known_structural_counterpart                     5
+distant_structural_relationship                           4
+close_structural_counterpart_detected                     2
+no_close_counterpart_detected                             2
+no_structural_counterpart_detected_in_sensitive_search    1
+
+Clusters without close counterpart:
+cluster_id          candidate_id  cluster_size  mature_len  plddt_mean functional_category                        final_structural_interpretation
+      MC08 dichotomius_satanas_4             2          29   89.050689          unresolved no_structural_counterpart_detected_in_sensitive_search
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/11_final_structural_atlas/final_structural_atlas_clusters.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/11_final_structural_atlas/Table_S_structural_cluster_interpretation.tsv

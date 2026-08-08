@@ -1,0 +1,9 @@
+Atlas rows: 26
+Rows: 26
+Clusters: 26
+Missing mature sequences: 0
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/15_supplementary_tables/Table_S4_mature_peptide_structural_functional_atlas.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/15_supplementary_tables/Table_S4_mature_peptide_structural_functional_atlas.xlsx
+/mnt/external/TC/alphafold3_revision/analysis_mature/15_supplementary_tables/Table_S4_report.txt
