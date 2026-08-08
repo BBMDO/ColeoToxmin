@@ -1,4 +1,0 @@
-query	database	target	qlen	tlen	length_ratio	alnlen	qcov	tcov	qtmscore	ttmscore	evalue	bits	match_class	theader	fident	alntmscore	class_rank	final_structural_conclusion
-MC08_dichotomius_satanas_4	none												no_hit_detected					no_structural_counterpart_detected_in_sensitive_search
-MC11_gfuh00000000_2	PDB	7pb4-assembly1_H	24.0	47.0	1.9583333333333333	25.0	1.0	0.532	0.8948	0.4877	0.6193	76.0	close_structural_counterpart	7pb4-assembly1_H Cenp-HIK 3-protein complex	0.08	0.9247	5.0	close_structural_counterpart_detected
-MC25_sitophilus_oryzae_2	AlphaFold_SwissProt	AF-Q69Z14-F1-model_v6	36.0	67.0	1.8611111111111112	44.0	0.861	0.657	0.6512	0.394	0.4571	54.0	close_structural_counterpart	AF-Q69Z14-F1-model_v6 V-type proton ATPase subunit e	0.09	0.73	5.0	close_structural_counterpart_detected
