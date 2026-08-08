@@ -1,0 +1,593 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P83516",
+  "uniProtkbId": "TILI_RHIMP",
+  "entryAudit": {
+    "firstPublicDate": "2003-06-27",
+    "lastAnnotationUpdateDate": "2026-01-28",
+    "lastSequenceUpdateDate": "2005-08-16",
+    "entryVersion": 63,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 3.0,
+  "organism": {
+    "scientificName": "Rhipicephalus microplus",
+    "commonName": "Cattle tick",
+    "synonyms": [
+      "Boophilus microplus"
+    ],
+    "taxonId": 6941,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Chelicerata",
+      "Arachnida",
+      "Acari",
+      "Parasitiformes",
+      "Ixodida",
+      "Ixodoidea",
+      "Ixodidae",
+      "Rhipicephalinae",
+      "Rhipicephalus",
+      "Boophilus"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "16191451"
+          }
+        ],
+        "value": "Chymotrypsin-elastase inhibitor ixodidin"
+      }
+    }
+  },
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "16191451"
+            }
+          ],
+          "value": "Inhibits chymotrypsin and elastase. Has antibacterial activity against Gram-positive bacterium M.luteus and the Gram-negative bacterium E.coli"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "MASS SPECTROMETRY",
+      "method": "Electrospray",
+      "molWeight": 7103.0,
+      "molWeightError": 0.0,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the serine protease inhibitor-like (TIL domain-containing) family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 65,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Chymotrypsin-elastase inhibitor ixodidin",
+      "featureId": "PRO_0000174333"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 9,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 62,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "TIL",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 36,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 37,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reactive bond",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P56682"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Pyrrolidone carboxylic acid",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 9,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 42,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 18,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 38,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 22,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 34,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 26,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 62,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 56,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16191451"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0044",
+      "category": "Molecular function",
+      "name": "Antibiotic"
+    },
+    {
+      "id": "KW-0929",
+      "category": "Molecular function",
+      "name": "Antimicrobial"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-0873",
+      "category": "PTM",
+      "name": "Pyrrolidone carboxylic acid"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "16191451",
+        "citationType": "journal article",
+        "authors": [
+          "Fogaca A.C.",
+          "Almeida I.C.",
+          "Eberlin M.N.",
+          "Tanaka A.S.",
+          "Bulet P.",
+          "Daffre S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16191451"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.peptides.2005.07.013"
+          }
+        ],
+        "title": "Ixodidin, a novel antimicrobial peptide from the hemocytes of the cattle tick Boophilus microplus with inhibitory activity against serine proteinases.",
+        "publicationDate": "2006",
+        "journal": "Peptides",
+        "firstPage": "667",
+        "lastPage": "674",
+        "volume": "27"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE",
+        "FUNCTION",
+        "MASS SPECTROMETRY",
+        "DISULFIDE BONDS",
+        "PYROGLUTAMATE FORMATION AT GLN-1"
+      ],
+      "referenceComments": [
+        {
+          "value": "Hemocyte",
+          "type": "TISSUE"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "AlphaFoldDB",
+      "id": "P83516",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P83516",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MEROPS",
+      "id": "I08.051",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005576",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular region"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-SubCell"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042742",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:defense response to bacterium"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd19941",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.10.25.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Laminin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036084",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ser_inhib-like_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR051368",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "SerProtInhib-TIL_Domain"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002919",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL_dom"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23259:SF70",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "ACCESSORY GLAND PROTEIN ACP62F-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23259",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RIDDLE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF01826",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57567",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Serine protease inhibitors"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "QRGSRGQRCGPGEVFNQCGSACPRVCGRPPAQACTLQCVSGCFCRRGYIRTQRGGCIPERQCHQR",
+    "length": 65,
+    "molWeight": 7129,
+    "crc64": "F62B67A0EFD84C4F",
+    "md5": "46570F3F642CF270583D340FAD8706DE"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "MASS SPECTROMETRY": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Domain": 1,
+      "Site": 1,
+      "Modified residue": 1,
+      "Disulfide bond": 5
+    },
+    "uniParcId": "UPI00005767BA"
+  }
+}

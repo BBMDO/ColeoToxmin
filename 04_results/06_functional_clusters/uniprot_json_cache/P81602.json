@@ -1,0 +1,921 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P81602",
+  "secondaryAccessions": [
+    "Q71U14",
+    "Q71U15"
+  ],
+  "uniProtkbId": "DEFB_AEDAE",
+  "entryAudit": {
+    "firstPublicDate": "2000-05-30",
+    "lastAnnotationUpdateDate": "2026-06-10",
+    "lastSequenceUpdateDate": "2007-05-29",
+    "entryVersion": 111,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 4.0,
+  "organism": {
+    "scientificName": "Aedes aegypti",
+    "commonName": "Yellowfever mosquito",
+    "synonyms": [
+      "Culex aegypti"
+    ],
+    "taxonId": 7159,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Endopterygota",
+      "Diptera",
+      "Nematocera",
+      "Culicoidea",
+      "Culicidae",
+      "Culicinae",
+      "Aedini",
+      "Aedes",
+      "Stegomyia"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Defensin-B"
+      }
+    },
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "DEFB"
+      },
+      "orfNames": [
+        {
+          "value": "AAEL003857"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00710"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7633471"
+            }
+          ],
+          "value": "Antibacterial peptide mostly active against Gram-positive bacteria"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000255",
+                "source": "PROSITE-ProRule",
+                "id": "PRU00710"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "7633471"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7633471"
+            }
+          ],
+          "value": "By bacterial infection"
+        }
+      ],
+      "commentType": "INDUCTION"
+    },
+    {
+      "texts": [
+        {
+          "value": "There are two defensin B isoforms, B1 (shown here) and B2"
+        }
+      ],
+      "commentType": "POLYMORPHISM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00710"
+            }
+          ],
+          "value": "Belongs to the invertebrate defensin family. Type 1 subfamily"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 20,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Propeptide",
+      "location": {
+        "start": {
+          "value": 21,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7633471"
+        }
+      ],
+      "featureId": "PRO_0000289969"
+    },
+    {
+      "type": "Peptide",
+      "location": {
+        "start": {
+          "value": 59,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 98,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Defensin-B",
+      "featureId": "PRO_0000044708"
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 61,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 88,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00710"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 74,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 94,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00710"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 78,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 96,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00710"
+        }
+      ]
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 16,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform B2",
+      "featureId": "",
+      "alternativeSequence": {
+        "originalSequence": "VA",
+        "alternativeSequences": [
+          "GS"
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0044",
+      "category": "Molecular function",
+      "name": "Antibiotic"
+    },
+    {
+      "id": "KW-0929",
+      "category": "Molecular function",
+      "name": "Antimicrobial"
+    },
+    {
+      "id": "KW-0211",
+      "category": "Molecular function",
+      "name": "Defensin"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0391",
+      "category": "Biological process",
+      "name": "Immunity"
+    },
+    {
+      "id": "KW-0399",
+      "category": "Biological process",
+      "name": "Innate immunity"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "9927179",
+        "citationType": "journal article",
+        "authors": [
+          "Lowenberger C.A.",
+          "Smartt C.T.",
+          "Bulet P.",
+          "Ferdig M.T.",
+          "Severson D.W.",
+          "Hoffmann J.A.",
+          "Christensen B.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9927179"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1046/j.1365-2583.1999.810107.x"
+          }
+        ],
+        "title": "Insect immunity: molecular cloning, expression, and characterization of cDNAs and genomic DNA encoding three isoforms of insect defensin in Aedes aegypti.",
+        "publicationDate": "1999",
+        "journal": "Insect Mol. Biol.",
+        "firstPage": "107",
+        "lastPage": "118",
+        "volume": "8"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "DEVELOPMENTAL STAGE"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liverpool",
+          "type": "STRAIN"
+        },
+        {
+          "value": "Fat body",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "17510324",
+        "citationType": "journal article",
+        "authors": [
+          "Nene V.",
+          "Wortman J.R.",
+          "Lawson D.",
+          "Haas B.J.",
+          "Kodira C.D.",
+          "Tu Z.J.",
+          "Loftus B.J.",
+          "Xi Z.",
+          "Megy K.",
+          "Grabherr M.",
+          "Ren Q.",
+          "Zdobnov E.M.",
+          "Lobo N.F.",
+          "Campbell K.S.",
+          "Brown S.E.",
+          "Bonaldo M.F.",
+          "Zhu J.",
+          "Sinkins S.P.",
+          "Hogenkamp D.G.",
+          "Amedeo P.",
+          "Arensburger P.",
+          "Atkinson P.W.",
+          "Bidwell S.L.",
+          "Biedler J.",
+          "Birney E.",
+          "Bruggner R.V.",
+          "Costas J.",
+          "Coy M.R.",
+          "Crabtree J.",
+          "Crawford M.",
+          "DeBruyn B.",
+          "DeCaprio D.",
+          "Eiglmeier K.",
+          "Eisenstadt E.",
+          "El-Dorry H.",
+          "Gelbart W.M.",
+          "Gomes S.L.",
+          "Hammond M.",
+          "Hannick L.I.",
+          "Hogan J.R.",
+          "Holmes M.H.",
+          "Jaffe D.",
+          "Johnston S.J.",
+          "Kennedy R.C.",
+          "Koo H.",
+          "Kravitz S.",
+          "Kriventseva E.V.",
+          "Kulp D.",
+          "Labutti K.",
+          "Lee E.",
+          "Li S.",
+          "Lovin D.D.",
+          "Mao C.",
+          "Mauceli E.",
+          "Menck C.F.",
+          "Miller J.R.",
+          "Montgomery P.",
+          "Mori A.",
+          "Nascimento A.L.",
+          "Naveira H.F.",
+          "Nusbaum C.",
+          "O'Leary S.B.",
+          "Orvis J.",
+          "Pertea M.",
+          "Quesneville H.",
+          "Reidenbach K.R.",
+          "Rogers Y.-H.C.",
+          "Roth C.W.",
+          "Schneider J.R.",
+          "Schatz M.",
+          "Shumway M.",
+          "Stanke M.",
+          "Stinson E.O.",
+          "Tubio J.M.C.",
+          "Vanzee J.P.",
+          "Verjovski-Almeida S.",
+          "Werner D.",
+          "White O.R.",
+          "Wyder S.",
+          "Zeng Q.",
+          "Zhao Q.",
+          "Zhao Y.",
+          "Hill C.A.",
+          "Raikhel A.S.",
+          "Soares M.B.",
+          "Knudson D.L.",
+          "Lee N.H.",
+          "Galagan J.",
+          "Salzberg S.L.",
+          "Paulsen I.T.",
+          "Dimopoulos G.",
+          "Collins F.H.",
+          "Bruce B.",
+          "Fraser-Liggett C.M.",
+          "Severson D.W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17510324"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.1138878"
+          }
+        ],
+        "title": "Genome sequence of Aedes aegypti, a major arbovirus vector.",
+        "publicationDate": "2007",
+        "journal": "Science",
+        "firstPage": "1718",
+        "lastPage": "1723",
+        "volume": "316"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "LVPib12",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "7633471",
+        "citationType": "journal article",
+        "authors": [
+          "Lowenberger C.",
+          "Bulet P.",
+          "Charlet M.",
+          "Hetru C.",
+          "Hodgeman B.",
+          "Christensen B.M.",
+          "Hoffmann J.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7633471"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0965-1748(95)00043-u"
+          }
+        ],
+        "title": "Insect immunity: isolation of three novel inducible antibacterial defensins from the vector mosquito, Aedes aegypti.",
+        "publicationDate": "1995",
+        "journal": "Insect Biochem. Mol. Biol.",
+        "firstPage": "867",
+        "lastPage": "873",
+        "volume": "25"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 59-98",
+        "FUNCTION",
+        "SUBCELLULAR LOCATION",
+        "INDUCTION"
+      ],
+      "referenceComments": [
+        {
+          "value": "Liverpool",
+          "type": "STRAIN"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AF156090",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAD40114.2"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AF156091",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAD40115.2"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "CH477283",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "-"
+        },
+        {
+          "key": "Status",
+          "value": "NOT_ANNOTATED_CDS"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P81602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P81602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P81602",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "69"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "7159.P81602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "7159-P81602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "VectorBase:AAEL003841",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_174272_0_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P81602",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000008820",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unassembled WGS sequence"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:TreeGrafter"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050830",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:defense response to Gram-positive bacterium"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-ARBA"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006959",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:humoral immune response"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:TreeGrafter"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0045087",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:innate immune response"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd21806",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DEFL_defensin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.30.30.10:FF:000005",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Defensin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.30.30.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Knottin, scorpion toxin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001542",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Defensin_invertebrate/fungal"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036574",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Scorpion_toxin-like_sf"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR13645",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DEFENSIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR13645:SF0",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "DEFENSIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF01097",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Defensin_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57095",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Scorpion toxin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51378",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "INVERT_DEFENSINS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MKSITVICFLALCTVAITSAYPQEPVLADEARPFANSLFDELPEETYQAAVENFRLKRATCDLLSGFGVGDSACAAHCIARGNRGGYCNSQKVCVCRN",
+    "length": 98,
+    "molWeight": 10583,
+    "crc64": "17F9457B90E66843",
+    "md5": "A5822AA276F45D670C679C0C7DD006B4"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "INDUCTION": 1,
+      "POLYMORPHISM": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Propeptide": 1,
+      "Peptide": 1,
+      "Disulfide bond": 3,
+      "Natural variant": 1
+    },
+    "uniParcId": "UPI00000002AD"
+  }
+}

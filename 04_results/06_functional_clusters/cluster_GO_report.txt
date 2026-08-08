@@ -1,0 +1,16 @@
+FUNCTIONAL ANNOTATION OF MATURE-PEPTIDE STRUCTURAL CLUSTERS
+======================================================================
+
+Total clusters: 26
+Strong GO-transfer support: 8
+Moderate GO-transfer support: 6
+Insufficient/no support: 12
+Clusters with at least one GO term: 14
+
+FUNCTIONAL CATEGORIES
+----------------------------------------------------------------------
+           functional_category                            functional_annotation_status  n_clusters  n_candidates
+       protease_inhibitor_like                  putative_function_from_curated_homolog          12            49
+                    unresolved function_not_transferred_due_to_insufficient_similarity          12            21
+defensin_or_antimicrobial_like                  putative_function_from_curated_homolog           1             5
+                   enzyme_like                  putative_function_from_curated_homolog           1             1

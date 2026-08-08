@@ -1,0 +1,34 @@
+Representatives: 26
+Accessions selected for conservative GO transfer: 12
+[1/12] A0A6B9KZ59: downloading
+[2/12] C8YJ94: downloading
+[3/12] P0DN19: downloading
+[4/12] P81602: downloading
+[5/12] Q9TWG0: downloading
+[6/12] P83516: downloading
+[7/12] B2BS84: downloading
+[8/12] P00768: downloading
+[9/12] P82176: downloading
+[10/12] Q9VDG1: downloading
+[11/12] Q08E66: downloading
+[12/12] B5KL29: downloading
+
+GO-transfer support:
+go_transfer_support
+insufficient_similarity_for_GO_transfer    11
+strong_GO_transfer_support                  8
+moderate_GO_transfer_support                6
+no_hit                                      1
+
+Functional categories:
+functional_category
+protease_inhibitor_like           12
+unresolved                        12
+defensin_or_antimicrobial_like     1
+enzyme_like                        1
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/cluster_representatives_GO.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/cluster_representatives_GO_long.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/cluster_functional_summary.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/cluster_GO_report.txt

@@ -1,0 +1,16 @@
+Functional distribution:
+           functional_label  n_clusters  n_candidates  mean_plddt
+    Protease inhibitor-like          11            48   75.686160
+Defensin/antimicrobial-like           1             5   92.196750
+                Enzyme-like           1             1   61.654528
+            Other/uncertain           1             1   43.477167
+                 Unresolved          12            21   88.328331
+
+Outputs:
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/Table_S_functional_cluster_audit.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/functional_distribution_final.tsv
+/mnt/external/TC/alphafold3_revision/analysis_mature/figures/Figure_functional_clusters.png
+/mnt/external/TC/alphafold3_revision/analysis_mature/figures/Figure_functional_clusters.pdf
+/mnt/external/TC/alphafold3_revision/analysis_mature/figures/Figure_functional_candidates.png
+/mnt/external/TC/alphafold3_revision/analysis_mature/figures/Figure_functional_candidates.pdf
+/mnt/external/TC/alphafold3_revision/analysis_mature/06_functional_clusters/functional_distribution_final_report.txt

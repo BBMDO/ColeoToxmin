@@ -1,0 +1,3 @@
+database	status	output	hits
+PDB	complete	/mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_PDB.tsv	557
+AlphaFold_Swiss-Prot	complete	/mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_AlphaFold_SwissProt.tsv	551

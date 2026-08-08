@@ -1,0 +1,1310 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q9VDG1",
+  "secondaryAccessions": [
+    "Q95SW1"
+  ],
+  "uniProtkbId": "PEG_DROME",
+  "entryAudit": {
+    "firstPublicDate": "2024-10-02",
+    "lastAnnotationUpdateDate": "2026-01-28",
+    "lastSequenceUpdateDate": "2002-10-01",
+    "entryVersion": 176,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Drosophila melanogaster",
+    "commonName": "Fruit fly",
+    "taxonId": 7227,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000312",
+        "source": "Proteomes",
+        "id": "UP000000803"
+      }
+    ],
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Endopterygota",
+      "Diptera",
+      "Brachycera",
+      "Muscomorpha",
+      "Ephydroidea",
+      "Drosophilidae",
+      "Drosophila",
+      "Sophophora"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "34580289"
+          }
+        ],
+        "value": "Protein pegasus"
+      }
+    },
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "FlyBase",
+            "id": "FBgn0046763"
+          }
+        ],
+        "value": "peg"
+      },
+      "orfNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "FlyBase",
+              "id": "FBgn0046763"
+            }
+          ],
+          "value": "CG17278"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34580289"
+            },
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Increases short-range diffusion of the wingless/wg protein, enhancing its signaling and expression of target genes required for wing margin morphogenesis (PubMed:34580289). May act as a serine protease inhibitor since it possess the Kazal serine protease inhibitor signature (Probable)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34580289"
+            }
+          ],
+          "value": "Interacts with wg; the interaction facilitates short-range diffusion of wg"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "34580289"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34580289"
+            }
+          ],
+          "value": "Strongly expressed in the developing fly wing but is excluded from the presumptive wing margin"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34580289"
+            }
+          ],
+          "value": "High pupal lethality, a significant reduction in the number of chemosensory bristles at the wing margin and narrower distribution of wg"
+        }
+      ],
+      "commentType": "DISRUPTION PHENOTYPE"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "34580289"
+            }
+          ],
+          "value": "The name 'pegasus' comes from the mythical winged horse able to carry Greek heroes over long distances"
+        }
+      ],
+      "commentType": "MISCELLANEOUS"
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 22,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 23,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 80,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Protein pegasus",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": "PRO_5015100117"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 24,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 80,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Kazal-like",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 36,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 37,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reactive bond",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 30,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 65,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 34,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 43,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 79,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "10731132",
+        "citationType": "journal article",
+        "authors": [
+          "Adams M.D.",
+          "Celniker S.E.",
+          "Holt R.A.",
+          "Evans C.A.",
+          "Gocayne J.D.",
+          "Amanatides P.G.",
+          "Scherer S.E.",
+          "Li P.W.",
+          "Hoskins R.A.",
+          "Galle R.F.",
+          "George R.A.",
+          "Lewis S.E.",
+          "Richards S.",
+          "Ashburner M.",
+          "Henderson S.N.",
+          "Sutton G.G.",
+          "Wortman J.R.",
+          "Yandell M.D.",
+          "Zhang Q.",
+          "Chen L.X.",
+          "Brandon R.C.",
+          "Rogers Y.-H.C.",
+          "Blazej R.G.",
+          "Champe M.",
+          "Pfeiffer B.D.",
+          "Wan K.H.",
+          "Doyle C.",
+          "Baxter E.G.",
+          "Helt G.",
+          "Nelson C.R.",
+          "Miklos G.L.G.",
+          "Abril J.F.",
+          "Agbayani A.",
+          "An H.-J.",
+          "Andrews-Pfannkoch C.",
+          "Baldwin D.",
+          "Ballew R.M.",
+          "Basu A.",
+          "Baxendale J.",
+          "Bayraktaroglu L.",
+          "Beasley E.M.",
+          "Beeson K.Y.",
+          "Benos P.V.",
+          "Berman B.P.",
+          "Bhandari D.",
+          "Bolshakov S.",
+          "Borkova D.",
+          "Botchan M.R.",
+          "Bouck J.",
+          "Brokstein P.",
+          "Brottier P.",
+          "Burtis K.C.",
+          "Busam D.A.",
+          "Butler H.",
+          "Cadieu E.",
+          "Center A.",
+          "Chandra I.",
+          "Cherry J.M.",
+          "Cawley S.",
+          "Dahlke C.",
+          "Davenport L.B.",
+          "Davies P.",
+          "de Pablos B.",
+          "Delcher A.",
+          "Deng Z.",
+          "Mays A.D.",
+          "Dew I.",
+          "Dietz S.M.",
+          "Dodson K.",
+          "Doup L.E.",
+          "Downes M.",
+          "Dugan-Rocha S.",
+          "Dunkov B.C.",
+          "Dunn P.",
+          "Durbin K.J.",
+          "Evangelista C.C.",
+          "Ferraz C.",
+          "Ferriera S.",
+          "Fleischmann W.",
+          "Fosler C.",
+          "Gabrielian A.E.",
+          "Garg N.S.",
+          "Gelbart W.M.",
+          "Glasser K.",
+          "Glodek A.",
+          "Gong F.",
+          "Gorrell J.H.",
+          "Gu Z.",
+          "Guan P.",
+          "Harris M.",
+          "Harris N.L.",
+          "Harvey D.A.",
+          "Heiman T.J.",
+          "Hernandez J.R.",
+          "Houck J.",
+          "Hostin D.",
+          "Houston K.A.",
+          "Howland T.J.",
+          "Wei M.-H.",
+          "Ibegwam C.",
+          "Jalali M.",
+          "Kalush F.",
+          "Karpen G.H.",
+          "Ke Z.",
+          "Kennison J.A.",
+          "Ketchum K.A.",
+          "Kimmel B.E.",
+          "Kodira C.D.",
+          "Kraft C.L.",
+          "Kravitz S.",
+          "Kulp D.",
+          "Lai Z.",
+          "Lasko P.",
+          "Lei Y.",
+          "Levitsky A.A.",
+          "Li J.H.",
+          "Li Z.",
+          "Liang Y.",
+          "Lin X.",
+          "Liu X.",
+          "Mattei B.",
+          "McIntosh T.C.",
+          "McLeod M.P.",
+          "McPherson D.",
+          "Merkulov G.",
+          "Milshina N.V.",
+          "Mobarry C.",
+          "Morris J.",
+          "Moshrefi A.",
+          "Mount S.M.",
+          "Moy M.",
+          "Murphy B.",
+          "Murphy L.",
+          "Muzny D.M.",
+          "Nelson D.L.",
+          "Nelson D.R.",
+          "Nelson K.A.",
+          "Nixon K.",
+          "Nusskern D.R.",
+          "Pacleb J.M.",
+          "Palazzolo M.",
+          "Pittman G.S.",
+          "Pan S.",
+          "Pollard J.",
+          "Puri V.",
+          "Reese M.G.",
+          "Reinert K.",
+          "Remington K.",
+          "Saunders R.D.C.",
+          "Scheeler F.",
+          "Shen H.",
+          "Shue B.C.",
+          "Siden-Kiamos I.",
+          "Simpson M.",
+          "Skupski M.P.",
+          "Smith T.J.",
+          "Spier E.",
+          "Spradling A.C.",
+          "Stapleton M.",
+          "Strong R.",
+          "Sun E.",
+          "Svirskas R.",
+          "Tector C.",
+          "Turner R.",
+          "Venter E.",
+          "Wang A.H.",
+          "Wang X.",
+          "Wang Z.-Y.",
+          "Wassarman D.A.",
+          "Weinstock G.M.",
+          "Weissenbach J.",
+          "Williams S.M.",
+          "Woodage T.",
+          "Worley K.C.",
+          "Wu D.",
+          "Yang S.",
+          "Yao Q.A.",
+          "Ye J.",
+          "Yeh R.-F.",
+          "Zaveri J.S.",
+          "Zhan M.",
+          "Zhang G.",
+          "Zhao Q.",
+          "Zheng L.",
+          "Zheng X.H.",
+          "Zhong F.N.",
+          "Zhong W.",
+          "Zhou X.",
+          "Zhu S.C.",
+          "Zhu X.",
+          "Smith H.O.",
+          "Gibbs R.A.",
+          "Myers E.W.",
+          "Rubin G.M.",
+          "Venter J.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10731132"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.287.5461.2185"
+          }
+        ],
+        "title": "The genome sequence of Drosophila melanogaster.",
+        "publicationDate": "2000",
+        "journal": "Science",
+        "firstPage": "2185",
+        "lastPage": "2195",
+        "volume": "287"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "Proteomes",
+              "id": "UP000000803"
+            }
+          ],
+          "value": "Berkeley",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000312",
+          "source": "Proteomes",
+          "id": "UP000000803"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "12537572",
+        "citationType": "journal article",
+        "authors": [
+          "Misra S.",
+          "Crosby M.A.",
+          "Mungall C.J.",
+          "Matthews B.B.",
+          "Campbell K.S.",
+          "Hradecky P.",
+          "Huang Y.",
+          "Kaminker J.S.",
+          "Millburn G.H.",
+          "Prochnik S.E.",
+          "Smith C.D.",
+          "Tupy J.L.",
+          "Whitfield E.J.",
+          "Bayraktaroglu L.",
+          "Berman B.P.",
+          "Bettencourt B.R.",
+          "Celniker S.E.",
+          "de Grey A.D.N.J.",
+          "Drysdale R.A.",
+          "Harris N.L.",
+          "Richter J.",
+          "Russo S.",
+          "Schroeder A.J.",
+          "Shu S.Q.",
+          "Stapleton M.",
+          "Yamada C.",
+          "Ashburner M.",
+          "Gelbart W.M.",
+          "Rubin G.M.",
+          "Lewis S.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12537572"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1186/gb-2002-3-12-research0083"
+          }
+        ],
+        "title": "Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.",
+        "publicationDate": "2002",
+        "journal": "Genome Biol.",
+        "firstPage": "RESEARCH0083.1",
+        "lastPage": "RESEARCH0083.22",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "GENOME REANNOTATION"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "Proteomes",
+              "id": "UP000000803"
+            }
+          ],
+          "value": "Berkeley",
+          "type": "STRAIN"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000312",
+          "source": "Proteomes",
+          "id": "UP000000803"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "12537569",
+        "citationType": "journal article",
+        "authors": [
+          "Stapleton M.",
+          "Carlson J.W.",
+          "Brokstein P.",
+          "Yu C.",
+          "Champe M.",
+          "George R.A.",
+          "Guarin H.",
+          "Kronmiller B.",
+          "Pacleb J.M.",
+          "Park S.",
+          "Wan K.H.",
+          "Rubin G.M.",
+          "Celniker S.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12537569"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1186/gb-2002-3-12-research0080"
+          }
+        ],
+        "title": "A Drosophila full-length cDNA resource.",
+        "publicationDate": "2002",
+        "journal": "Genome Biol.",
+        "firstPage": "RESEARCH0080.1",
+        "lastPage": "RESEARCH0080.8",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "EMBL",
+              "id": "AAL25500.1"
+            }
+          ],
+          "value": "Berkeley",
+          "type": "STRAIN"
+        },
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "EMBL",
+              "id": "AAL25500.1"
+            }
+          ],
+          "value": "Embryo",
+          "type": "TISSUE"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000312",
+          "source": "EMBL",
+          "id": "AAL25500.1"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "34580289",
+        "citationType": "journal article",
+        "authors": [
+          "Magny E.G.",
+          "Platero A.I.",
+          "Bishop S.A.",
+          "Pueyo J.I.",
+          "Aguilar-Hidalgo D.",
+          "Couso J.P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "34580289"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/s41467-021-25785-z"
+          }
+        ],
+        "title": "Pegasus, a small extracellular peptide enhancing short-range diffusion of Wingless.",
+        "publicationDate": "2021",
+        "journal": "Nat. Commun.",
+        "firstPage": "5660",
+        "lastPage": "5660",
+        "volume": "12"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "INTERACTION WITH WG",
+        "SUBCELLULAR LOCATION",
+        "TISSUE SPECIFICITY",
+        "DISRUPTION PHENOTYPE"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AE014297",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAF55833.2"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AY060461",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAL25500.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_652230.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_143973.3"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9VDG1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q9VDG1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q9VDG1",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "60"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q9VDG1",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "7227.FBpp0083449",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "7227-FBpp0083449",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "50050",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblMetazoa",
+      "id": "FBtr0084047",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "FBpp0083449"
+        },
+        {
+          "key": "GeneId",
+          "value": "FBgn0046763"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "50050",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "dme:Dmel_CG17278",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "CG17278-RA",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "d. melanogaster"
+        }
+      ]
+    },
+    {
+      "database": "AGR",
+      "id": "FB:FBgn0046763",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "50050",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FlyBase",
+      "id": "FBgn0046763",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "peg"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "VectorBase:FBgn0046763",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "ENOG502TBNS",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_2592259_0_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q9VDG1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "CDTQEYR",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "6614329at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "50050",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "0 hits in 1 CRISPR screen"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "50050",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q9VDG1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000000803",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 3R"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "FBgn0046763",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in wing disc and 114 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "34580289"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0017147",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:Wnt-protein binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "34580289"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0035592",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:establishment of protein localization to extracellular region"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "34580289"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008587",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:imaginal disc-derived wing margin morphogenesis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "34580289"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0090263",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:positive regulation of canonical Wnt signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IMP:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000315",
+          "source": "PubMed",
+          "id": "34580289"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.30.60.30",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002350",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036058",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF07648",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF100895",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal-type serine protease inhibitors"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MKLSAVLLAIALLALSLVQCLGLPDPSTKCVMECDTQEYRSICAADDKGSTKTYRNLCVMKTENCLQNANFQKISDKECP",
+    "length": 80,
+    "molWeight": 8789,
+    "crc64": "2609F41E1C67529C",
+    "md5": "FBC5A4CC67EEB73BC512520CE217B7AB"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBUNIT": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "DISRUPTION PHENOTYPE": 1,
+      "MISCELLANEOUS": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 1,
+      "Domain": 1,
+      "Site": 1,
+      "Disulfide bond": 3
+    },
+    "uniParcId": "UPI000008188A"
+  }
+}

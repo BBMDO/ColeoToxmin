@@ -1,0 +1,20 @@
+FINAL CONSERVATIVE FUNCTIONAL INTERPRETATION
+=================================================================
+
+Total structural clusters: 26
+Total candidates represented: 76
+
+           functional_label  n_clusters  n_candidates  mean_plddt
+    Protease inhibitor-like          11            48   75.686160
+Defensin/antimicrobial-like           1             5   92.196750
+                Enzyme-like           1             1   61.654528
+            Other/uncertain           1             1   43.477167
+                 Unresolved          12            21   88.328331
+
+Clusters requiring manual caution:
+- MC03 (gaco00000000_1): Structural interpretation should be cautious because mean pLDDT is below 70.
+- MC13 (psylliodes_chrysocephalus_2): Structural interpretation should be cautious because mean pLDDT is below 70.
+- MC16 (euwallacea_fornicatus_1): Structural interpretation should be cautious because mean pLDDT is below 70.
+- MC18 (ghma00000000_3): Structural interpretation should be cautious because mean pLDDT is below 70.
+- MC20 (hbua00000000_1): Structural interpretation should be cautious because mean pLDDT is below 70.
+- MC21 (heteronyx_sp_3): Automatic protease-inhibitor classification was not retained. The curated homolog is Protein pegasus; functional interpretation remains uncertain despite sequence similarity. Structural interpretation should be cautious because mean pLDDT is below 70.

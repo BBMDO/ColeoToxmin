@@ -1,0 +1,20 @@
+[2026-08-06 17:42:09] ============================================================
+[2026-08-06 17:42:09] BUSCA ESTRUTURAL EXTERNA
+[2026-08-06 17:42:09] Representantes: 26
+[2026-08-06 17:42:09] Início geral: qui 06 ago 2026 17:42:09 -03
+[2026-08-06 17:42:09] Iniciando busca contra PDB
+[2026-08-06 17:42:09] Banco: /mnt/external/TC/databases/foldseek_external/pdb/pdb
+[2026-08-06 17:42:09] Saída: /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_PDB.tsv
+[2026-08-06 17:42:24] Busca concluída: PDB
+[2026-08-06 17:42:24] Alinhamentos recuperados: 557
+[2026-08-06 17:42:24] Iniciando busca contra AlphaFold/Swiss-Prot
+[2026-08-06 17:42:24] Banco: /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot
+[2026-08-06 17:42:24] Saída: /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_AlphaFold_SwissProt.tsv
+[2026-08-06 17:43:25] Busca concluída: AlphaFold/Swiss-Prot
+[2026-08-06 17:43:25] Alinhamentos recuperados: 551
+[2026-08-06 17:43:25] Resumo final:
+database              status    output                                                                                                                        hits
+PDB                   complete  /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_PDB.tsv                  557
+AlphaFold_Swiss-Prot  complete  /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_AlphaFold_SwissProt.tsv  551
+[2026-08-06 17:43:25] Fim geral: qui 06 ago 2026 17:43:25 -03
+[2026-08-06 17:43:25] ============================================================

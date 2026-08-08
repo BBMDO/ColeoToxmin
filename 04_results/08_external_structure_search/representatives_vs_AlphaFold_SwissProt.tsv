@@ -1,0 +1,551 @@
+MC02_gkjd00000000_3	AF-D2Y490-F1-model_v6	0.230	65	1	60	1	60	61	60	0.984	1.000	7.797E-01	7.573E-01	7.683E-01	7.173E-01	71	AF-D2Y490-F1-model_v6 Kunitz-type serine protease inhibitor conotoxin Cal9.1c (Fragment)
+MC02_gkjd00000000_3	AF-D2Y489-F1-model_v6	0.230	65	1	60	1	60	61	60	0.984	1.000	7.756E-01	7.531E-01	7.642E-01	7.145E-01	70	AF-D2Y489-F1-model_v6 Kunitz-type serine protease inhibitor conotoxin Cal9.1b (Fragment)
+MC02_gkjd00000000_3	AF-P0DMW6-F1-model_v6	0.400	65	1	60	1	59	61	59	0.984	1.000	7.776E-01	7.441E-01	7.661E-01	7.099E-01	70	AF-P0DMW6-F1-model_v6 PI-actitoxin-Aeq3a
+MC02_gkjd00000000_3	AF-P0DMW7-F1-model_v6	0.415	65	1	60	1	59	61	59	0.984	1.000	7.709E-01	7.377E-01	7.595E-01	7.032E-01	69	AF-P0DMW7-F1-model_v6 PI-actitoxin-Aeq3b
+MC02_gkjd00000000_3	AF-C0HLB0-F1-model_v6	0.269	63	1	59	1	56	61	56	0.967	1.000	7.833E-01	7.150E-01	7.710E-01	6.987E-01	67	AF-C0HLB0-F1-model_v6 Mambaquaretin-9
+MC02_gkjd00000000_3	AF-P16044-F1-model_v6	0.242	66	1	60	1	61	61	61	0.984	1.000	7.695E-01	7.477E-01	7.477E-01	6.977E-01	69	AF-P16044-F1-model_v6 Proteinase inhibitor
+MC02_gkjd00000000_3	AF-C0HK73-F1-model_v6	0.327	61	4	59	1	56	61	56	0.918	1.000	7.768E-01	7.092E-01	7.647E-01	6.944E-01	67	AF-C0HK73-F1-model_v6 PI-stichotoxin-Hmg3b
+MC02_gkjd00000000_3	AF-Q0PL65-F1-model_v6	0.307	65	1	60	2	60	61	61	0.984	0.967	7.492E-01	7.174E-01	7.174E-01	6.702E-01	67	AF-Q0PL65-F1-model_v6 Kunitz-type serine protease inhibitor homolog beta-bungarotoxin B5-B chain
+MC02_gkjd00000000_3	AF-D2Y488-F1-model_v6	0.230	65	1	60	19	78	61	78	0.984	0.769	8.016E-01	7.781E-01	6.232E-01	6.677E-01	73	AF-D2Y488-F1-model_v6 Kunitz-type serine protease inhibitor conotoxin Cal9.1a
+MC02_gkjd00000000_3	AF-C0HLB2-F1-model_v6	0.287	66	1	60	1	60	61	68	0.984	0.882	7.494E-01	7.275E-01	6.601E-01	6.589E-01	68	AF-C0HLB2-F1-model_v6 Kunitz-type serine protease inhibitor PPTI
+MC02_gkjd00000000_3	AF-P0DKL8-F1-model_v6	0.268	67	1	60	1	61	61	66	0.984	0.924	7.362E-01	7.154E-01	6.689E-01	6.539E-01	67	AF-P0DKL8-F1-model_v6 Kunitz-type serine protease inhibitor Vur-KIn
+MC02_gkjd00000000_3	AF-Q589G4-F1-model_v6	0.223	67	1	61	15	75	61	75	1.000	0.813	7.654E-01	7.545E-01	6.284E-01	6.515E-01	70	AF-Q589G4-F1-model_v6 Kunitz-type serine protease inhibitor As-fr-19
+MC02_gkjd00000000_3	AF-P0DJ46-F1-model_v6	0.323	65	1	60	19	78	61	80	0.984	0.750	7.865E-01	7.650E-01	5.978E-01	6.506E-01	72	AF-P0DJ46-F1-model_v6 Kunitz-type serine protease inhibitor LmKTT-1a
+MC02_gkjd00000000_3	AF-P0DN08-F1-model_v6	0.363	66	1	61	15	75	61	82	1.000	0.744	7.655E-01	7.546E-01	5.810E-01	6.300E-01	70	AF-P0DN08-F1-model_v6 KappaPI-actitoxin-Avd3e
+MC02_gkjd00000000_3	AF-P29216-F1-model_v6	0.241	62	5	61	1	57	61	76	0.934	0.750	7.824E-01	7.254E-01	5.952E-01	6.289E-01	68	AF-P29216-F1-model_v6 Amyloid-beta precursor protein (Fragment)
+MC02_gkjd00000000_3	AF-B1B5I8-F1-model_v6	0.287	66	1	60	21	80	61	81	0.984	0.741	7.477E-01	7.261E-01	5.636E-01	6.130E-01	68	AF-B1B5I8-F1-model_v6 KappaPI-stichotoxin-Shd2a
+MC02_gkjd00000000_3	AF-C1IC51-F1-model_v6	0.303	66	1	59	22	81	61	81	0.967	0.741	7.525E-01	7.198E-01	5.587E-01	6.071E-01	67	AF-C1IC51-F1-model_v6 Protease inhibitor 3
+MC02_gkjd00000000_3	AF-C1IC52-F1-model_v6	0.303	66	1	59	22	81	61	81	0.967	0.741	7.518E-01	7.192E-01	5.582E-01	6.066E-01	67	AF-C1IC52-F1-model_v6 Kunitz-type serine protease inhibitor spermatin
+MC02_gkjd00000000_3	AF-B5KF96-F1-model_v6	0.296	64	1	59	26	83	61	83	0.967	0.699	7.664E-01	7.220E-01	5.484E-01	6.034E-01	68	AF-B5KF96-F1-model_v6 Kunitz-type serine protease inhibitor nigrescinin-2
+MC02_gkjd00000000_3	AF-Q6ITB1-F1-model_v6	0.292	65	1	59	25	83	61	83	0.967	0.711	7.534E-01	7.204E-01	5.464E-01	6.030E-01	68	AF-Q6ITB1-F1-model_v6 Kunitz-type serine protease inhibitor blackelin
+MC02_gkjd00000000_3	AF-B5KL35-F1-model_v6	0.281	64	1	59	26	83	61	83	0.967	0.699	7.659E-01	7.216E-01	5.478E-01	6.028E-01	68	AF-B5KL35-F1-model_v6 Kunitz-type serine protease inhibitor nigrescinin-4
+MC02_gkjd00000000_3	AF-Q90W99-F1-model_v6	0.290	62	3	59	27	83	61	83	0.934	0.687	7.755E-01	7.189E-01	5.443E-01	6.024E-01	68	AF-Q90W99-F1-model_v6 Kunitz-type serine protease inhibitor textilinin-3
+MC02_gkjd00000000_3	AF-B5G6G6-F1-model_v6	0.292	65	1	59	25	83	61	83	0.967	0.711	7.520E-01	7.192E-01	5.456E-01	6.018E-01	68	AF-B5G6G6-F1-model_v6 Kunitz-type serine protease inhibitor blackelin-2
+MC02_gkjd00000000_3	AF-Q2ES47-F1-model_v6	0.318	66	1	60	25	84	61	84	0.984	0.714	7.435E-01	7.219E-01	5.420E-01	6.015E-01	68	AF-Q2ES47-F1-model_v6 Kunitz-type serine protease inhibitor 4
+MC02_gkjd00000000_3	AF-F8J2F5-F1-model_v6	0.290	62	3	59	27	83	61	83	0.934	0.687	7.740E-01	7.179E-01	5.444E-01	6.012E-01	68	AF-F8J2F5-F1-model_v6 Kunitz-type serine protease inhibitor 87
+MC02_gkjd00000000_3	AF-B5KL36-F1-model_v6	0.261	65	1	59	25	83	61	83	0.967	0.711	7.519E-01	7.192E-01	5.458E-01	6.011E-01	67	AF-B5KL36-F1-model_v6 Kunitz-type serine protease inhibitor nigrescinin-5
+MC02_gkjd00000000_3	AF-B5KL41-F1-model_v6	0.276	65	1	59	25	83	61	83	0.967	0.711	7.498E-01	7.177E-01	5.447E-01	6.010E-01	67	AF-B5KL41-F1-model_v6 Kunitz-type serine protease inhibitor superbin-4
+MC02_gkjd00000000_3	AF-B5KL37-F1-model_v6	0.276	65	1	59	24	83	61	83	0.967	0.723	7.515E-01	7.192E-01	5.471E-01	6.006E-01	67	AF-B5KL37-F1-model_v6 Kunitz-type serine protease inhibitor nigrescinin-6
+MC02_gkjd00000000_3	AF-A6MFL3-F1-model_v6	0.322	62	3	59	27	83	61	83	0.934	0.687	7.731E-01	7.170E-01	5.436E-01	6.004E-01	67	AF-A6MFL3-F1-model_v6 Kunitz-type serine protease inhibitor vestiginin-3
+MC02_gkjd00000000_3	AF-B5L5R6-F1-model_v6	0.230	65	1	60	25	83	61	83	0.984	0.711	7.497E-01	7.174E-01	5.454E-01	5.999E-01	67	AF-B5L5R6-F1-model_v6 Stephenin-3
+MC02_gkjd00000000_3	AF-Q90WA1-F1-model_v6	0.353	65	1	59	25	83	61	83	0.967	0.711	7.498E-01	7.172E-01	5.441E-01	5.996E-01	67	AF-Q90WA1-F1-model_v6 Kunitz-type serine protease inhibitor textilinin-1
+MC02_gkjd00000000_3	AF-Q6ITB5-F1-model_v6	0.338	65	1	59	25	83	61	83	0.967	0.711	7.470E-01	7.148E-01	5.431E-01	5.992E-01	67	AF-Q6ITB5-F1-model_v6 Kunitz-type serine protease inhibitor microlepidin-1
+MC02_gkjd00000000_3	AF-E7FL13-F1-model_v6	0.261	65	1	59	25	83	61	83	0.967	0.711	7.491E-01	7.164E-01	5.438E-01	5.990E-01	67	AF-E7FL13-F1-model_v6 Kunitz serine protease inhibitor Pr-mulgin 3
+MC02_gkjd00000000_3	AF-Q6ITC1-F1-model_v6	0.292	65	1	59	25	83	61	83	0.967	0.711	7.488E-01	7.161E-01	5.437E-01	5.990E-01	67	AF-Q6ITC1-F1-model_v6 Kunitz-type serine protease inhibitor homolog mulgin-1
+MC02_gkjd00000000_3	AF-Q6ITB6-F1-model_v6	0.338	65	1	59	25	83	61	83	0.967	0.711	7.474E-01	7.146E-01	5.428E-01	5.989E-01	67	AF-Q6ITB6-F1-model_v6 Kunitz-type serine protease inhibitor scutellin-2
+MC02_gkjd00000000_3	AF-B5KL40-F1-model_v6	0.276	65	1	59	25	83	61	83	0.967	0.711	7.488E-01	7.161E-01	5.437E-01	5.987E-01	67	AF-B5KL40-F1-model_v6 Kunitz-type serine protease inhibitor superbin-3
+MC02_gkjd00000000_3	AF-B5L5R7-F1-model_v6	0.292	65	1	59	25	83	61	83	0.967	0.711	7.478E-01	7.156E-01	5.438E-01	5.979E-01	67	AF-B5L5R7-F1-model_v6 Kunitz-type serine protease inhibitor stephenin-2
+MC02_gkjd00000000_3	AF-B5KL32-F1-model_v6	0.276	65	1	59	25	83	61	83	0.967	0.711	7.469E-01	7.147E-01	5.433E-01	5.974E-01	67	AF-B5KL32-F1-model_v6 Kunitz-type serine protease inhibitor tigerin-3
+MC02_gkjd00000000_3	AF-Q6ITB7-F1-model_v6	0.323	65	1	59	25	83	61	83	0.967	0.711	7.458E-01	7.131E-01	5.415E-01	5.974E-01	67	AF-Q6ITB7-F1-model_v6 Kunitz-type serine protease inhibitor scutellin-1
+MC02_gkjd00000000_3	AF-F8J2F4-F1-model_v6	0.274	62	3	59	27	83	61	83	0.934	0.687	7.698E-01	7.137E-01	5.411E-01	5.973E-01	67	AF-F8J2F4-F1-model_v6 Kunitz-type serine protease inhibitor 161
+MC02_gkjd00000000_3	AF-Q2ES49-F1-model_v6	0.287	66	1	60	25	84	61	84	0.984	0.714	7.373E-01	7.160E-01	5.379E-01	5.972E-01	67	AF-Q2ES49-F1-model_v6 Kunitz-type serine protease inhibitor 2
+MC02_gkjd00000000_3	AF-E7FL11-F1-model_v6	0.306	62	3	59	27	83	61	83	0.934	0.687	7.693E-01	7.135E-01	5.413E-01	5.971E-01	67	AF-E7FL11-F1-model_v6 Kunitz serine protease inhibitor Pr-mulgin 1
+MC02_gkjd00000000_3	AF-Q90WA0-F1-model_v6	0.338	65	1	59	25	83	61	83	0.967	0.711	7.447E-01	7.126E-01	5.420E-01	5.954E-01	67	AF-Q90WA0-F1-model_v6 Kunitz-type serine protease inhibitor textilinin-2
+MC02_gkjd00000000_3	AF-Q8AY41-F1-model_v6	0.241	62	3	59	27	83	61	83	0.934	0.687	7.671E-01	7.113E-01	5.401E-01	5.951E-01	67	AF-Q8AY41-F1-model_v6 Kunitz-type serine protease inhibitor C
+MC02_gkjd00000000_3	AF-B5KF94-F1-model_v6	0.258	62	3	59	27	83	61	83	0.934	0.687	7.656E-01	7.106E-01	5.399E-01	5.944E-01	67	AF-B5KF94-F1-model_v6 Kunitz-type serine protease inhibitor stephenin-1
+MC02_gkjd00000000_3	AF-B5L5Q8-F1-model_v6	0.261	65	1	59	25	83	61	83	0.967	0.711	7.429E-01	7.122E-01	5.418E-01	5.942E-01	67	AF-B5L5Q8-F1-model_v6 Kunitz-type serine protease inhibitor mulgin-5
+MC02_gkjd00000000_3	AF-B5KL29-F1-model_v6	0.274	62	3	59	27	83	61	83	0.934	0.687	7.657E-01	7.100E-01	5.381E-01	5.939E-01	67	AF-B5KL29-F1-model_v6 Kunitz-type serine protease inhibitor scutellin-3
+MC02_gkjd00000000_3	AF-B5KL31-F1-model_v6	0.290	62	3	59	27	83	61	83	0.934	0.687	7.645E-01	7.096E-01	5.393E-01	5.936E-01	67	AF-B5KL31-F1-model_v6 Kunitz-type serine protease inhibitor blackelin-3
+MC02_gkjd00000000_3	AF-B5KL27-F1-model_v6	0.274	62	3	59	27	83	61	83	0.934	0.687	7.653E-01	7.096E-01	5.378E-01	5.936E-01	67	AF-B5KL27-F1-model_v6 Kunitz-type serine protease inhibitor microlepidin-3
+MC02_gkjd00000000_3	AF-A6MGX9-F1-model_v6	0.274	62	3	59	27	83	61	83	0.934	0.687	7.638E-01	7.087E-01	5.381E-01	5.931E-01	67	AF-A6MGX9-F1-model_v6 Kunitz-type serine protease inhibitor vestiginin-5
+MC02_gkjd00000000_3	AF-Q8AY43-F1-model_v6	0.246	65	1	59	25	83	61	83	0.967	0.711	7.415E-01	7.111E-01	5.408E-01	5.927E-01	66	AF-Q8AY43-F1-model_v6 Kunitz-type serine protease inhibitor A
+MC02_gkjd00000000_3	AF-A6MFL1-F1-model_v6	0.250	64	1	59	25	83	61	83	0.967	0.711	7.406E-01	7.091E-01	5.406E-01	5.924E-01	66	AF-A6MFL1-F1-model_v6 Kunitz-type serine protease inhibitor vestiginin-1
+MC02_gkjd00000000_3	AF-B4ESA4-F1-model_v6	0.250	64	1	59	25	83	61	83	0.967	0.711	7.420E-01	7.117E-01	5.421E-01	5.920E-01	66	AF-B4ESA4-F1-model_v6 Kunitz-type serine protease inhibitor PILP-3
+MC02_gkjd00000000_3	AF-F8J2F6-F1-model_v6	0.278	61	3	59	27	83	61	83	0.934	0.687	7.625E-01	7.080E-01	5.389E-01	5.916E-01	66	AF-F8J2F6-F1-model_v6 Kunitz-type serine protease inhibitor 18
+MC02_gkjd00000000_3	AF-D5J9Q8-F1-model_v6	0.306	62	3	59	27	83	61	83	0.934	0.687	7.627E-01	7.077E-01	5.377E-01	5.914E-01	66	AF-D5J9Q8-F1-model_v6 Kunitz-type serine protease inhibitor isoform 5
+MC02_gkjd00000000_3	AF-A6MFL2-F1-model_v6	0.258	62	3	59	27	83	61	83	0.934	0.687	7.587E-01	7.046E-01	5.362E-01	5.909E-01	66	AF-A6MFL2-F1-model_v6 Kunitz-type serine protease inhibitor vestiginin-2
+MC02_gkjd00000000_3	AF-A7X3V7-F1-model_v6	0.230	65	1	60	33	92	61	98	0.984	0.612	7.753E-01	7.531E-01	4.922E-01	5.903E-01	70	AF-A7X3V7-F1-model_v6 Kunitz-type serine protease inhibitor kunitoxin-Phi1
+MC02_gkjd00000000_3	AF-P00991-F1-model_v6	0.292	65	1	60	26	84	61	90	0.984	0.656	7.554E-01	7.229E-01	5.110E-01	5.851E-01	68	AF-P00991-F1-model_v6 Kunitz-type serine protease inhibitor 1
+MC02_gkjd00000000_3	AF-P00992-F1-model_v6	0.257	66	1	60	25	84	61	93	0.984	0.645	7.455E-01	7.240E-01	4.955E-01	5.809E-01	68	AF-P00992-F1-model_v6 Kunitz-type serine protease inhibitor 3
+MC02_gkjd00000000_3	AF-I2G9B4-F1-model_v6	0.227	66	1	60	25	84	61	95	0.984	0.632	7.404E-01	7.191E-01	4.842E-01	5.710E-01	67	AF-I2G9B4-F1-model_v6 Kunitz-type serine protease inhibitor PIVL
+MC02_gkjd00000000_3	AF-E5AJX3-F1-model_v6	0.261	65	1	60	25	84	61	95	0.984	0.632	7.389E-01	7.180E-01	4.849E-01	5.697E-01	67	AF-E5AJX3-F1-model_v6 Kunitz-type serine protease inhibitor ki-VN
+MC02_gkjd00000000_3	AF-Q2ES46-F1-model_v6	0.323	65	1	60	25	84	61	96	0.984	0.625	7.378E-01	7.166E-01	4.805E-01	5.684E-01	67	AF-Q2ES46-F1-model_v6 Kunitz-type serine protease inhibitor 5
+MC02_gkjd00000000_3	AF-B5M0W4-F1-model_v6	0.307	65	1	60	19	77	61	102	0.984	0.578	7.418E-01	7.101E-01	4.497E-01	5.480E-01	66	AF-B5M0W4-F1-model_v6 Simukunin
+MC02_gkjd00000000_3	AF-P86733-F1-model_v6	0.303	66	1	61	8	68	61	126	1.000	0.484	7.654E-01	7.546E-01	3.939E-01	5.421E-01	70	AF-P86733-F1-model_v6 BPTI/Kunitz domain-containing protein (Fragment)
+MC02_gkjd00000000_3	AF-P04365-F1-model_v6	0.196	66	1	61	1	61	61	125	1.000	0.488	7.536E-01	7.430E-01	3.921E-01	5.351E-01	69	AF-P04365-F1-model_v6 Inter-alpha-trypsin inhibitor (Fragment)
+MC02_gkjd00000000_3	AF-P62757-F1-model_v6	0.139	93	2	61	28	115	61	123	0.984	0.715	7.497E-01	7.284E-01	3.890E-01	5.280E-01	68	AF-P62757-F1-model_v6 Inter-alpha-trypsin inhibitor (Fragment)
+MC02_gkjd00000000_3	AF-P62756-F1-model_v6	0.194	67	2	61	56	117	61	123	0.984	0.504	7.488E-01	7.278E-01	3.898E-01	5.279E-01	67	AF-P62756-F1-model_v6 Inter-alpha-trypsin inhibitor (Fragment)
+MC02_gkjd00000000_3	AF-Q8WPI3-F1-model_v6	0.307	65	1	60	16	74	61	142	0.984	0.415	7.613E-01	7.282E-01	3.380E-01	5.085E-01	68	AF-Q8WPI3-F1-model_v6 Boophilin-G2
+MC02_gkjd00000000_3	AF-Q8WPI2-F1-model_v6	0.196	66	1	60	82	142	61	142	0.984	0.430	7.519E-01	7.308E-01	3.410E-01	5.077E-01	68	AF-Q8WPI2-F1-model_v6 Boophilin-H2
+MC02_gkjd00000000_3	AF-W4VSH9-F1-model_v6	0.287	66	1	60	99	159	61	176	0.984	0.347	7.817E-01	7.592E-01	2.866E-01	4.979E-01	71	AF-W4VSH9-F1-model_v6 Kunitz-type U19-barytoxin-Tl1a
+MC02_gkjd00000000_3	AF-O95925-3-F1-model_v6	0.160	106	1	61	31	131	61	179	1.000	0.564	7.297E-01	7.194E-01	2.733E-01	4.701E-01	67	AF-O95925-3-F1-model_v6 Eppin
+MC02_gkjd00000000_3	AF-O35536-F1-model_v6	0.224	58	3	60	92	149	61	230	0.951	0.252	8.123E-01	7.663E-01	2.282E-01	4.697E-01	71	AF-O35536-F1-model_v6 Tissue factor pathway inhibitor 2
+MC02_gkjd00000000_3	AF-O54819-2-F1-model_v6	0.190	63	3	60	46	103	61	253	0.951	0.229	7.683E-01	7.258E-01	1.936E-01	4.393E-01	68	AF-O54819-2-F1-model_v6 Tissue factor pathway inhibitor
+MC02_gkjd00000000_3	AF-P36992-F1-model_v6	0.166	90	2	61	259	347	61	355	0.984	0.251	7.969E-01	7.744E-01	1.533E-01	4.369E-01	72	AF-P36992-F1-model_v6 Protein AMBP (Fragment)
+MC02_gkjd00000000_3	AF-P19761-F1-model_v6	0.202	69	1	60	111	174	61	300	0.984	0.213	7.618E-01	7.398E-01	1.695E-01	4.317E-01	69	AF-P19761-F1-model_v6 Tissue factor pathway inhibitor
+MC02_gkjd00000000_3	AF-P04366-F1-model_v6	0.196	66	1	61	210	270	61	337	1.000	0.181	7.591E-01	7.483E-01	1.549E-01	4.258E-01	69	AF-P04366-F1-model_v6 Protein AMBP (Fragment)
+MC02_gkjd00000000_3	AF-Q60559-F1-model_v6	0.242	66	1	61	224	284	61	349	1.000	0.175	7.504E-01	7.398E-01	1.492E-01	4.180E-01	68	AF-Q60559-F1-model_v6 Protein AMBP
+MC02_gkjd00000000_3	AF-Q07456-F1-model_v6	0.227	66	1	61	224	284	61	349	1.000	0.175	7.496E-01	7.390E-01	1.486E-01	4.179E-01	68	AF-Q07456-F1-model_v6 Protein AMBP
+MC02_gkjd00000000_3	AF-P00978-F1-model_v6	0.196	66	1	61	225	285	61	352	1.000	0.173	7.513E-01	7.407E-01	1.481E-01	4.174E-01	68	AF-P00978-F1-model_v6 Protein AMBP
+MC02_gkjd00000000_3	AF-Q62577-F1-model_v6	0.196	66	1	61	224	284	61	346	1.000	0.176	7.426E-01	7.322E-01	1.496E-01	4.136E-01	67	AF-Q62577-F1-model_v6 Protein AMBP
+MC02_gkjd00000000_3	AF-Q64240-F1-model_v6	0.200	65	2	61	281	340	61	349	0.984	0.172	7.536E-01	7.324E-01	1.468E-01	4.135E-01	68	AF-Q64240-F1-model_v6 Protein AMBP
+MC02_gkjd00000000_3	AF-P12023-3-F1-model_v6	0.227	66	1	61	285	345	61	735	1.000	0.083	7.936E-01	7.821E-01	7.389E-02	4.052E-01	73	AF-P12023-3-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-Q95241-F1-model_v6	0.227	66	1	61	285	345	61	751	1.000	0.081	7.918E-01	7.803E-01	7.229E-02	4.037E-01	73	AF-Q95241-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P05067-11-F1-model_v6	0.227	66	1	61	280	340	61	746	1.000	0.082	7.907E-01	7.792E-01	7.276E-02	4.032E-01	73	AF-P05067-11-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P53601-3-F1-model_v6	0.227	66	1	61	285	345	61	751	1.000	0.081	7.897E-01	7.782E-01	7.226E-02	4.022E-01	73	AF-P53601-3-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P08592-F1-model_v6	0.227	66	1	61	285	345	61	770	1.000	0.079	7.892E-01	7.778E-01	7.051E-02	4.012E-01	73	AF-P08592-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-Q5IS80-F1-model_v6	0.214	70	1	61	285	349	61	770	1.000	0.084	7.875E-01	7.761E-01	7.044E-02	4.012E-01	73	AF-Q5IS80-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P79307-F1-model_v6	0.214	70	1	61	285	349	61	770	1.000	0.084	7.878E-01	7.764E-01	7.044E-02	4.009E-01	73	AF-P79307-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-Q60495-F1-model_v6	0.214	70	1	61	285	349	61	770	1.000	0.084	7.869E-01	7.755E-01	7.046E-02	4.003E-01	73	AF-Q60495-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-Q06481-F1-model_v6	0.227	66	1	61	304	364	61	763	1.000	0.080	7.842E-01	7.730E-01	7.105E-02	3.984E-01	72	AF-Q06481-F1-model_v6 Amyloid beta precursor like protein 2
+MC02_gkjd00000000_3	AF-Q06481-6-F1-model_v6	0.227	66	1	61	314	374	61	761	1.000	0.080	7.831E-01	7.718E-01	7.121E-02	3.978E-01	72	AF-Q06481-6-F1-model_v6 Amyloid beta precursor like protein 2
+MC02_gkjd00000000_3	AF-P12023-F1-model_v6	0.227	66	1	61	285	345	61	770	1.000	0.079	7.832E-01	7.720E-01	7.038E-02	3.977E-01	72	AF-P12023-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P05067-7-F1-model_v6	0.223	67	1	61	285	346	61	733	1.000	0.085	7.797E-01	7.685E-01	7.377E-02	3.971E-01	72	AF-P05067-7-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P05067-8-F1-model_v6	0.223	67	1	61	285	346	61	751	1.000	0.083	7.767E-01	7.655E-01	7.187E-02	3.952E-01	71	AF-P05067-8-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-O93279-F1-model_v6	0.238	67	1	61	284	345	61	737	1.000	0.084	7.771E-01	7.659E-01	7.336E-02	3.952E-01	71	AF-O93279-F1-model_v6 Amyloid-beta A4 protein
+MC02_gkjd00000000_3	AF-P05067-9-F1-model_v6	0.214	70	1	61	285	349	61	752	1.000	0.086	7.746E-01	7.635E-01	7.180E-02	3.937E-01	71	AF-P05067-9-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P53601-F1-model_v6	0.217	69	1	61	285	348	61	770	1.000	0.083	7.733E-01	7.622E-01	7.012E-02	3.920E-01	71	AF-P53601-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P05067-F1-model_v6	0.217	69	1	61	285	348	61	770	1.000	0.083	7.730E-01	7.619E-01	7.010E-02	3.918E-01	71	AF-P05067-F1-model_v6 Amyloid-beta precursor protein
+MC02_gkjd00000000_3	AF-P15943-F1-model_v6	0.227	66	1	61	306	366	61	765	1.000	0.080	7.677E-01	7.568E-01	7.057E-02	3.878E-01	70	AF-P15943-F1-model_v6 Amyloid beta precursor like protein 2
+MC02_gkjd00000000_3	AF-O76840-2-F1-model_v6	0.257	66	1	61	1265	1325	61	1558	1.000	0.039	7.571E-01	7.464E-01	3.492E-02	3.678E-01	70	AF-O76840-2-F1-model_v6 Papilin
+MC05_hydroscapha_redfordi_1	AF-C0HJX7-F1-model_v6	0.775	40	1	40	1	40	40	40	1.000	1.000	8.805E-01	8.611E-01	8.611E-01	8.050E-01	80	AF-C0HJX7-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-P31530-F1-model_v6	0.750	40	1	40	1	40	40	40	1.000	1.000	8.530E-01	8.347E-01	8.347E-01	7.753E-01	77	AF-P31530-F1-model_v6 Sapecin-C
+MC05_hydroscapha_redfordi_1	AF-B3EWY5-F1-model_v6	0.725	40	1	40	1	40	40	40	1.000	1.000	8.472E-01	8.290E-01	8.290E-01	7.688E-01	76	AF-B3EWY5-F1-model_v6 Lucifensin
+MC05_hydroscapha_redfordi_1	AF-P80033-F1-model_v6	0.534	43	1	39	1	43	40	43	0.975	1.000	8.746E-01	8.359E-01	7.838E-01	7.617E-01	78	AF-P80033-F1-model_v6 Defensin, isoforms B and C
+MC05_hydroscapha_redfordi_1	AF-P80407-F1-model_v6	0.477	44	1	40	1	43	40	43	1.000	1.000	8.478E-01	8.291E-01	7.775E-01	7.570E-01	77	AF-P80407-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-Q7M426-F1-model_v6	0.500	44	1	40	1	43	40	43	1.000	1.000	8.399E-01	8.219E-01	7.723E-01	7.392E-01	75	AF-Q7M426-F1-model_v6 Holotricin-1
+MC05_hydroscapha_redfordi_1	AF-P0CAY3-F1-model_v6	0.214	42	1	40	1	37	40	38	1.000	0.974	8.436E-01	7.706E-01	8.056E-01	7.267E-01	71	AF-P0CAY3-F1-model_v6 Putative defensin-like protein 105
+MC05_hydroscapha_redfordi_1	AF-P0CF77-F1-model_v6	0.309	42	1	40	1	36	40	36	1.000	1.000	8.172E-01	7.254E-01	7.971E-01	7.195E-01	68	AF-P0CF77-F1-model_v6 Tddefensin
+MC05_hydroscapha_redfordi_1	AF-P81462-F1-model_v6	0.414	41	1	40	1	40	40	51	1.000	0.784	8.470E-01	8.285E-01	6.674E-01	7.047E-01	77	AF-P81462-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-P84920-F1-model_v6	0.261	42	1	40	10	44	40	46	1.000	0.761	8.617E-01	7.466E-01	6.577E-01	6.665E-01	70	AF-P84920-F1-model_v6 Defensin-like protein 2
+MC05_hydroscapha_redfordi_1	AF-P81456-F1-model_v6	0.232	43	1	40	12	47	40	47	1.000	0.766	8.385E-01	7.451E-01	6.435E-01	6.572E-01	70	AF-P81456-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P81457-F1-model_v6	0.232	43	1	40	12	47	40	47	1.000	0.766	8.379E-01	7.447E-01	6.433E-01	6.566E-01	69	AF-P81457-F1-model_v6 Defensin-like protein 2
+MC05_hydroscapha_redfordi_1	AF-P20159-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.337E-01	7.409E-01	6.402E-01	6.543E-01	69	AF-P20159-F1-model_v6 Defensin-like protein 2
+MC05_hydroscapha_redfordi_1	AF-P20158-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.319E-01	7.394E-01	6.390E-01	6.529E-01	69	AF-P20158-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P20230-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.308E-01	7.384E-01	6.381E-01	6.519E-01	69	AF-P20230-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P81008-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.320E-01	7.401E-01	6.399E-01	6.516E-01	69	AF-P81008-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P21925-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.307E-01	7.387E-01	6.386E-01	6.513E-01	69	AF-P21925-F1-model_v6 Defensin-like protein 3
+MC05_hydroscapha_redfordi_1	AF-Q09198-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.311E-01	7.391E-01	6.390E-01	6.512E-01	69	AF-Q09198-F1-model_v6 Defensin-like protein 21
+MC05_hydroscapha_redfordi_1	AF-P84966-F1-model_v6	0.238	42	1	40	10	44	40	46	1.000	0.761	8.446E-01	7.335E-01	6.471E-01	6.503E-01	68	AF-P84966-F1-model_v6 Defensin Tk-AMP-D5
+MC05_hydroscapha_redfordi_1	AF-P21924-F1-model_v6	0.255	43	1	40	10	45	40	48	1.000	0.750	8.289E-01	7.372E-01	6.253E-01	6.437E-01	69	AF-P21924-F1-model_v6 Defensin-like protein 2
+MC05_hydroscapha_redfordi_1	AF-P84967-F1-model_v6	0.238	42	1	40	10	44	40	46	1.000	0.761	8.376E-01	7.288E-01	6.438E-01	6.432E-01	67	AF-P84967-F1-model_v6 Defensin Tk-AMP-D6
+MC05_hydroscapha_redfordi_1	AF-P84969-F1-model_v6	0.238	42	1	40	10	44	40	46	1.000	0.761	8.339E-01	7.260E-01	6.416E-01	6.397E-01	67	AF-P84969-F1-model_v6 Defensin Tk-AMP-D6.1
+MC05_hydroscapha_redfordi_1	AF-P82010-F1-model_v6	0.166	42	1	40	10	44	40	46	1.000	0.761	8.351E-01	7.278E-01	6.437E-01	6.388E-01	67	AF-P82010-F1-model_v6 Defensin-like protein AX2
+MC05_hydroscapha_redfordi_1	AF-Q5TWR9-F1-model_v6	0.255	43	1	40	25	66	40	67	1.000	0.627	8.535E-01	8.351E-01	5.250E-01	6.382E-01	77	AF-Q5TWR9-F1-model_v6 Antimicrobial peptide defensin 3
+MC05_hydroscapha_redfordi_1	AF-P83399-F1-model_v6	0.279	43	1	40	10	45	40	47	1.000	0.766	8.158E-01	7.267E-01	6.298E-01	6.368E-01	67	AF-P83399-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-C0HK49-F1-model_v6	0.186	43	1	40	10	45	40	47	1.000	0.766	8.127E-01	7.242E-01	6.274E-01	6.365E-01	67	AF-C0HK49-F1-model_v6 Defensin NsD7
+MC05_hydroscapha_redfordi_1	AF-A0A3G5BIB1-F1-model_v6	0.475	40	1	40	34	69	40	69	1.000	0.522	9.325E-01	8.269E-01	4.956E-01	6.347E-01	78	AF-A0A3G5BIB1-F1-model_v6 U-Asilidin(12)-Dg3b
+MC05_hydroscapha_redfordi_1	AF-A0A3G5BIB4-F1-model_v6	0.525	40	1	40	34	69	40	69	1.000	0.522	9.302E-01	8.250E-01	4.948E-01	6.330E-01	78	AF-A0A3G5BIB4-F1-model_v6 U-Asilidin(12)-Dg3a
+MC05_hydroscapha_redfordi_1	AF-P84971-F1-model_v6	0.238	42	1	40	10	43	40	45	1.000	0.756	8.352E-01	7.086E-01	6.383E-01	6.309E-01	65	AF-P84971-F1-model_v6 Defensin Tk-AMP-D4
+MC05_hydroscapha_redfordi_1	AF-P86519-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.081E-01	7.206E-01	6.246E-01	6.308E-01	67	AF-P86519-F1-model_v6 Defensin Ec-AMP-D2
+MC05_hydroscapha_redfordi_1	AF-P84965-F1-model_v6	0.232	43	1	40	10	45	40	47	1.000	0.766	8.088E-01	7.213E-01	6.254E-01	6.299E-01	66	AF-P84965-F1-model_v6 Defensin Tk-AMP-D1.1
+MC05_hydroscapha_redfordi_1	AF-P86518-F1-model_v6	0.255	43	1	40	10	45	40	47	1.000	0.766	8.047E-01	7.182E-01	6.231E-01	6.281E-01	66	AF-P86518-F1-model_v6 Defensin Ec-AMP-D1
+MC05_hydroscapha_redfordi_1	AF-P81571-F1-model_v6	0.232	43	1	40	15	50	40	52	1.000	0.692	8.293E-01	7.381E-01	5.821E-01	6.240E-01	69	AF-P81571-F1-model_v6 Defensin D2 (Fragment)
+MC05_hydroscapha_redfordi_1	AF-P84970-F1-model_v6	0.238	42	1	40	10	43	40	45	1.000	0.756	8.251E-01	7.013E-01	6.324E-01	6.228E-01	65	AF-P84970-F1-model_v6 Defensin Tk-AMP-D3
+MC05_hydroscapha_redfordi_1	AF-P46115-F1-model_v6	0.200	40	1	40	14	48	40	64	1.000	0.547	9.154E-01	7.924E-01	5.113E-01	6.217E-01	74	AF-P46115-F1-model_v6 Alpha-toxin Ts5
+MC05_hydroscapha_redfordi_1	AF-P84963-F1-model_v6	0.177	45	1	40	10	47	40	49	1.000	0.776	7.719E-01	7.222E-01	6.037E-01	6.194E-01	66	AF-P84963-F1-model_v6 Defensin Tk-AMP-D1
+MC05_hydroscapha_redfordi_1	AF-P81493-F1-model_v6	0.190	42	1	40	10	44	40	46	1.000	0.761	8.137E-01	7.124E-01	6.317E-01	6.170E-01	64	AF-P81493-F1-model_v6 Defensin-like protein AX1
+MC05_hydroscapha_redfordi_1	AF-Q6WGI9-F1-model_v6	0.162	37	4	39	6	36	40	36	0.900	0.861	8.115E-01	6.422E-01	7.020E-01	6.121E-01	59	AF-Q6WGI9-F1-model_v6 Potassium channel toxin alpha-KTx 11.3
+MC05_hydroscapha_redfordi_1	AF-P60165-F1-model_v6	0.157	38	4	40	6	37	40	37	0.925	0.865	7.998E-01	6.523E-01	6.959E-01	6.107E-01	59	AF-P60165-F1-model_v6 Potassium channel toxin alpha-KTx 11.2
+MC05_hydroscapha_redfordi_1	AF-P60164-F1-model_v6	0.157	38	4	40	6	37	40	37	0.925	0.865	7.962E-01	6.500E-01	6.933E-01	6.074E-01	59	AF-P60164-F1-model_v6 Potassium channel toxin alpha-KTx 11.1
+MC05_hydroscapha_redfordi_1	AF-C0HLL9-F1-model_v6	0.275	40	1	40	14	48	40	65	1.000	0.538	8.951E-01	7.780E-01	4.990E-01	6.032E-01	72	AF-C0HLL9-F1-model_v6 Beta-mammal toxin Tma1
+MC05_hydroscapha_redfordi_1	AF-O16136-F1-model_v6	0.463	41	1	40	40	79	40	79	1.000	0.506	8.524E-01	8.343E-01	4.522E-01	6.031E-01	76	AF-O16136-F1-model_v6 Defensin-1
+MC05_hydroscapha_redfordi_1	AF-Q5BU36-F1-model_v6	0.585	41	1	40	56	95	40	95	1.000	0.421	8.883E-01	8.683E-01	3.863E-01	6.012E-01	82	AF-Q5BU36-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-P86471-F1-model_v6	0.642	42	1	40	53	92	40	92	1.000	0.435	8.784E-01	8.587E-01	3.936E-01	5.991E-01	81	AF-P86471-F1-model_v6 Defensin Lucifensin
+MC05_hydroscapha_redfordi_1	AF-P18313-F1-model_v6	0.666	42	1	40	55	94	40	94	1.000	0.426	8.790E-01	8.592E-01	3.850E-01	5.954E-01	81	AF-P18313-F1-model_v6 Sapecin
+MC05_hydroscapha_redfordi_1	AF-P41964-F1-model_v6	0.190	42	1	40	33	69	40	70	1.000	0.529	8.516E-01	7.730E-01	4.566E-01	5.942E-01	74	AF-P41964-F1-model_v6 Drosomycin
+MC05_hydroscapha_redfordi_1	AF-P0DPW6-F1-model_v6	0.238	42	1	40	26	62	40	68	1.000	0.544	8.520E-01	7.774E-01	4.784E-01	5.940E-01	72	AF-P0DPW6-F1-model_v6 U-scoloptoxin(02)-Er1a
+MC05_hydroscapha_redfordi_1	AF-P0CF37-F1-model_v6	0.225	40	1	40	13	47	40	64	1.000	0.547	8.760E-01	7.645E-01	5.011E-01	5.926E-01	70	AF-P0CF37-F1-model_v6 Bactridin-2
+MC05_hydroscapha_redfordi_1	AF-P0DQU7-F1-model_v6	0.275	40	1	40	14	48	40	65	1.000	0.538	8.779E-01	7.648E-01	4.929E-01	5.912E-01	70	AF-P0DQU7-F1-model_v6 Sodium channel toxin 2
+MC05_hydroscapha_redfordi_1	AF-C0HLZ0-F1-model_v6	0.225	40	1	40	13	47	40	66	1.000	0.530	8.797E-01	7.672E-01	4.880E-01	5.895E-01	70	AF-C0HLZ0-F1-model_v6 Toxin Tppa1
+MC05_hydroscapha_redfordi_1	AF-P84631-F1-model_v6	0.250	40	1	40	14	48	40	65	1.000	0.538	8.748E-01	7.633E-01	4.931E-01	5.890E-01	70	AF-P84631-F1-model_v6 Beta-mammal toxin Tpa2
+MC05_hydroscapha_redfordi_1	AF-O16137-F1-model_v6	0.609	41	1	40	58	97	40	97	1.000	0.412	8.767E-01	8.573E-01	3.762E-01	5.872E-01	80	AF-O16137-F1-model_v6 Defensin-2
+MC05_hydroscapha_redfordi_1	AF-Q17027-F1-model_v6	0.658	41	1	40	63	102	40	102	1.000	0.392	8.833E-01	8.634E-01	3.592E-01	5.853E-01	81	AF-Q17027-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-P36192-F1-model_v6	0.581	43	1	40	51	92	40	92	1.000	0.457	8.511E-01	8.326E-01	3.886E-01	5.798E-01	78	AF-P36192-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-P82781-F1-model_v6	0.232	43	1	40	25	60	40	62	1.000	0.581	8.219E-01	7.320E-01	4.912E-01	5.786E-01	68	AF-P82781-F1-model_v6 Putative defensin-like protein 3
+MC05_hydroscapha_redfordi_1	AF-Q2V485-F1-model_v6	0.173	46	1	40	32	73	40	76	1.000	0.553	8.022E-01	7.849E-01	4.377E-01	5.758E-01	72	AF-Q2V485-F1-model_v6 Putative defensin-like protein 62
+MC05_hydroscapha_redfordi_1	AF-P0DQT7-F1-model_v6	0.295	44	1	39	24	61	40	61	0.975	0.623	7.678E-01	7.165E-01	4.866E-01	5.756E-01	68	AF-P0DQT7-F1-model_v6 Defensin BmKDfsin1
+MC05_hydroscapha_redfordi_1	AF-P10891-F1-model_v6	0.590	44	1	40	53	94	40	94	1.000	0.447	8.493E-01	8.304E-01	3.762E-01	5.748E-01	78	AF-P10891-F1-model_v6 Phormicin
+MC05_hydroscapha_redfordi_1	AF-Q27023-F1-model_v6	0.545	44	1	39	41	84	40	84	0.975	0.524	8.332E-01	7.967E-01	4.064E-01	5.699E-01	74	AF-Q27023-F1-model_v6 Tenecin-1
+MC05_hydroscapha_redfordi_1	AF-P83404-F1-model_v6	0.477	44	1	40	57	98	40	98	1.000	0.429	8.504E-01	8.315E-01	3.618E-01	5.689E-01	78	AF-P83404-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-Q1I174-F1-model_v6	0.225	40	1	40	20	54	40	73	1.000	0.479	8.772E-01	7.650E-01	4.431E-01	5.674E-01	70	AF-Q1I174-F1-model_v6 Toxin Td4 (Fragment)
+MC05_hydroscapha_redfordi_1	AF-P81602-F1-model_v6	0.674	43	1	40	58	98	40	98	1.000	0.418	8.402E-01	8.216E-01	3.591E-01	5.617E-01	77	AF-P81602-F1-model_v6 Defensin-B
+MC05_hydroscapha_redfordi_1	AF-P91793-F1-model_v6	0.651	43	1	40	58	98	40	98	1.000	0.418	8.402E-01	8.216E-01	3.592E-01	5.617E-01	77	AF-P91793-F1-model_v6 Defensin-A
+MC05_hydroscapha_redfordi_1	AF-Q9M833-F1-model_v6	0.204	44	1	39	41	80	40	80	0.975	0.500	8.053E-01	7.694E-01	4.053E-01	5.607E-01	72	AF-Q9M833-F1-model_v6 Defensin-like protein 44
+MC05_hydroscapha_redfordi_1	AF-P81603-F1-model_v6	0.627	43	1	40	59	99	40	99	1.000	0.414	8.405E-01	8.219E-01	3.556E-01	5.605E-01	77	AF-P81603-F1-model_v6 Defensin-C
+MC05_hydroscapha_redfordi_1	AF-Q86QI5-F1-model_v6	0.311	45	1	40	35	73	40	74	1.000	0.527	7.782E-01	7.435E-01	4.215E-01	5.580E-01	70	AF-Q86QI5-F1-model_v6 Defensin
+MC05_hydroscapha_redfordi_1	AF-Q95WC9-F1-model_v6	0.200	40	1	40	33	67	40	84	1.000	0.417	8.817E-01	7.701E-01	3.912E-01	5.449E-01	70	AF-Q95WC9-F1-model_v6 Toxin CsE9
+MC05_hydroscapha_redfordi_1	AF-Q9C947-F1-model_v6	0.255	43	1	40	39	74	40	76	1.000	0.474	8.296E-01	7.380E-01	4.077E-01	5.444E-01	69	AF-Q9C947-F1-model_v6 Defensin-like protein 5
+MC05_hydroscapha_redfordi_1	AF-Q07502-F1-model_v6	0.261	42	1	40	38	72	40	74	1.000	0.473	8.379E-01	7.280E-01	4.139E-01	5.412E-01	67	AF-Q07502-F1-model_v6 Defensin-like protein
+MC05_hydroscapha_redfordi_1	AF-Q43413-F1-model_v6	0.209	43	1	40	37	72	40	75	1.000	0.480	8.204E-01	7.308E-01	4.103E-01	5.411E-01	68	AF-Q43413-F1-model_v6 Defensin J1-1
+MC05_hydroscapha_redfordi_1	AF-F8UWP3-F1-model_v6	0.250	40	1	40	33	65	40	83	1.000	0.398	9.161E-01	7.560E-01	3.818E-01	5.407E-01	70	AF-F8UWP3-F1-model_v6 Alpha-toxin CvIV4
+MC05_hydroscapha_redfordi_1	AF-Q68PG3-F1-model_v6	0.200	40	1	40	33	67	40	84	1.000	0.417	8.754E-01	7.637E-01	3.891E-01	5.403E-01	70	AF-Q68PG3-F1-model_v6 Toxin Cex12
+MC05_hydroscapha_redfordi_1	AF-Q9FFP8-F1-model_v6	0.255	43	1	40	36	71	40	73	1.000	0.493	8.104E-01	7.230E-01	4.183E-01	5.381E-01	67	AF-Q9FFP8-F1-model_v6 Defensin-like protein 6
+MC05_hydroscapha_redfordi_1	AF-C9X4J8-F1-model_v6	0.275	40	1	40	33	67	40	86	1.000	0.407	8.749E-01	7.623E-01	3.780E-01	5.364E-01	70	AF-C9X4J8-F1-model_v6 Toxin TdNa7
+MC05_hydroscapha_redfordi_1	AF-P60213-F1-model_v6	0.225	40	1	40	33	67	40	86	1.000	0.407	8.733E-01	7.616E-01	3.787E-01	5.350E-01	70	AF-P60213-F1-model_v6 Toxin To3
+MC05_hydroscapha_redfordi_1	AF-Q41914-F1-model_v6	0.232	43	1	40	40	75	40	77	1.000	0.468	8.197E-01	7.303E-01	4.001E-01	5.350E-01	68	AF-Q41914-F1-model_v6 Defensin-like protein 4
+MC05_hydroscapha_redfordi_1	AF-P31529-F1-model_v6	0.375	40	1	40	55	88	40	88	1.000	0.386	9.001E-01	7.640E-01	3.675E-01	5.334E-01	70	AF-P31529-F1-model_v6 Sapecin-B
+MC05_hydroscapha_redfordi_1	AF-Q39182-F1-model_v6	0.302	43	1	40	40	75	40	77	1.000	0.468	8.150E-01	7.265E-01	3.988E-01	5.324E-01	67	AF-Q39182-F1-model_v6 Defensin-like protein 2
+MC05_hydroscapha_redfordi_1	AF-Q9ZUL7-F1-model_v6	0.255	43	1	40	40	75	40	77	1.000	0.468	8.147E-01	7.255E-01	3.980E-01	5.323E-01	67	AF-Q9ZUL7-F1-model_v6 Defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P60212-F1-model_v6	0.275	40	1	40	34	68	40	87	1.000	0.402	8.721E-01	7.604E-01	3.738E-01	5.322E-01	70	AF-P60212-F1-model_v6 Alpha-toxin To2
+MC05_hydroscapha_redfordi_1	AF-Q40901-F1-model_v6	0.279	43	1	40	41	76	40	78	1.000	0.462	8.160E-01	7.273E-01	3.942E-01	5.308E-01	67	AF-Q40901-F1-model_v6 Defensin-like protein
+MC05_hydroscapha_redfordi_1	AF-P82784-F1-model_v6	0.232	43	1	40	40	75	40	82	1.000	0.439	8.293E-01	7.378E-01	3.792E-01	5.305E-01	69	AF-P82784-F1-model_v6 Defensin-like protein 7
+MC05_hydroscapha_redfordi_1	AF-O65740-F1-model_v6	0.255	43	1	40	37	72	40	74	1.000	0.486	8.030E-01	7.168E-01	4.104E-01	5.300E-01	66	AF-O65740-F1-model_v6 Defensin J1-2
+MC05_hydroscapha_redfordi_1	AF-P17722-F1-model_v6	0.477	44	1	40	42	83	40	95	1.000	0.442	7.909E-01	7.740E-01	3.542E-01	5.299E-01	71	AF-P17722-F1-model_v6 Defensin-1
+MC05_hydroscapha_redfordi_1	AF-Q8WRY4-F1-model_v6	0.200	40	1	40	33	67	40	84	1.000	0.417	8.544E-01	7.456E-01	3.802E-01	5.290E-01	68	AF-Q8WRY4-F1-model_v6 Toxin Cll9
+MC05_hydroscapha_redfordi_1	AF-P20346-F1-model_v6	0.255	43	1	40	37	72	40	74	1.000	0.486	8.001E-01	7.150E-01	4.104E-01	5.280E-01	65	AF-P20346-F1-model_v6 Defensin-like protein P322
+MC05_hydroscapha_redfordi_1	AF-C0HJQ4-F1-model_v6	0.200	40	1	40	28	59	40	61	1.000	0.525	8.213E-01	6.781E-01	4.717E-01	5.277E-01	60	AF-C0HJQ4-F1-model_v6 Potassium channel toxin alpha-KTx 3.18
+MC05_hydroscapha_redfordi_1	AF-Q1I163-F1-model_v6	0.250	40	1	40	33	67	40	86	1.000	0.407	8.577E-01	7.495E-01	3.751E-01	5.251E-01	68	AF-Q1I163-F1-model_v6 Toxin Td8
+MC05_hydroscapha_redfordi_1	AF-A3FPF2-F1-model_v6	0.232	43	1	40	40	75	40	77	1.000	0.468	8.044E-01	7.184E-01	3.966E-01	5.236E-01	66	AF-A3FPF2-F1-model_v6 Defensin-like protein
+MC05_hydroscapha_redfordi_1	AF-P82659-F1-model_v6	0.255	43	1	40	41	76	40	78	1.000	0.462	8.039E-01	7.180E-01	3.916E-01	5.219E-01	66	AF-P82659-F1-model_v6 Defensin SD2
+MC05_hydroscapha_redfordi_1	AF-P82785-F1-model_v6	0.272	44	1	40	41	77	40	86	1.000	0.430	8.042E-01	7.335E-01	3.613E-01	5.200E-01	68	AF-P82785-F1-model_v6 Putative defensin-like protein 9
+MC05_hydroscapha_redfordi_1	AF-A4L7R7-F1-model_v6	0.200	45	1	40	43	80	40	83	1.000	0.458	7.780E-01	7.270E-01	3.715E-01	5.196E-01	67	AF-A4L7R7-F1-model_v6 Defensin-1
+MC05_hydroscapha_redfordi_1	AF-A4L7R8-F1-model_v6	0.177	45	1	40	43	80	40	83	1.000	0.458	7.748E-01	7.244E-01	3.710E-01	5.161E-01	67	AF-A4L7R8-F1-model_v6 Defensin-2
+MC05_hydroscapha_redfordi_1	AF-A0A218QWY4-F1-model_v6	0.225	40	1	40	36	73	40	100	1.000	0.380	8.132E-01	7.626E-01	3.371E-01	5.109E-01	69	AF-A0A218QWY4-F1-model_v6 Putative sodium channel toxin Ts26
+MC05_hydroscapha_redfordi_1	AF-Q6K209-F1-model_v6	0.177	45	1	40	41	78	40	80	1.000	0.475	7.522E-01	7.048E-01	3.783E-01	5.055E-01	64	AF-Q6K209-F1-model_v6 Defensin-like protein CAL1
+MC05_hydroscapha_redfordi_1	AF-Q9ZUL8-F1-model_v6	0.261	42	1	40	38	71	40	73	1.000	0.466	7.978E-01	6.831E-01	4.004E-01	5.041E-01	62	AF-Q9ZUL8-F1-model_v6 Defensin-like protein 10
+MC05_hydroscapha_redfordi_1	AF-Q8H6Q1-F1-model_v6	0.186	43	1	40	35	70	40	103	1.000	0.350	8.191E-01	7.299E-01	3.030E-01	4.880E-01	67	AF-Q8H6Q1-F1-model_v6 Floral defensin-like protein 1
+MC05_hydroscapha_redfordi_1	AF-P32026-F1-model_v6	0.186	43	1	40	35	70	40	105	1.000	0.343	8.201E-01	7.304E-01	2.977E-01	4.873E-01	68	AF-P32026-F1-model_v6 Defensin-like protein
+MC05_hydroscapha_redfordi_1	AF-Q8GTM0-F1-model_v6	0.186	43	1	40	35	70	40	105	1.000	0.343	8.192E-01	7.297E-01	2.976E-01	4.868E-01	68	AF-Q8GTM0-F1-model_v6 Flower-specific defensin
+MC05_hydroscapha_redfordi_1	AF-Q8WQZ3-F1-model_v6	0.450	40	1	40	59	98	40	98	1.000	0.408	7.551E-01	7.418E-01	3.526E-01	4.808E-01	62	AF-Q8WQZ3-F1-model_v6 Defensin
+MC15_eophileurus_sp_2	AF-B4YSU8-F1-model_v6	0.105	38	1	31	36	71	33	74	0.939	0.486	5.302E-01	5.116E-01	3.013E-01	3.232E-01	37	AF-B4YSU8-F1-model_v6 Conotoxin ca17a
+MC15_eophileurus_sp_2	AF-P0DV95-F1-model_v6	0.189	37	1	33	50	84	33	84	1.000	0.417	5.156E-01	5.100E-01	2.775E-01	3.194E-01	38	AF-P0DV95-F1-model_v6 Mu-Sparatoxin-Hp1
+MC15_eophileurus_sp_2	AF-D2Y2M1-F1-model_v6	0.242	33	4	32	52	84	33	87	0.879	0.379	4.892E-01	4.700E-01	2.527E-01	2.798E-01	33	AF-D2Y2M1-F1-model_v6 U3-theraphotoxin-Hhn1a 12
+MC15_eophileurus_sp_2	AF-D2Y2N0-F1-model_v6	0.205	34	3	32	51	84	33	87	0.909	0.391	4.817E-01	4.656E-01	2.541E-01	2.759E-01	32	AF-D2Y2N0-F1-model_v6 U3-theraphotoxin-Hhn1a 17
+MC15_eophileurus_sp_2	AF-D2Y2M0-F1-model_v6	0.200	35	2	31	52	84	33	87	0.909	0.379	4.729E-01	4.580E-01	2.480E-01	2.712E-01	31	AF-D2Y2M0-F1-model_v6 U3-theraphotoxin-Hhn1q
+MC15_eophileurus_sp_2	AF-D2Y2G4-F1-model_v6	0.194	36	1	31	51	84	33	87	0.939	0.391	4.705E-01	4.579E-01	2.491E-01	2.705E-01	31	AF-D2Y2G4-F1-model_v6 U3-theraphotoxin-Hhn1a 9
+MC15_eophileurus_sp_2	AF-D2Y2M8-F1-model_v6	0.200	35	2	31	52	84	33	87	0.909	0.379	4.752E-01	4.595E-01	2.478E-01	2.699E-01	31	AF-D2Y2M8-F1-model_v6 U3-theraphotoxin-Hhn1a 16
+MC15_eophileurus_sp_2	AF-D2Y2M6-F1-model_v6	0.200	35	2	31	52	84	33	87	0.909	0.379	4.701E-01	4.558E-01	2.472E-01	2.699E-01	31	AF-D2Y2M6-F1-model_v6 U3-theraphotoxin-Hhn1a 15
+MC15_eophileurus_sp_2	AF-D2Y2N6-F1-model_v6	0.111	36	1	32	51	84	33	87	0.970	0.391	4.532E-01	4.487E-01	2.582E-01	2.686E-01	30	AF-D2Y2N6-F1-model_v6 U3-theraphotoxin-Hhn1h
+MC15_eophileurus_sp_2	AF-A0A346CED7-F1-model_v6	0.160	25	11	30	45	68	33	68	0.606	0.353	4.247E-01	3.863E-01	2.240E-01	2.632E-01	31	AF-A0A346CED7-F1-model_v6 Conotoxin Am6.8
+MC15_eophileurus_sp_2	AF-Q8T1V4-F1-model_v6	0.147	34	6	33	45	78	33	85	0.848	0.400	3.975E-01	3.824E-01	2.178E-01	2.335E-01	27	AF-Q8T1V4-F1-model_v6 Small ribosomal subunit protein eS27
+MC15_eophileurus_sp_2	AF-P52677-F1-model_v6	0.033	60	2	33	10	67	33	311	0.970	0.186	4.497E-01	4.429E-01	8.261E-02	2.029E-01	32	AF-P52677-F1-model_v6 Probable hydrogen peroxide-inducible genes activator
+MC15_eophileurus_sp_2	AF-Q8CBG9-4-F1-model_v6	0.027	36	6	33	110	138	33	142	0.848	0.204	3.587E-01	3.428E-01	1.219E-01	1.768E-01	23	AF-Q8CBG9-4-F1-model_v6 E3 ubiquitin-protein ligase RNF170
+MC15_eophileurus_sp_2	AF-B5FR78-F1-model_v6	0.021	142	1	33	103	238	33	427	1.000	0.319	4.017E-01	3.995E-01	5.484E-02	1.705E-01	28	AF-B5FR78-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-D2BGI6-F1-model_v6	0.046	43	1	33	126	156	33	449	1.000	0.069	3.778E-01	3.616E-01	4.234E-02	1.696E-01	29	AF-D2BGI6-F1-model_v6 Protein translocase subunit SecD
+MC15_eophileurus_sp_2	AF-B1JRZ6-F1-model_v6	0.018	106	2	32	3	102	33	432	0.939	0.231	3.582E-01	3.475E-01	4.966E-02	1.477E-01	24	AF-B1JRZ6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A8AD60-F1-model_v6	0.030	97	2	32	2	94	33	427	0.939	0.218	3.600E-01	3.528E-01	5.298E-02	1.475E-01	24	AF-A8AD60-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-P58473-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.545E-01	3.482E-01	5.287E-02	1.436E-01	23	AF-P58473-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q8FF47-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.544E-01	3.481E-01	5.289E-02	1.435E-01	23	AF-Q8FF47-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7NRH2-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.544E-01	3.481E-01	5.287E-02	1.434E-01	23	AF-B7NRH2-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q1R8K9-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.543E-01	3.480E-01	5.288E-02	1.434E-01	23	AF-Q1R8K9-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q32D41-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.542E-01	3.480E-01	5.288E-02	1.434E-01	23	AF-Q32D41-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B5Z0Z6-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.542E-01	3.480E-01	5.287E-02	1.433E-01	23	AF-B5Z0Z6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7LKB6-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.542E-01	3.480E-01	5.288E-02	1.433E-01	23	AF-B7LKB6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7N6B0-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.542E-01	3.480E-01	5.287E-02	1.433E-01	23	AF-B7N6B0-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7MYF7-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.541E-01	3.479E-01	5.288E-02	1.433E-01	23	AF-B7MYF7-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q83QK5-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.539E-01	3.476E-01	5.284E-02	1.433E-01	23	AF-Q83QK5-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B6I595-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.544E-01	3.481E-01	5.288E-02	1.433E-01	23	AF-B6I595-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7LDB5-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.539E-01	3.476E-01	5.283E-02	1.433E-01	23	AF-B7LDB5-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7M7M6-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.541E-01	3.479E-01	5.288E-02	1.433E-01	23	AF-B7M7M6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7MI07-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.541E-01	3.479E-01	5.289E-02	1.433E-01	23	AF-B7MI07-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A1AE61-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.536E-01	3.474E-01	5.284E-02	1.432E-01	23	AF-A1AE61-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A7ZPW6-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.538E-01	3.476E-01	5.284E-02	1.432E-01	23	AF-A7ZPW6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q0T1Z6-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.540E-01	3.478E-01	5.289E-02	1.432E-01	23	AF-Q0T1Z6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q31XW7-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.537E-01	3.474E-01	5.284E-02	1.432E-01	23	AF-Q31XW7-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B1LNH8-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.536E-01	3.474E-01	5.282E-02	1.432E-01	23	AF-B1LNH8-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q0TEW2-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.538E-01	3.476E-01	5.287E-02	1.431E-01	23	AF-Q0TEW2-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B2TXU8-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.538E-01	3.476E-01	5.286E-02	1.431E-01	23	AF-B2TXU8-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B7UGW9-F1-model_v6	0.041	97	2	32	2	94	33	427	0.939	0.218	3.533E-01	3.471E-01	5.284E-02	1.429E-01	23	AF-B7UGW9-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B1IWD8-F1-model_v6	0.002	395	1	33	36	424	33	427	1.000	0.911	3.287E-01	3.277E-01	5.148E-02	1.394E-01	22	AF-B1IWD8-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q1CKA2-F1-model_v6	0.010	98	1	32	2	95	33	432	0.970	0.218	3.487E-01	3.444E-01	5.430E-02	1.391E-01	22	AF-Q1CKA2-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A8GHX6-F1-model_v6	0.014	69	1	33	278	336	33	431	1.000	0.137	2.981E-01	2.929E-01	4.416E-02	1.387E-01	23	AF-A8GHX6-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A4WDA4-F1-model_v6	0.000	329	1	30	110	428	33	428	0.909	0.745	3.410E-01	3.263E-01	4.199E-02	1.359E-01	23	AF-A4WDA4-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B5F1B3-F1-model_v6	0.005	392	1	33	36	418	33	427	1.000	0.897	3.270E-01	3.268E-01	4.818E-02	1.342E-01	22	AF-B5F1B3-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q8Z4N3-F1-model_v6	0.005	392	1	33	36	418	33	427	1.000	0.897	3.264E-01	3.262E-01	4.817E-02	1.339E-01	22	AF-Q8Z4N3-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-C0PYL4-F1-model_v6	0.005	392	1	33	36	418	33	427	1.000	0.897	3.263E-01	3.261E-01	4.817E-02	1.339E-01	22	AF-C0PYL4-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q3YZ29-F1-model_v6	0.002	396	1	33	36	424	33	427	1.000	0.911	3.296E-01	3.268E-01	5.077E-02	1.337E-01	21	AF-Q3YZ29-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A9MHK1-F1-model_v6	0.002	391	1	33	36	418	33	427	1.000	0.897	3.225E-01	3.198E-01	4.917E-02	1.333E-01	21	AF-A9MHK1-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q57LH5-F1-model_v6	0.005	393	1	33	36	418	33	427	1.000	0.897	3.268E-01	3.242E-01	4.688E-02	1.331E-01	22	AF-Q57LH5-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A9N1Y3-F1-model_v6	0.005	393	1	33	36	418	33	427	1.000	0.897	3.265E-01	3.239E-01	4.688E-02	1.328E-01	21	AF-A9N1Y3-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A8A329-F1-model_v6	0.000	320	1	21	110	427	33	427	0.636	0.745	2.879E-01	3.106E-01	3.973E-02	1.327E-01	22	AF-A8A329-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q9RF52-F1-model_v6	0.005	391	1	33	36	418	33	427	1.000	0.897	3.206E-01	3.180E-01	4.908E-02	1.321E-01	21	AF-Q9RF52-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B5RD05-F1-model_v6	0.068	44	7	33	8	45	33	427	0.818	0.089	3.240E-01	3.133E-01	4.296E-02	1.293E-01	21	AF-B5RD05-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B5R595-F1-model_v6	0.024	81	1	33	3	73	33	427	1.000	0.166	3.086E-01	3.065E-01	4.542E-02	1.286E-01	21	AF-B5R595-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-B5XNK4-F1-model_v6	0.031	32	7	30	5	28	33	428	0.727	0.056	3.195E-01	2.882E-01	3.330E-02	1.272E-01	22	AF-B5XNK4-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q1C5H7-F1-model_v6	0.009	110	1	33	3	98	33	432	1.000	0.222	3.012E-01	2.978E-01	3.916E-02	1.241E-01	20	AF-Q1C5H7-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-A7MU37-F1-model_v6	0.000	69	1	33	278	336	33	432	1.000	0.137	2.944E-01	2.917E-01	4.441E-02	1.214E-01	19	AF-A7MU37-F1-model_v6 Peptidase B
+MC15_eophileurus_sp_2	AF-Q7N231-F1-model_v6	0.012	82	1	33	3	74	33	431	1.000	0.167	2.990E-01	2.968E-01	4.534E-02	1.199E-01	19	AF-Q7N231-F1-model_v6 Peptidase B
+MC03_gaco00000000_1	AF-Q54KS5-F1-model_v6	0.083	48	14	59	1	48	67	70	0.687	0.686	7.960E-01	5.683E-01	5.468E-01	5.269E-01	53	AF-Q54KS5-F1-model_v6 Putative uncharacterized protein DDB_G0287145
+MC03_gaco00000000_1	AF-Q5SW75-3-F1-model_v6	0.033	120	6	62	27	138	67	140	0.851	0.800	6.507E-01	5.636E-01	2.959E-01	4.013E-01	51	AF-Q5SW75-3-F1-model_v6 Protein phosphatase Slingshot homolog 2
+MC03_gaco00000000_1	AF-B0G195-F1-model_v6	0.020	49	11	58	12	56	67	58	0.716	0.776	5.448E-01	4.214E-01	4.640E-01	3.732E-01	36	AF-B0G195-F1-model_v6 Uncharacterized protein DDB_G0292526
+MC03_gaco00000000_1	AF-Q9VYV9-F1-model_v6	0.004	206	1	60	7	207	67	238	0.896	0.845	6.680E-01	6.049E-01	2.016E-01	3.711E-01	54	AF-Q9VYV9-F1-model_v6 COMM domain-containing protein 10 homolog Vlet
+MC03_gaco00000000_1	AF-Q2TE74-F1-model_v6	0.040	125	2	67	295	417	67	482	0.985	0.255	7.052E-01	6.887E-01	1.201E-01	3.675E-01	61	AF-Q2TE74-F1-model_v6 Glutathione gamma-glutamylcysteinyltransferase 2
+MC03_gaco00000000_1	AF-F4J7A7-F1-model_v6	0.000	146	1	58	102	245	67	280	0.866	0.514	6.957E-01	6.118E-01	1.745E-01	3.643E-01	55	AF-F4J7A7-F1-model_v6 PsbP domain-containing protein 7, chloroplastic
+MC03_gaco00000000_1	AF-Q6YR05-F1-model_v6	0.020	50	13	59	12	60	67	171	0.701	0.287	7.319E-01	5.404E-01	2.355E-01	3.635E-01	49	AF-Q6YR05-F1-model_v6 Small ribosomal subunit protein uS5
+MC03_gaco00000000_1	AF-Q8L5T9-F1-model_v6	0.000	75	10	61	61	130	67	147	0.776	0.476	6.338E-01	5.199E-01	2.705E-01	3.616E-01	46	AF-Q8L5T9-F1-model_v6 Cysteine proteinase inhibitor 2
+MC03_gaco00000000_1	AF-O60493-3-F1-model_v6	0.010	93	16	67	27	113	67	113	0.776	0.770	5.654E-01	4.640E-01	3.058E-01	3.475E-01	41	AF-O60493-3-F1-model_v6 Sorting nexin-3
+MC03_gaco00000000_1	AF-B1JSJ3-F1-model_v6	0.000	48	14	60	1	45	67	198	0.701	0.227	7.161E-01	5.147E-01	1.968E-01	3.324E-01	47	AF-B1JSJ3-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-A7FG78-F1-model_v6	0.000	48	14	60	1	45	67	198	0.701	0.227	7.116E-01	5.123E-01	1.962E-01	3.306E-01	47	AF-A7FG78-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-A4TMK5-F1-model_v6	0.000	48	14	60	1	45	67	198	0.701	0.227	7.109E-01	5.110E-01	1.956E-01	3.300E-01	46	AF-A4TMK5-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-A1JL31-F1-model_v6	0.000	48	14	60	1	45	67	191	0.701	0.236	6.965E-01	5.052E-01	2.010E-01	3.295E-01	46	AF-A1JL31-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-Q9NSY0-2-F1-model_v6	0.006	295	5	62	1	289	67	293	0.866	0.986	6.320E-01	5.569E-01	1.541E-01	3.267E-01	50	AF-Q9NSY0-2-F1-model_v6 Nuclear receptor-binding protein 2
+MC03_gaco00000000_1	AF-O13511-F1-model_v6	0.065	46	17	61	10	51	67	128	0.672	0.328	6.393E-01	4.470E-01	2.596E-01	3.250E-01	40	AF-O13511-F1-model_v6 Uncharacterized protein YAL065C
+MC03_gaco00000000_1	AF-B8DBU4-F1-model_v6	0.022	131	1	59	356	484	67	512	0.881	0.252	6.718E-01	6.014E-01	1.003E-01	3.206E-01	54	AF-B8DBU4-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q75CI5-F1-model_v6	0.011	90	17	66	46	133	67	170	0.746	0.518	5.963E-01	4.857E-01	2.308E-01	3.184E-01	41	AF-Q75CI5-F1-model_v6 Ubiquitin-like-conjugating enzyme ATG10
+MC03_gaco00000000_1	AF-B3R0R7-F1-model_v6	0.064	62	7	60	39	99	67	599	0.806	0.102	7.294E-01	6.082E-01	8.337E-02	3.158E-01	54	AF-B3R0R7-F1-model_v6 ATP-dependent zinc metalloprotease FtsH 3
+MC03_gaco00000000_1	AF-Q9NSY0-4-F1-model_v6	0.048	62	10	67	207	263	67	324	0.866	0.176	6.252E-01	5.454E-01	1.407E-01	3.139E-01	49	AF-Q9NSY0-4-F1-model_v6 Nuclear receptor-binding protein 2
+MC03_gaco00000000_1	AF-Q1CK00-F1-model_v6	0.000	48	14	60	1	45	67	198	0.701	0.227	6.678E-01	4.864E-01	1.894E-01	3.135E-01	44	AF-Q1CK00-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-Q8TYB1-F1-model_v6	0.031	161	1	59	322	478	67	499	0.881	0.315	6.530E-01	5.857E-01	9.969E-02	3.135E-01	52	AF-Q8TYB1-F1-model_v6 Probable 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q668I3-F1-model_v6	0.000	47	14	60	1	45	67	198	0.701	0.227	6.663E-01	4.856E-01	1.908E-01	3.133E-01	44	AF-Q668I3-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-Q3AEQ5-F1-model_v6	0.019	154	1	59	333	483	67	509	0.881	0.297	6.535E-01	5.860E-01	9.842E-02	3.127E-01	52	AF-Q3AEQ5-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q74SF4-F1-model_v6	0.000	47	14	60	1	45	67	198	0.701	0.227	6.640E-01	4.818E-01	1.903E-01	3.125E-01	44	AF-Q74SF4-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-B3DX88-F1-model_v6	0.019	155	1	59	339	489	67	506	0.881	0.298	6.551E-01	5.856E-01	9.827E-02	3.122E-01	52	AF-B3DX88-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-A8GHJ1-F1-model_v6	0.000	48	14	60	1	45	67	191	0.701	0.236	6.561E-01	4.792E-01	1.936E-01	3.118E-01	43	AF-A8GHJ1-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-Q92A28-F1-model_v6	0.015	133	1	59	356	484	67	512	0.881	0.252	6.549E-01	5.855E-01	9.711E-02	3.114E-01	52	AF-Q92A28-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q54LF2-F1-model_v6	0.061	49	19	67	47	88	67	88	0.731	0.477	5.222E-01	3.898E-01	3.206E-01	3.086E-01	33	AF-Q54LF2-F1-model_v6 HssA/B-like protein 61
+MC03_gaco00000000_1	AF-Q8ZH34-F1-model_v6	0.008	113	9	57	45	156	67	260	0.731	0.431	6.509E-01	5.113E-01	1.596E-01	3.064E-01	45	AF-Q8ZH34-F1-model_v6 UPF0294 protein YPO1077/y3099/YP_2772
+MC03_gaco00000000_1	AF-Q2TE74-2-F1-model_v6	0.031	129	2	67	289	411	67	477	0.985	0.258	5.909E-01	5.797E-01	1.109E-01	3.046E-01	50	AF-Q2TE74-2-F1-model_v6 Glutathione gamma-glutamylcysteinyltransferase 2
+MC03_gaco00000000_1	AF-Q8IWN6-F1-model_v6	0.044	45	16	58	1	45	67	122	0.642	0.369	5.583E-01	4.211E-01	2.655E-01	3.044E-01	36	AF-Q8IWN6-F1-model_v6 Protein FAM223A
+MC03_gaco00000000_1	AF-Q57LN3-F1-model_v6	0.021	92	15	63	1	89	67	191	0.731	0.466	5.959E-01	4.685E-01	1.958E-01	3.032E-01	41	AF-Q57LN3-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-O78437-F1-model_v6	0.037	107	10	63	184	288	67	414	0.806	0.254	6.515E-01	5.429E-01	1.101E-01	3.032E-01	49	AF-O78437-F1-model_v6 Cytochrome c biogenesis protein Ccs1
+MC03_gaco00000000_1	AF-Q08D85-F1-model_v6	0.022	88	12	63	11	93	67	231	0.776	0.359	5.997E-01	4.935E-01	1.737E-01	3.030E-01	43	AF-Q08D85-F1-model_v6 PX domain-containing protein 1
+MC03_gaco00000000_1	AF-Q8JZU6-2-F1-model_v6	0.022	88	12	63	11	92	67	224	0.776	0.366	5.975E-01	4.902E-01	1.761E-01	3.024E-01	43	AF-Q8JZU6-2-F1-model_v6 PX domain-containing protein 1
+MC03_gaco00000000_1	AF-Q7CQ25-F1-model_v6	0.021	92	15	63	1	89	67	191	0.731	0.466	5.941E-01	4.673E-01	1.955E-01	3.024E-01	41	AF-Q7CQ25-F1-model_v6 GDP-mannose pyrophosphatase
+MC03_gaco00000000_1	AF-Q8JZU6-F1-model_v6	0.022	87	12	62	11	92	67	231	0.761	0.355	6.068E-01	4.908E-01	1.720E-01	3.014E-01	43	AF-Q8JZU6-F1-model_v6 PX domain-containing protein 1
+MC03_gaco00000000_1	AF-Q46J48-F1-model_v6	0.051	98	12	63	200	294	67	426	0.776	0.223	6.653E-01	5.350E-01	1.022E-01	3.006E-01	50	AF-Q46J48-F1-model_v6 Cytochrome c biogenesis protein CcsB
+MC03_gaco00000000_1	AF-A2C4K5-F1-model_v6	0.042	94	14	62	202	293	67	426	0.731	0.216	7.011E-01	5.320E-01	9.961E-02	2.997E-01	50	AF-A2C4K5-F1-model_v6 Cytochrome c biogenesis protein CcsB
+MC03_gaco00000000_1	AF-A5GNE2-F1-model_v6	0.017	115	14	63	202	314	67	430	0.746	0.263	6.875E-01	5.324E-01	1.005E-01	2.995E-01	50	AF-A5GNE2-F1-model_v6 Cytochrome c biogenesis protein CcsB
+MC03_gaco00000000_1	AF-Q5TGL8-F1-model_v6	0.021	95	9	63	6	92	67	231	0.821	0.377	5.672E-01	4.869E-01	1.717E-01	2.981E-01	43	AF-Q5TGL8-F1-model_v6 PX domain-containing protein 1
+MC03_gaco00000000_1	AF-Q0I7P7-F1-model_v6	0.017	116	13	63	201	314	67	435	0.761	0.262	6.752E-01	5.308E-01	1.006E-01	2.980E-01	49	AF-Q0I7P7-F1-model_v6 Cytochrome c biogenesis protein CcsB
+MC03_gaco00000000_1	AF-Q9UNH6-2-F1-model_v6	0.000	78	15	66	31	106	67	336	0.776	0.226	6.194E-01	5.092E-01	1.278E-01	2.894E-01	45	AF-Q9UNH6-2-F1-model_v6 Sorting nexin-7
+MC03_gaco00000000_1	AF-Q5ZJJ2-F1-model_v6	0.032	93	9	63	458	546	67	614	0.821	0.145	6.529E-01	5.538E-01	7.648E-02	2.878E-01	50	AF-Q5ZJJ2-F1-model_v6 Replication protein A 70 kDa DNA-binding subunit
+MC03_gaco00000000_1	AF-Q8NB91-F1-model_v6	0.009	331	9	67	65	392	67	859	0.881	0.382	6.453E-01	5.812E-01	6.027E-02	2.877E-01	51	AF-Q8NB91-F1-model_v6 Fanconi anemia group B protein
+MC03_gaco00000000_1	AF-Q4KLK8-F1-model_v6	0.011	88	12	63	10	92	67	231	0.776	0.359	5.606E-01	4.676E-01	1.686E-01	2.853E-01	40	AF-Q4KLK8-F1-model_v6 PX domain-containing protein 1
+MC03_gaco00000000_1	AF-O30020-F1-model_v6	0.001	100	9	59	386	480	67	503	0.761	0.189	6.702E-01	5.281E-01	8.443E-02	2.853E-01	48	AF-O30020-F1-model_v6 Probable 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q9Y5W8-2-F1-model_v6	0.015	321	15	67	558	877	67	957	0.791	0.334	6.983E-01	5.751E-01	5.162E-02	2.848E-01	51	AF-Q9Y5W8-2-F1-model_v6 Sorting nexin-13
+MC03_gaco00000000_1	AF-Q9NSY0-F1-model_v6	0.023	86	12	62	416	497	67	501	0.761	0.164	6.619E-01	5.256E-01	8.604E-02	2.823E-01	47	AF-Q9NSY0-F1-model_v6 Nuclear receptor-binding protein 2
+MC03_gaco00000000_1	AF-Q297L2-F1-model_v6	0.043	92	12	66	505	590	67	663	0.821	0.130	6.437E-01	5.426E-01	6.866E-02	2.823E-01	49	AF-Q297L2-F1-model_v6 Nuclear receptor-binding protein homolog
+MC03_gaco00000000_1	AF-Q91V36-F1-model_v6	0.022	87	11	62	413	495	67	499	0.776	0.166	6.496E-01	5.241E-01	8.730E-02	2.817E-01	47	AF-Q91V36-F1-model_v6 Nuclear receptor-binding protein 2
+MC03_gaco00000000_1	AF-P51984-F1-model_v6	0.018	160	12	63	27	180	67	249	0.776	0.618	5.660E-01	4.627E-01	1.534E-01	2.814E-01	41	AF-P51984-F1-model_v6 Cyclic AMP-responsive element-binding protein
+MC03_gaco00000000_1	AF-C1KWT1-F1-model_v6	0.007	133	1	59	356	485	67	512	0.881	0.254	5.972E-01	5.422E-01	9.755E-02	2.795E-01	46	AF-C1KWT1-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-P27694-F1-model_v6	0.068	58	7	60	314	366	67	616	0.806	0.086	6.451E-01	5.353E-01	7.369E-02	2.754E-01	47	AF-P27694-F1-model_v6 Replication protein A 70 kDa DNA-binding subunit
+MC03_gaco00000000_1	AF-Q4R8X0-F1-model_v6	0.011	88	12	62	438	519	67	535	0.761	0.153	6.468E-01	5.135E-01	7.835E-02	2.734E-01	46	AF-Q4R8X0-F1-model_v6 Nuclear receptor-binding protein
+MC03_gaco00000000_1	AF-Q9UNH6-F1-model_v6	0.037	79	16	67	30	105	67	387	0.776	0.196	6.020E-01	4.997E-01	1.118E-01	2.731E-01	43	AF-Q9UNH6-F1-model_v6 Sorting nexin-7
+MC03_gaco00000000_1	AF-Q9Y0Y6-F1-model_v6	0.045	87	12	62	489	570	67	637	0.761	0.129	6.570E-01	5.226E-01	6.766E-02	2.723E-01	47	AF-Q9Y0Y6-F1-model_v6 Nuclear receptor-binding protein homolog
+MC03_gaco00000000_1	AF-Q4R5U9-F1-model_v6	0.037	80	16	66	30	106	67	387	0.761	0.199	6.092E-01	4.951E-01	1.100E-01	2.718E-01	43	AF-Q4R5U9-F1-model_v6 Sorting nexin-7
+MC03_gaco00000000_1	AF-B1I1Y1-F1-model_v6	0.013	151	1	60	338	484	67	509	0.896	0.289	5.707E-01	5.250E-01	9.662E-02	2.711E-01	44	AF-B1I1Y1-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q01588-F1-model_v6	0.021	274	3	60	90	357	67	609	0.866	0.440	5.909E-01	5.274E-01	7.682E-02	2.710E-01	46	AF-Q01588-F1-model_v6 Replication protein A 70 kDa DNA-binding subunit
+MC03_gaco00000000_1	AF-Q10Q08-F1-model_v6	0.040	49	12	60	199	246	67	630	0.731	0.076	6.798E-01	5.251E-01	7.078E-02	2.700E-01	47	AF-Q10Q08-F1-model_v6 Replication protein A 70 kDa DNA-binding subunit B
+MC03_gaco00000000_1	AF-Q9CY18-F1-model_v6	0.037	79	16	67	30	105	67	387	0.776	0.196	5.932E-01	4.940E-01	1.114E-01	2.696E-01	43	AF-Q9CY18-F1-model_v6 Sorting nexin-7
+MC03_gaco00000000_1	AF-P11031-F1-model_v6	0.017	56	20	65	67	115	67	127	0.687	0.386	4.809E-01	3.713E-01	2.267E-01	2.668E-01	32	AF-P11031-F1-model_v6 Activated RNA polymerase II transcriptional coactivator p15
+MC03_gaco00000000_1	AF-Q8THA5-F1-model_v6	0.025	160	1	60	339	494	67	515	0.896	0.303	5.557E-01	5.107E-01	9.406E-02	2.636E-01	43	AF-Q8THA5-F1-model_v6 Probable 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q9FG38-F1-model_v6	0.012	80	16	66	24	98	67	402	0.761	0.187	5.953E-01	4.819E-01	1.024E-01	2.635E-01	42	AF-Q9FG38-F1-model_v6 Sorting nexin 1
+MC03_gaco00000000_1	AF-A0LBW3-F1-model_v6	0.017	112	3	60	431	538	67	559	0.866	0.193	5.714E-01	5.119E-01	8.536E-02	2.624E-01	44	AF-A0LBW3-F1-model_v6 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q9SD40-F1-model_v6	0.003	309	2	63	42	344	67	370	0.925	0.819	5.090E-01	4.799E-01	1.243E-01	2.603E-01	40	AF-Q9SD40-F1-model_v6 Protein SHI RELATED SEQUENCE 1
+MC03_gaco00000000_1	AF-Q4A7B0-F1-model_v6	0.057	52	10	61	1175	1222	67	1412	0.776	0.034	6.824E-01	5.264E-01	3.250E-02	2.526E-01	47	AF-Q4A7B0-F1-model_v6 DNA-directed RNA polymerase subunit beta'
+MC03_gaco00000000_1	AF-Q5RDH5-F1-model_v6	0.037	135	9	65	403	529	67	554	0.851	0.229	5.532E-01	4.867E-01	7.921E-02	2.519E-01	42	AF-Q5RDH5-F1-model_v6 5'-AMP-activated protein kinase catalytic subunit alpha-1 (Fragment)
+MC03_gaco00000000_1	AF-Q5ZZS2-F1-model_v6	0.057	52	10	61	1175	1222	67	1412	0.776	0.034	6.809E-01	5.239E-01	3.247E-02	2.512E-01	47	AF-Q5ZZS2-F1-model_v6 DNA-directed RNA polymerase subunit beta'
+MC03_gaco00000000_1	AF-B0XS28-F1-model_v6	0.071	42	20	61	25	60	67	290	0.627	0.124	6.890E-01	4.255E-01	1.141E-01	2.506E-01	38	AF-B0XS28-F1-model_v6 Eukaryotic translation initiation factor 3 subunit G
+MC03_gaco00000000_1	AF-A5IZ52-F1-model_v6	0.076	52	10	61	1191	1238	67	1478	0.776	0.032	6.824E-01	5.268E-01	3.121E-02	2.503E-01	46	AF-A5IZ52-F1-model_v6 DNA-directed RNA polymerase subunit beta'
+MC03_gaco00000000_1	AF-P54646-F1-model_v6	0.045	87	8	65	403	480	67	552	0.866	0.141	5.405E-01	4.836E-01	7.915E-02	2.502E-01	42	AF-P54646-F1-model_v6 5'-AMP-activated protein kinase catalytic subunit alpha-2
+MC03_gaco00000000_1	AF-Q4A970-F1-model_v6	0.057	52	10	61	1175	1222	67	1412	0.776	0.034	6.772E-01	5.215E-01	3.252E-02	2.495E-01	46	AF-Q4A970-F1-model_v6 DNA-directed RNA polymerase subunit beta'
+MC03_gaco00000000_1	AF-Q13131-2-F1-model_v6	0.036	136	9	65	423	549	67	574	0.851	0.221	5.475E-01	4.831E-01	7.540E-02	2.490E-01	42	AF-Q13131-2-F1-model_v6 5'-AMP-activated protein kinase catalytic subunit alpha-1
+MC03_gaco00000000_1	AF-Q28948-F1-model_v6	0.016	369	10	64	167	526	67	552	0.821	0.652	5.603E-01	4.790E-01	7.545E-02	2.485E-01	42	AF-Q28948-F1-model_v6 5'-AMP-activated protein kinase catalytic subunit alpha-2
+MC03_gaco00000000_1	AF-Q5VWJ9-F1-model_v6	0.000	76	16	66	90	164	67	437	0.761	0.172	5.620E-01	4.677E-01	9.967E-02	2.475E-01	39	AF-Q5VWJ9-F1-model_v6 Sorting nexin-30
+MC03_gaco00000000_1	AF-Q4PSN8-F1-model_v6	0.017	340	1	61	18	342	67	410	0.910	0.793	4.873E-01	4.511E-01	9.682E-02	2.455E-01	39	AF-Q4PSN8-F1-model_v6 F-box protein At3g19890
+MC03_gaco00000000_1	AF-Q09137-F1-model_v6	0.037	134	9	64	403	526	67	552	0.836	0.225	5.433E-01	4.728E-01	7.546E-02	2.452E-01	41	AF-Q09137-F1-model_v6 5'-AMP-activated protein kinase catalytic subunit alpha-2
+MC03_gaco00000000_1	AF-Q6PHS6-F1-model_v6	0.037	79	14	64	556	632	67	957	0.761	0.080	6.111E-01	5.020E-01	4.815E-02	2.422E-01	43	AF-Q6PHS6-F1-model_v6 Sorting nexin-13
+MC03_gaco00000000_1	AF-Q4V7P7-F1-model_v6	0.012	78	15	66	104	180	67	452	0.776	0.170	5.426E-01	4.613E-01	9.659E-02	2.421E-01	39	AF-Q4V7P7-F1-model_v6 Sorting nexin-30
+MC03_gaco00000000_1	AF-F4IFN6-F1-model_v6	0.027	146	3	67	11	148	67	2138	0.970	0.065	5.507E-01	5.336E-01	2.533E-02	2.416E-01	45	AF-F4IFN6-F1-model_v6 DNA polymerase epsilon catalytic subunit B
+MC03_gaco00000000_1	AF-Q28E02-F1-model_v6	0.012	79	15	66	98	174	67	446	0.776	0.173	5.400E-01	4.584E-01	9.652E-02	2.414E-01	38	AF-Q28E02-F1-model_v6 Sorting nexin-30
+MC03_gaco00000000_1	AF-Q5PNP1-F1-model_v6	0.034	86	12	63	552	634	67	934	0.776	0.089	5.890E-01	4.829E-01	4.748E-02	2.408E-01	43	AF-Q5PNP1-F1-model_v6 Sorting nexin-14
+MC03_gaco00000000_1	AF-B3QZS3-F1-model_v6	0.018	110	1	64	35	127	67	686	0.955	0.136	4.803E-01	4.586E-01	6.138E-02	2.355E-01	41	AF-B3QZS3-F1-model_v6 ATP-dependent zinc metalloprotease FtsH 2
+MC03_gaco00000000_1	AF-P58968-F1-model_v6	0.028	104	8	59	396	495	67	516	0.776	0.194	5.400E-01	4.521E-01	8.142E-02	2.346E-01	38	AF-P58968-F1-model_v6 Probable 2-isopropylmalate synthase
+MC03_gaco00000000_1	AF-Q9VPH7-F1-model_v6	0.030	100	19	65	26	121	67	438	0.701	0.219	5.506E-01	4.261E-01	8.656E-02	2.288E-01	37	AF-Q9VPH7-F1-model_v6 Eukaryotic peptide chain release factor subunit 1
+MC03_gaco00000000_1	AF-Q5A029-F1-model_v6	0.033	89	3	65	720	792	67	941	0.940	0.078	4.359E-01	4.142E-01	4.494E-02	1.980E-01	35	AF-Q5A029-F1-model_v6 Cell wall protein IFF3
+MC03_gaco00000000_1	AF-P70399-F1-model_v6	0.002	839	1	67	458	1277	67	1969	1.000	0.416	4.252E-01	4.208E-01	2.269E-02	1.926E-01	36	AF-P70399-F1-model_v6 TP53-binding protein 1
+MC03_gaco00000000_1	AF-Q9GR88-F1-model_v6	0.016	300	1	67	139	414	67	435	1.000	0.634	3.635E-01	3.601E-01	8.223E-02	1.888E-01	29	AF-Q9GR88-F1-model_v6 Eukaryotic peptide chain release factor subunit 1
+MC03_gaco00000000_1	AF-Q5A849-F1-model_v6	0.053	56	16	67	343	393	67	1225	0.776	0.042	4.774E-01	4.015E-01	3.502E-02	1.857E-01	33	AF-Q5A849-F1-model_v6 Hyphally regulated cell wall protein 4
+MC03_gaco00000000_1	AF-P35615-F1-model_v6	0.025	78	1	58	294	349	67	437	0.866	0.128	3.949E-01	3.455E-01	7.176E-02	1.842E-01	29	AF-P35615-F1-model_v6 Eukaryotic peptide chain release factor subunit 1
+MC03_gaco00000000_1	AF-Q59019-F1-model_v6	0.038	104	4	61	12	99	67	765	0.866	0.115	4.110E-01	3.698E-01	4.737E-02	1.834E-01	32	AF-Q59019-F1-model_v6 Uncharacterized protein MJ1626
+MC03_gaco00000000_1	AF-Q59XA7-F1-model_v6	0.005	192	1	65	44	213	67	1249	0.970	0.136	3.530E-01	3.434E-01	3.085E-02	1.573E-01	28	AF-Q59XA7-F1-model_v6 Hyphally regulated cell wall protein 3
+MC01_gjbk00000000_1	AF-B3A0N9-F1-model_v6	0.514	35	8	41	2	35	42	36	0.810	0.944	7.430E-01	6.141E-01	6.953E-01	5.833E-01	55	AF-B3A0N9-F1-model_v6 Serine protease inhibitor 2
+MC01_gjbk00000000_1	AF-A0A7M6UNN1-F1-model_v6	0.309	42	5	40	37	78	42	80	0.857	0.525	7.330E-01	6.368E-01	3.670E-01	4.618E-01	57	AF-A0A7M6UNN1-F1-model_v6 Small pacifastin protease inhibitor
+MC01_gjbk00000000_1	AF-P80060-F1-model_v6	0.600	30	9	38	59	88	42	92	0.714	0.326	8.387E-01	6.160E-01	2.985E-01	4.393E-01	58	AF-P80060-F1-model_v6 Protease inhibitors
+MC01_gjbk00000000_1	AF-A0A6B9L3M7-F1-model_v6	0.545	33	9	41	61	93	42	96	0.786	0.344	7.766E-01	6.198E-01	2.966E-01	4.375E-01	58	AF-A0A6B9L3M7-F1-model_v6 U-reduvitoxin-Pr12a
+MC01_gjbk00000000_1	AF-O46162-F1-model_v6	0.600	30	9	38	59	88	42	92	0.714	0.326	8.300E-01	6.118E-01	2.974E-01	4.371E-01	58	AF-O46162-F1-model_v6 Serine protease inhibitor I/II
+MC01_gjbk00000000_1	AF-A0A6B9KZ59-F1-model_v6	0.600	30	9	38	60	89	42	139	0.714	0.216	8.370E-01	6.126E-01	2.007E-01	3.881E-01	57	AF-A0A6B9KZ59-F1-model_v6 U-reduvitoxin-Pr21
+MC01_gjbk00000000_1	AF-Q9I8Q3-F1-model_v6	0.171	35	8	41	120	152	42	193	0.810	0.171	8.072E-01	6.501E-01	1.578E-01	3.738E-01	59	AF-Q9I8Q3-F1-model_v6 Cryptic protein
+MC01_gjbk00000000_1	AF-A0A087WT01-F1-model_v6	0.166	36	6	40	64	98	42	109	0.833	0.321	6.198E-01	5.446E-01	2.557E-01	3.506E-01	46	AF-A0A087WT01-F1-model_v6 T cell receptor alpha variable 27
+MC01_gjbk00000000_1	AF-Q6KZ41-F1-model_v6	0.034	29	12	40	57	85	42	91	0.690	0.319	6.472E-01	4.974E-01	2.630E-01	3.409E-01	43	AF-Q6KZ41-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-O30127-F1-model_v6	0.107	28	11	38	72	99	42	107	0.667	0.262	6.647E-01	4.986E-01	2.247E-01	3.273E-01	43	AF-O30127-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-A3CX01-F1-model_v6	0.034	29	11	39	74	102	42	105	0.690	0.276	6.425E-01	4.964E-01	2.311E-01	3.265E-01	43	AF-A3CX01-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-B8GET9-F1-model_v6	0.032	31	11	40	74	103	42	106	0.714	0.283	6.304E-01	4.969E-01	2.289E-01	3.237E-01	42	AF-B8GET9-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-Q01453-F1-model_v6	0.076	52	1	42	22	67	42	160	1.000	0.287	5.477E-01	5.390E-01	1.825E-01	3.182E-01	46	AF-Q01453-F1-model_v6 Peripheral myelin protein 22
+MC01_gjbk00000000_1	AF-Q12VV9-F1-model_v6	0.071	28	11	38	78	105	42	108	0.667	0.259	6.417E-01	4.833E-01	2.189E-01	3.161E-01	42	AF-Q12VV9-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-P38565-F1-model_v6	0.092	54	6	42	174	227	42	398	0.881	0.136	6.778E-01	6.116E-01	8.547E-02	3.084E-01	53	AF-P38565-F1-model_v6 Integumentary mucin B.1 (Fragment)
+MC01_gjbk00000000_1	AF-Q2NGR3-F1-model_v6	0.074	27	12	38	75	101	42	104	0.643	0.260	6.174E-01	4.693E-01	2.227E-01	3.060E-01	40	AF-Q2NGR3-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-A7I9J3-F1-model_v6	0.034	29	12	39	75	102	42	104	0.667	0.269	5.865E-01	4.620E-01	2.214E-01	3.036E-01	39	AF-A7I9J3-F1-model_v6 Ribonuclease P protein component 4
+MC01_gjbk00000000_1	AF-Q58D84-F1-model_v6	0.179	39	7	42	234	269	42	307	0.857	0.117	6.422E-01	5.701E-01	1.001E-01	2.928E-01	48	AF-Q58D84-F1-model_v6 Follistatin-related protein 1
+MC01_gjbk00000000_1	AF-Q5V323-F1-model_v6	0.038	26	12	37	109	134	42	134	0.619	0.194	6.478E-01	4.624E-01	1.694E-01	2.888E-01	41	AF-Q5V323-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-Q3E7D1-F1-model_v6	0.036	109	8	42	165	271	42	403	0.833	0.266	6.672E-01	5.784E-01	7.710E-02	2.869E-01	49	AF-Q3E7D1-F1-model_v6 F-box protein At2g40925
+MC01_gjbk00000000_1	AF-Q24025-F1-model_v6	0.132	53	6	42	747	796	42	1038	0.881	0.048	6.843E-01	6.098E-01	3.151E-02	2.852E-01	53	AF-Q24025-F1-model_v6 Dorsal-ventral patterning protein Sog
+MC01_gjbk00000000_1	AF-Q5R9Y1-F1-model_v6	0.184	38	7	41	233	267	42	306	0.833	0.114	6.320E-01	5.509E-01	9.672E-02	2.827E-01	47	AF-Q5R9Y1-F1-model_v6 Follistatin-related protein 1
+MC01_gjbk00000000_1	AF-Q9LMB0-F1-model_v6	0.031	63	6	42	63	125	42	350	0.881	0.180	6.170E-01	5.610E-01	9.360E-02	2.805E-01	46	AF-Q9LMB0-F1-model_v6 Putative F-box protein At1g19160
+MC01_gjbk00000000_1	AF-Q62356-F1-model_v6	0.263	38	7	42	233	268	42	306	0.857	0.118	6.146E-01	5.514E-01	1.019E-01	2.801E-01	46	AF-Q62356-F1-model_v6 Follistatin-related protein 1
+MC01_gjbk00000000_1	AF-Q97W59-F1-model_v6	0.035	28	12	38	113	139	42	139	0.643	0.194	6.135E-01	4.544E-01	1.628E-01	2.781E-01	39	AF-Q97W59-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-Q974Z6-F1-model_v6	0.071	28	12	38	113	139	42	139	0.643	0.194	6.111E-01	4.520E-01	1.627E-01	2.778E-01	39	AF-Q974Z6-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-A4YEI1-F1-model_v6	0.071	28	12	38	114	140	42	140	0.643	0.193	6.107E-01	4.520E-01	1.616E-01	2.773E-01	39	AF-A4YEI1-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-C3NMA3-F1-model_v6	0.076	26	12	37	113	138	42	139	0.619	0.187	6.063E-01	4.500E-01	1.625E-01	2.739E-01	39	AF-C3NMA3-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-Q980K2-F1-model_v6	0.000	32	13	40	12	39	42	114	0.667	0.246	5.423E-01	4.236E-01	1.848E-01	2.704E-01	36	AF-Q980K2-F1-model_v6 Transcription factor S1
+MC01_gjbk00000000_1	AF-Q9VSK8-F1-model_v6	0.075	79	5	40	236	313	42	597	0.857	0.131	6.174E-01	5.400E-01	5.259E-02	2.684E-01	48	AF-Q9VSK8-F1-model_v6 Zinc finger CCCH domain-containing protein 3
+MC01_gjbk00000000_1	AF-Q97B05-F1-model_v6	0.045	66	7	42	142	207	42	208	0.857	0.317	5.260E-01	4.770E-01	1.423E-01	2.643E-01	39	AF-Q97B05-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-A3DNI8-F1-model_v6	0.017	113	1	38	29	132	42	142	0.905	0.732	4.837E-01	4.470E-01	1.682E-01	2.642E-01	36	AF-A3DNI8-F1-model_v6 Translation initiation factor 2 subunit beta
+MC01_gjbk00000000_1	AF-Q5I6B8-F1-model_v6	0.016	181	1	37	12	191	42	688	0.881	0.262	5.933E-01	5.428E-01	4.880E-02	2.467E-01	44	AF-Q5I6B8-F1-model_v6 Phosphatidylinositol 4-phosphate 5-kinase type-1 gamma
+MC01_gjbk00000000_1	AF-Q3ED78-F1-model_v6	0.076	26	12	37	147	172	42	470	0.619	0.055	6.492E-01	4.740E-01	5.257E-02	2.437E-01	43	AF-Q3ED78-F1-model_v6 Zinc finger CCCH domain-containing protein 7
+MC01_gjbk00000000_1	AF-Q6FNU4-F1-model_v6	0.018	106	5	42	127	232	42	1281	0.905	0.083	6.004E-01	5.555E-01	2.808E-02	2.429E-01	45	AF-Q6FNU4-F1-model_v6 Protein transport protein SEC31
+MC01_gjbk00000000_1	AF-Q9Y7N7-F1-model_v6	0.002	447	12	42	31	477	42	538	0.738	0.831	6.176E-01	5.030E-01	5.352E-02	2.414E-01	42	AF-Q9Y7N7-F1-model_v6 Cytosolic Fe-S cluster assembly factor NAR1 homolog
+MC01_gjbk00000000_1	AF-Q8CEC0-2-F1-model_v6	0.004	417	13	41	61	477	42	747	0.690	0.558	6.443E-01	4.866E-01	3.618E-02	2.366E-01	43	AF-Q8CEC0-2-F1-model_v6 Nuclear pore complex protein Nup88
+MC01_gjbk00000000_1	AF-O82379-F1-model_v6	0.011	87	5	37	175	261	42	387	0.786	0.225	5.589E-01	4.757E-01	7.470E-02	2.364E-01	39	AF-O82379-F1-model_v6 F-box/LRR-repeat/kelch-repeat protein At2g29770
+MC01_gjbk00000000_1	AF-Q8CEC0-3-F1-model_v6	0.004	417	13	40	61	477	42	742	0.667	0.562	6.575E-01	4.869E-01	3.546E-02	2.362E-01	43	AF-Q8CEC0-3-F1-model_v6 Nuclear pore complex protein Nup88
+MC01_gjbk00000000_1	AF-P55991-F1-model_v6	0.000	42	9	38	693	734	42	736	0.714	0.057	6.012E-01	4.777E-01	3.801E-02	2.323E-01	42	AF-P55991-F1-model_v6 DNA topoisomerase 1
+MC01_gjbk00000000_1	AF-Q8CDE2-F1-model_v6	0.010	98	5	42	416	512	42	588	0.905	0.165	4.871E-01	4.633E-01	5.611E-02	2.270E-01	39	AF-Q8CDE2-F1-model_v6 Calicin
+MC01_gjbk00000000_1	AF-P70261-F1-model_v6	0.000	28	12	38	51	77	42	859	0.643	0.031	6.553E-01	4.737E-01	2.901E-02	2.253E-01	42	AF-P70261-F1-model_v6 Paladin
+MC01_gjbk00000000_1	AF-P13002-3-F1-model_v6	0.011	263	6	39	109	367	42	1302	0.810	0.199	5.450E-01	4.643E-01	2.175E-02	2.110E-01	40	AF-P13002-3-F1-model_v6 Protein grainyhead
+MC01_gjbk00000000_1	AF-A7GRN4-F1-model_v6	0.049	61	3	37	162	214	42	255	0.833	0.208	4.502E-01	4.029E-01	9.222E-02	2.066E-01	32	AF-A7GRN4-F1-model_v6 Cell division protein DivIB
+MC01_gjbk00000000_1	AF-P13002-F1-model_v6	0.064	31	12	38	195	225	42	1333	0.643	0.023	5.966E-01	4.504E-01	1.951E-02	2.038E-01	38	AF-P13002-F1-model_v6 Protein grainyhead
+MC01_gjbk00000000_1	AF-B3NKH7-F1-model_v6	0.005	376	12	42	37	409	42	477	0.738	0.782	5.082E-01	4.130E-01	5.325E-02	2.030E-01	35	AF-B3NKH7-F1-model_v6 Probable cytosolic Fe-S cluster assembly factor GG21400
+MC01_gjbk00000000_1	AF-Q803E0-F1-model_v6	0.037	27	12	38	39	65	42	860	0.643	0.031	5.371E-01	4.294E-01	2.959E-02	1.969E-01	36	AF-Q803E0-F1-model_v6 Paladin
+MC01_gjbk00000000_1	AF-Q6DIR8-F1-model_v6	0.000	78	8	38	3	77	42	872	0.738	0.086	4.954E-01	4.176E-01	2.978E-02	1.888E-01	34	AF-Q6DIR8-F1-model_v6 Paladin
+MC01_gjbk00000000_1	AF-Q06640-F1-model_v6	0.011	89	1	41	199	278	42	478	0.976	0.167	4.186E-01	4.084E-01	5.808E-02	1.852E-01	31	AF-Q06640-F1-model_v6 F-box protein YDR306C
+MC06_brassicogethes_aeneus_2	AF-P86794-F1-model_v6	0.114	35	1	33	6	38	33	41	1.000	0.805	6.674E-01	6.553E-01	5.661E-01	5.008E-01	51	AF-P86794-F1-model_v6 Trypsin inhibitor 2c
+MC06_brassicogethes_aeneus_2	AF-Q54I57-F1-model_v6	0.058	34	1	33	21	54	33	90	1.000	0.378	6.950E-01	6.842E-01	3.190E-01	4.082E-01	51	AF-Q54I57-F1-model_v6 c-Myc-binding protein homolog
+MC06_brassicogethes_aeneus_2	AF-Q99417-F1-model_v6	0.088	34	1	33	25	58	33	103	1.000	0.330	6.956E-01	6.847E-01	2.825E-01	3.935E-01	51	AF-Q99417-F1-model_v6 c-Myc-binding protein
+MC06_brassicogethes_aeneus_2	AF-Q2TBP7-F1-model_v6	0.088	34	1	33	25	58	33	103	1.000	0.330	6.948E-01	6.839E-01	2.823E-01	3.929E-01	51	AF-Q2TBP7-F1-model_v6 c-Myc-binding protein
+MC06_brassicogethes_aeneus_2	AF-Q9EQS3-F1-model_v6	0.088	34	1	33	25	58	33	103	1.000	0.330	6.950E-01	6.841E-01	2.823E-01	3.926E-01	51	AF-Q9EQS3-F1-model_v6 c-Myc-binding protein
+MC06_brassicogethes_aeneus_2	AF-Q5R7A8-F1-model_v6	0.088	34	1	33	25	58	33	103	1.000	0.330	6.949E-01	6.840E-01	2.824E-01	3.924E-01	51	AF-Q5R7A8-F1-model_v6 c-Myc-binding protein
+MC06_brassicogethes_aeneus_2	AF-Q5R4Z3-F1-model_v6	0.000	32	1	29	77	103	33	127	0.879	0.213	6.600E-01	5.619E-01	1.724E-01	3.333E-01	49	AF-Q5R4Z3-F1-model_v6 Mitochondrial pyruvate carrier 2
+MC06_brassicogethes_aeneus_2	AF-P78381-3-F1-model_v6	0.027	37	1	33	47	81	33	242	1.000	0.145	6.883E-01	6.754E-01	1.195E-01	3.309E-01	54	AF-P78381-3-F1-model_v6 UDP-galactose translocator
+MC06_brassicogethes_aeneus_2	AF-P0C047-F1-model_v6	0.000	33	1	29	33	62	33	104	0.879	0.288	6.080E-01	5.499E-01	2.156E-01	3.302E-01	45	AF-P0C047-F1-model_v6 Type VII secretion system extracellular protein B
+MC06_brassicogethes_aeneus_2	AF-O01578-F1-model_v6	0.031	32	1	29	76	102	33	133	0.879	0.203	6.642E-01	5.638E-01	1.650E-01	3.274E-01	49	AF-O01578-F1-model_v6 Probable mitochondrial pyruvate carrier 2
+MC06_brassicogethes_aeneus_2	AF-Q28UC6-F1-model_v6	0.025	40	1	33	154	193	33	193	1.000	0.207	6.566E-01	6.460E-01	1.525E-01	3.214E-01	49	AF-Q28UC6-F1-model_v6 ATP synthase subunit b 2
+MC06_brassicogethes_aeneus_2	AF-A6SZQ0-F1-model_v6	0.000	34	1	33	200	232	33	293	1.000	0.113	6.731E-01	6.622E-01	1.024E-01	3.060E-01	51	AF-A6SZQ0-F1-model_v6 Elongation factor Ts
+MC06_brassicogethes_aeneus_2	AF-Q04EL5-F1-model_v6	0.100	30	5	33	3	31	33	107	0.879	0.271	5.582E-01	5.142E-01	2.081E-01	3.015E-01	40	AF-Q04EL5-F1-model_v6 DNA-directed RNA polymerase subunit omega
+MC06_brassicogethes_aeneus_2	AF-Q18691-F1-model_v6	0.057	35	1	33	50	83	33	326	1.000	0.104	6.266E-01	6.155E-01	8.878E-02	2.907E-01	49	AF-Q18691-F1-model_v6 Protein FAM50 homolog
+MC06_brassicogethes_aeneus_2	AF-P38718-F1-model_v6	0.054	37	1	31	12	41	33	127	0.939	0.236	5.117E-01	4.730E-01	1.579E-01	2.862E-01	42	AF-P38718-F1-model_v6 Mitochondrial pyruvate carrier 2
+MC06_brassicogethes_aeneus_2	AF-Q5WSZ9-F1-model_v6	0.064	31	1	28	187	213	33	421	0.848	0.064	6.370E-01	5.433E-01	5.398E-02	2.636E-01	47	AF-Q5WSZ9-F1-model_v6 UPF0229 protein lpl2726
+MC06_brassicogethes_aeneus_2	AF-Q9I7K6-F1-model_v6	0.064	31	1	29	305	331	33	492	0.879	0.055	6.335E-01	5.467E-01	4.804E-02	2.589E-01	47	AF-Q9I7K6-F1-model_v6 Nuclear autoantigenic sperm protein homolog
+MC06_brassicogethes_aeneus_2	AF-Q5X186-F1-model_v6	0.000	110	1	33	269	372	33	421	1.000	0.247	5.478E-01	5.364E-01	5.904E-02	2.577E-01	45	AF-Q5X186-F1-model_v6 UPF0229 protein lpp2857
+MC06_brassicogethes_aeneus_2	AF-A5IHY4-F1-model_v6	0.129	31	1	28	186	212	33	420	0.848	0.064	6.185E-01	5.328E-01	5.368E-02	2.526E-01	45	AF-A5IHY4-F1-model_v6 UPF0229 protein LPC_3097
+MC06_brassicogethes_aeneus_2	AF-Q08A72-F1-model_v6	0.078	38	1	32	67	98	33	429	0.970	0.075	5.462E-01	5.238E-01	5.567E-02	2.524E-01	44	AF-Q08A72-F1-model_v6 Protein EMSY-LIKE 4
+MC06_brassicogethes_aeneus_2	AF-P0DTS9-F1-model_v6	0.035	57	1	33	145	198	33	280	1.000	0.193	5.335E-01	5.254E-01	9.344E-02	2.448E-01	39	AF-P0DTS9-F1-model_v6 NAD(+) hydrolase TirS
+MC06_brassicogethes_aeneus_2	AF-P37964-F1-model_v6	0.031	32	1	28	282	310	33	341	0.848	0.085	5.785E-01	5.230E-01	6.859E-02	2.388E-01	40	AF-P37964-F1-model_v6 Uncharacterized protein YsxE
+MC06_brassicogethes_aeneus_2	AF-P0A0A8-F1-model_v6	0.054	37	1	33	201	232	33	419	1.000	0.076	5.422E-01	5.280E-01	6.280E-02	2.233E-01	38	AF-P0A0A8-F1-model_v6 Aminoacyltransferase FemB
+MC06_brassicogethes_aeneus_2	AF-Q2FYR1-F1-model_v6	0.054	37	1	33	201	232	33	419	1.000	0.076	5.444E-01	5.304E-01	6.263E-02	2.220E-01	38	AF-Q2FYR1-F1-model_v6 Aminoacyltransferase FemB
+MC06_brassicogethes_aeneus_2	AF-Q2YXZ4-F1-model_v6	0.054	37	1	33	201	232	33	419	1.000	0.076	5.437E-01	5.298E-01	6.262E-02	2.210E-01	38	AF-Q2YXZ4-F1-model_v6 Aminoacyltransferase FemB
+MC06_brassicogethes_aeneus_2	AF-P95735-F1-model_v6	0.054	37	1	33	199	230	33	417	1.000	0.077	5.323E-01	5.195E-01	6.272E-02	2.161E-01	37	AF-P95735-F1-model_v6 Aminoacyltransferase FemB
+MC06_brassicogethes_aeneus_2	AF-Q5HPG5-F1-model_v6	0.054	37	1	33	199	230	33	417	1.000	0.077	5.261E-01	5.138E-01	6.268E-02	2.121E-01	36	AF-Q5HPG5-F1-model_v6 Aminoacyltransferase FemB
+MC18_ghma00000000_3	AF-U5KJZ2-F1-model_v6	0.008	120	1	53	37	139	53	194	1.000	0.531	4.989E-01	4.917E-01	1.626E-01	2.967E-01	43	AF-U5KJZ2-F1-model_v6 Lachesicidin
+MC18_ghma00000000_3	AF-Q03691-F1-model_v6	0.000	49	1	49	197	222	53	256	0.925	0.102	6.050E-01	3.694E-01	9.132E-02	2.117E-01	33	AF-Q03691-F1-model_v6 Protein ROT1
+MC21_heteronyx_sp_3	AF-Q10664-F1-model_v6	0.043	116	1	60	184	284	60	387	1.000	0.261	4.497E-01	4.461E-01	9.781E-02	2.355E-01	37	AF-Q10664-F1-model_v6 Dual specificity mitogen-activated protein kinase kinase mek-2
+MC21_heteronyx_sp_3	AF-Q941D1-2-F1-model_v6	0.057	70	5	50	66	123	60	148	0.767	0.392	3.957E-01	3.359E-01	1.718E-01	2.184E-01	27	AF-Q941D1-2-F1-model_v6 High mobility group B protein 12
+MC21_heteronyx_sp_3	AF-P16945-F1-model_v6	0.055	54	9	49	180	227	60	293	0.683	0.164	4.713E-01	3.630E-01	9.873E-02	2.051E-01	31	AF-P16945-F1-model_v6 Outer membrane protein YopN
+MC21_heteronyx_sp_3	AF-P68640-F1-model_v6	0.054	55	9	49	180	227	60	293	0.683	0.164	4.708E-01	3.627E-01	9.730E-02	2.043E-01	31	AF-P68640-F1-model_v6 Outer membrane protein YopN
+MC21_heteronyx_sp_3	AF-Q663K1-F1-model_v6	0.054	55	9	49	180	227	60	293	0.683	0.164	4.707E-01	3.626E-01	9.729E-02	2.042E-01	31	AF-Q663K1-F1-model_v6 Outer membrane protein YopN
+MC09_gdlg00000000_1	AF-P0DPW3-F1-model_v6	0.061	65	4	44	26	84	45	88	0.911	0.670	6.078E-01	5.567E-01	3.190E-01	4.000E-01	49	AF-P0DPW3-F1-model_v6 U-scoloptoxin(01)-Tl1a
+MC09_gdlg00000000_1	AF-O15428-F1-model_v6	0.150	40	8	38	9	47	45	100	0.689	0.390	5.077E-01	4.109E-01	2.251E-01	2.736E-01	33	AF-O15428-F1-model_v6 Putative PIN1-like protein
+MC09_gdlg00000000_1	AF-C3MTQ0-F1-model_v6	0.015	64	1	45	46	96	45	104	1.000	0.490	3.987E-01	3.935E-01	2.160E-01	2.556E-01	31	AF-C3MTQ0-F1-model_v6 Ribonuclease P protein component 4
+MC09_gdlg00000000_1	AF-Q5BIN5-F1-model_v6	0.142	35	8	38	9	40	45	163	0.689	0.196	5.007E-01	4.078E-01	1.460E-01	2.374E-01	33	AF-Q5BIN5-F1-model_v6 Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1
+MC09_gdlg00000000_1	AF-Q13526-F1-model_v6	0.138	36	8	38	9	40	45	163	0.689	0.196	5.074E-01	4.046E-01	1.420E-01	2.371E-01	33	AF-Q13526-F1-model_v6 Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1
+MC09_gdlg00000000_1	AF-Q9NZC7-3-F1-model_v6	0.024	82	8	44	20	91	45	189	0.822	0.381	4.549E-01	3.913E-01	1.186E-01	2.285E-01	34	AF-Q9NZC7-3-F1-model_v6 WW domain-containing oxidoreductase
+MC09_gdlg00000000_1	AF-O34952-F1-model_v6	0.023	126	1	42	477	597	45	649	0.933	0.186	4.939E-01	4.687E-01	5.120E-02	2.159E-01	38	AF-O34952-F1-model_v6 Lipoteichoic acid synthase 2
+MC09_gdlg00000000_1	AF-P12258-F1-model_v6	0.033	60	1	39	67	122	45	644	0.867	0.087	4.871E-01	4.442E-01	4.869E-02	2.049E-01	36	AF-P12258-F1-model_v6 Transposable element Hobo transposase
+MC09_gdlg00000000_1	AF-Q9FGK9-F1-model_v6	0.076	52	1	38	303	348	45	1350	0.844	0.034	5.089E-01	4.496E-01	2.264E-02	2.044E-01	38	AF-Q9FGK9-F1-model_v6 Protein transport protein SEC16A homolog
+MC09_gdlg00000000_1	AF-Q9N2Z7-2-F1-model_v6	0.010	390	8	45	223	604	45	792	0.844	0.482	4.905E-01	4.276E-01	3.469E-02	2.035E-01	37	AF-Q9N2Z7-2-F1-model_v6 E3 ubiquitin-protein ligase wwp-1
+MC09_gdlg00000000_1	AF-Q9NZC7-6-F1-model_v6	0.024	83	8	45	20	92	45	311	0.844	0.235	4.346E-01	3.864E-01	7.830E-02	2.034E-01	33	AF-Q9NZC7-6-F1-model_v6 WW domain-containing oxidoreductase
+MC09_gdlg00000000_1	AF-Q9N2Z7-4-F1-model_v6	0.000	33	8	37	81	110	45	505	0.667	0.059	5.237E-01	3.999E-01	4.853E-02	1.984E-01	34	AF-Q9N2Z7-4-F1-model_v6 E3 ubiquitin-protein ligase wwp-1
+MC09_gdlg00000000_1	AF-Q9N2Z7-3-F1-model_v6	0.000	33	8	37	83	111	45	507	0.667	0.057	5.243E-01	4.007E-01	4.776E-02	1.980E-01	34	AF-Q9N2Z7-3-F1-model_v6 E3 ubiquitin-protein ligase wwp-1
+MC09_gdlg00000000_1	AF-Q7TNL3-F1-model_v6	0.019	254	1	45	189	433	45	435	1.000	0.563	4.165E-01	4.116E-01	7.042E-02	1.937E-01	31	AF-Q7TNL3-F1-model_v6 Serine/threonine-protein kinase 40
+MC09_gdlg00000000_1	AF-Q7TNL4-F1-model_v6	0.010	277	1	45	42	307	45	435	1.000	0.611	4.045E-01	3.998E-01	6.762E-02	1.890E-01	31	AF-Q7TNL4-F1-model_v6 Serine/threonine-protein kinase 40
+MC09_gdlg00000000_1	AF-Q76N89-F1-model_v6	0.000	34	8	37	1022	1051	45	1606	0.667	0.019	5.387E-01	3.994E-01	1.550E-02	1.856E-01	35	AF-Q76N89-F1-model_v6 E3 ubiquitin-protein ligase HECW1
+MC09_gdlg00000000_1	AF-Q5R9W5-F1-model_v6	0.016	184	1	45	223	391	45	414	1.000	0.408	3.896E-01	3.847E-01	6.389E-02	1.842E-01	30	AF-Q5R9W5-F1-model_v6 WW domain-containing oxidoreductase
+MC09_gdlg00000000_1	AF-Q5HHW4-F1-model_v6	0.000	35	3	35	125	151	45	228	0.733	0.118	4.150E-01	3.425E-01	9.369E-02	1.828E-01	27	AF-Q5HHW4-F1-model_v6 Response regulator SaeR
+MC09_gdlg00000000_1	AF-Q9JLV1-F1-model_v6	0.037	79	3	44	420	486	45	577	0.933	0.116	4.112E-01	3.886E-01	4.634E-02	1.811E-01	31	AF-Q9JLV1-F1-model_v6 BAG family molecular chaperone regulator 3
+MC09_gdlg00000000_1	AF-Q7WH33-F1-model_v6	0.006	157	9	39	265	421	45	885	0.689	0.177	4.886E-01	4.028E-01	3.212E-02	1.791E-01	32	AF-Q7WH33-F1-model_v6 Leucine--tRNA ligase
+MC09_gdlg00000000_1	AF-O95817-F1-model_v6	0.037	79	4	44	415	482	45	575	0.911	0.118	4.049E-01	3.788E-01	4.650E-02	1.766E-01	30	AF-O95817-F1-model_v6 BAG family molecular chaperone regulator 3
+MC09_gdlg00000000_1	AF-Q02525-F1-model_v6	0.031	94	5	45	338	415	45	718	0.911	0.109	3.846E-01	3.585E-01	3.266E-02	1.659E-01	29	AF-Q02525-F1-model_v6 Zinc finger protein 39
+MC10_gdnw00000000_1	AF-O74092-F1-model_v6	0.054	37	1	33	3	37	33	67	1.000	0.522	6.563E-01	6.424E-01	3.645E-01	4.407E-01	54	AF-O74092-F1-model_v6 Archaeal histone B
+MC10_gdnw00000000_1	AF-Q9V1F5-F1-model_v6	0.054	37	1	33	3	37	33	67	1.000	0.522	6.554E-01	6.416E-01	3.642E-01	4.400E-01	54	AF-Q9V1F5-F1-model_v6 Archaeal histone B
+MC10_gdnw00000000_1	AF-P95669-F1-model_v6	0.054	37	1	33	3	37	33	67	1.000	0.522	6.538E-01	6.399E-01	3.629E-01	4.395E-01	54	AF-P95669-F1-model_v6 Archaeal histone HAN1 subunit A
+MC10_gdnw00000000_1	AF-P50486-F1-model_v6	0.027	37	1	33	3	37	33	67	1.000	0.522	6.533E-01	6.399E-01	3.665E-01	4.395E-01	53	AF-P50486-F1-model_v6 Archaeal histone B
+MC10_gdnw00000000_1	AF-Q60264-F1-model_v6	0.081	37	1	33	3	37	33	67	1.000	0.522	6.431E-01	6.299E-01	3.607E-01	4.291E-01	52	AF-Q60264-F1-model_v6 Probable archaeal histone 4
+MC10_gdnw00000000_1	AF-Q58342-F1-model_v6	0.081	37	1	33	3	37	33	67	1.000	0.522	6.387E-01	6.257E-01	3.593E-01	4.252E-01	51	AF-Q58342-F1-model_v6 Probable archaeal histone 2
+MC10_gdnw00000000_1	AF-Q57632-F1-model_v6	0.081	37	1	33	3	37	33	67	1.000	0.522	6.384E-01	6.255E-01	3.592E-01	4.252E-01	51	AF-Q57632-F1-model_v6 Probable archaeal histone 1
+MC04_gdmq00000000_1	AF-Q05676-F1-model_v6	0.088	34	1	33	25	57	36	74	0.917	0.446	7.252E-01	6.718E-01	3.734E-01	4.628E-01	57	AF-Q05676-F1-model_v6 Protein SOM1, mitochondrial
+MC04_gdmq00000000_1	AF-Q13361-2-F1-model_v6	0.097	41	1	36	79	118	36	163	1.000	0.245	7.706E-01	7.559E-01	2.013E-01	4.106E-01	62	AF-Q13361-2-F1-model_v6 Microfibrillar-associated protein 5
+MC04_gdmq00000000_1	AF-Q13361-F1-model_v6	0.100	40	1	36	89	128	36	173	1.000	0.231	7.619E-01	7.479E-01	1.929E-01	3.988E-01	60	AF-Q13361-F1-model_v6 Microfibrillar-associated protein 5
+MC04_gdmq00000000_1	AF-Q51946-F1-model_v6	0.000	30	1	29	14	43	36	52	0.806	0.577	5.756E-01	5.185E-01	4.090E-01	3.988E-01	43	AF-Q51946-F1-model_v6 Dibenzothiophene metabolism operon protein NahQ/DoxH (Fragment)
+MC04_gdmq00000000_1	AF-Q9QZJ6-F1-model_v6	0.025	78	1	36	82	158	36	164	1.000	0.470	7.019E-01	6.885E-01	1.888E-01	3.927E-01	60	AF-Q9QZJ6-F1-model_v6 Microfibrillar-associated protein 5
+MC04_gdmq00000000_1	AF-Q28022-F1-model_v6	0.012	78	1	35	88	164	36	170	0.972	0.453	6.901E-01	6.648E-01	1.784E-01	3.758E-01	57	AF-Q28022-F1-model_v6 Microfibrillar-associated protein 5
+MC04_gdmq00000000_1	AF-Q6AYK3-3-F1-model_v6	0.057	35	1	33	21	54	36	148	0.917	0.230	6.721E-01	6.270E-01	1.938E-01	3.668E-01	54	AF-Q6AYK3-3-F1-model_v6 Inositol-3-phosphate synthase 1
+MC04_gdmq00000000_1	AF-P27424-F1-model_v6	0.000	37	1	36	104	139	36	183	1.000	0.197	6.791E-01	6.672E-01	1.733E-01	3.611E-01	55	AF-P27424-F1-model_v6 Microfibrillar-associated protein 2
+MC04_gdmq00000000_1	AF-A5N6J2-F1-model_v6	0.040	25	4	28	56	80	36	88	0.694	0.284	7.006E-01	5.476E-01	2.520E-01	3.609E-01	47	AF-A5N6J2-F1-model_v6 Cell division topological specificity factor
+MC04_gdmq00000000_1	AF-P55001-3-F1-model_v6	0.000	36	1	33	74	107	36	153	0.917	0.222	6.877E-01	6.365E-01	1.838E-01	3.567E-01	53	AF-P55001-3-F1-model_v6 Microfibrillar-associated protein 2
+MC04_gdmq00000000_1	AF-P55001-2-F1-model_v6	0.000	37	1	36	103	138	36	182	1.000	0.198	6.634E-01	6.515E-01	1.726E-01	3.566E-01	54	AF-P55001-2-F1-model_v6 Microfibrillar-associated protein 2
+MC04_gdmq00000000_1	AF-P55002-F1-model_v6	0.000	37	1	36	104	139	36	183	1.000	0.197	6.625E-01	6.512E-01	1.719E-01	3.535E-01	54	AF-P55002-F1-model_v6 Microfibrillar-associated protein 2
+MC04_gdmq00000000_1	AF-Q8IW70-F1-model_v6	0.021	95	1	34	169	263	36	566	0.944	0.168	7.877E-01	7.396E-01	5.808E-02	3.502E-01	64	AF-Q8IW70-F1-model_v6 Transmembrane protein 151B
+MC04_gdmq00000000_1	AF-P55001-F1-model_v6	0.000	38	1	35	104	139	36	183	0.972	0.197	6.651E-01	6.409E-01	1.621E-01	3.497E-01	54	AF-P55001-F1-model_v6 Microfibrillar-associated protein 2
+MC04_gdmq00000000_1	AF-Q6GQT5-F1-model_v6	0.030	33	1	33	155	187	36	468	0.917	0.071	7.754E-01	7.156E-01	6.846E-02	3.408E-01	61	AF-Q6GQT5-F1-model_v6 Transmembrane protein 151A
+MC04_gdmq00000000_1	AF-A7RHB3-F1-model_v6	0.000	36	1	35	1	35	36	91	0.972	0.385	5.380E-01	5.259E-01	2.836E-01	3.381E-01	41	AF-A7RHB3-F1-model_v6 Protein SPATA45 homolog
+MC04_gdmq00000000_1	AF-Q8C088-F1-model_v6	0.004	478	1	36	50	523	36	590	1.000	0.803	7.105E-01	6.946E-01	5.144E-02	3.333E-01	61	AF-Q8C088-F1-model_v6 EGF-like and EMI domain-containing protein 1
+MC04_gdmq00000000_1	AF-P10257-F1-model_v6	0.031	32	1	31	29	59	36	137	0.861	0.226	5.758E-01	5.305E-01	1.865E-01	3.165E-01	45	AF-P10257-F1-model_v6 Gonadotropin subunit beta-1
+MC04_gdmq00000000_1	AF-Q57506-F1-model_v6	0.088	34	1	34	967	1000	36	1706	0.944	0.020	7.541E-01	7.125E-01	1.965E-02	3.155E-01	61	AF-Q57506-F1-model_v6 Bifunctional hemolysin/adenylate cyclase
+MC04_gdmq00000000_1	AF-Q96KG7-2-F1-model_v6	0.032	91	1	36	32	122	36	567	1.000	0.160	6.929E-01	6.799E-01	5.976E-02	3.154E-01	57	AF-Q96KG7-2-F1-model_v6 Multiple epidermal growth factor-like domains protein 10
+MC04_gdmq00000000_1	AF-P48252-F1-model_v6	0.031	32	1	31	29	59	36	137	0.861	0.226	5.641E-01	5.214E-01	1.855E-01	3.132E-01	44	AF-P48252-F1-model_v6 Gonadotropin subunit beta-1
+MC04_gdmq00000000_1	AF-A0JM12-F1-model_v6	0.033	90	1	36	31	120	36	1114	1.000	0.081	7.055E-01	6.918E-01	3.113E-02	3.100E-01	58	AF-A0JM12-F1-model_v6 Multiple epidermal growth factor-like domains protein 10
+MC04_gdmq00000000_1	AF-Q70E20-F1-model_v6	0.000	37	1	36	1352	1387	36	1403	1.000	0.026	7.464E-01	7.326E-01	2.452E-02	3.097E-01	59	AF-Q70E20-F1-model_v6 Sushi, nidogen and EGF-like domain-containing protein 1
+MC04_gdmq00000000_1	AF-Q9RN17-F1-model_v6	0.028	71	1	36	50	116	36	272	1.000	0.246	6.109E-01	5.996E-01	1.055E-01	3.081E-01	51	AF-Q9RN17-F1-model_v6 Uncharacterized protein pXO2-15/BXB0014/GBAA_pXO2_0014
+MC04_gdmq00000000_1	AF-P47091-F1-model_v6	0.133	30	3	31	27	55	36	120	0.806	0.242	5.860E-01	5.065E-01	1.974E-01	3.079E-01	42	AF-P47091-F1-model_v6 Putative uncharacterized protein YJR018W
+MC04_gdmq00000000_1	AF-J7QLC0-F1-model_v6	0.083	36	1	35	967	1001	36	1706	0.972	0.021	7.343E-01	7.062E-01	1.956E-02	3.038E-01	58	AF-J7QLC0-F1-model_v6 Bifunctional hemolysin/adenylate cyclase
+MC04_gdmq00000000_1	AF-Q8GTS2-F1-model_v6	0.031	32	1	32	32	61	36	249	0.889	0.120	6.486E-01	5.735E-01	1.096E-01	3.013E-01	49	AF-Q8GTS2-F1-model_v6 Basic leucine zipper 23
+MC04_gdmq00000000_1	AF-Q80T91-4-F1-model_v6	0.032	93	1	36	25	115	36	1042	1.000	0.087	6.781E-01	6.659E-01	3.168E-02	2.942E-01	55	AF-Q80T91-4-F1-model_v6 Multiple epidermal growth factor-like domains protein 11
+MC04_gdmq00000000_1	AF-Q8VY76-F1-model_v6	0.085	35	1	31	36	70	36	261	0.861	0.134	6.337E-01	5.704E-01	1.056E-01	2.927E-01	48	AF-Q8VY76-F1-model_v6 Basic leucine zipper 19
+MC04_gdmq00000000_1	AF-P86209-F1-model_v6	0.080	50	1	33	30	76	36	97	0.917	0.485	4.983E-01	4.702E-01	2.298E-01	2.905E-01	36	AF-P86209-F1-model_v6 F-actin-capping protein subunit beta (Fragments)
+MC04_gdmq00000000_1	AF-Q54QZ8-F1-model_v6	0.000	32	1	29	44	72	36	72	0.806	0.403	4.339E-01	3.995E-01	2.580E-01	2.904E-01	34	AF-Q54QZ8-F1-model_v6 Putative uncharacterized protein DDB_G0283467
+MC04_gdmq00000000_1	AF-Q15063-2-F1-model_v6	0.147	34	1	33	665	698	36	779	0.917	0.044	7.139E-01	6.672E-01	4.131E-02	2.902E-01	53	AF-Q15063-2-F1-model_v6 Periostin
+MC04_gdmq00000000_1	AF-Q9PGR3-F1-model_v6	0.032	31	1	31	72	102	36	892	0.861	0.035	6.773E-01	6.117E-01	3.370E-02	2.898E-01	54	AF-Q9PGR3-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-A1DBG6-F1-model_v6	0.030	33	1	33	162	194	36	552	0.917	0.060	6.876E-01	6.401E-01	5.686E-02	2.884E-01	52	AF-A1DBG6-F1-model_v6 Probable beta-glucosidase btgE
+MC04_gdmq00000000_1	AF-Q9W0A0-F1-model_v6	0.100	40	1	36	41	77	36	1031	1.000	0.036	6.671E-01	6.549E-01	3.100E-02	2.841E-01	53	AF-Q9W0A0-F1-model_v6 Protein draper
+MC04_gdmq00000000_1	AF-Q54BZ7-F1-model_v6	0.000	33	2	30	13	41	36	83	0.806	0.349	4.619E-01	4.119E-01	2.287E-01	2.780E-01	34	AF-Q54BZ7-F1-model_v6 UPF0512 protein I
+MC04_gdmq00000000_1	AF-Q4QPN9-F1-model_v6	0.045	87	1	36	2	87	36	270	1.000	0.319	5.927E-01	5.850E-01	1.164E-01	2.761E-01	43	AF-Q4QPN9-F1-model_v6 Sulfur carrier protein FdhD
+MC04_gdmq00000000_1	AF-Q5BD29-F1-model_v6	0.030	33	1	32	166	198	36	555	0.889	0.059	6.693E-01	6.162E-01	5.521E-02	2.757E-01	49	AF-Q5BD29-F1-model_v6 Probable beta-glucosidase btgE
+MC04_gdmq00000000_1	AF-B0U1Q8-F1-model_v6	0.032	31	1	31	72	102	36	892	0.861	0.035	6.534E-01	5.933E-01	3.360E-02	2.756E-01	51	AF-B0U1Q8-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-A8MHL7-F1-model_v6	0.000	30	2	29	55	84	36	93	0.778	0.323	4.947E-01	4.493E-01	2.331E-01	2.749E-01	33	AF-A8MHL7-F1-model_v6 Cell division topological specificity factor
+MC04_gdmq00000000_1	AF-Q80T91-2-F1-model_v6	0.011	87	1	36	25	110	36	947	1.000	0.091	6.544E-01	6.435E-01	3.556E-02	2.742E-01	51	AF-Q80T91-2-F1-model_v6 Multiple epidermal growth factor-like domains protein 11
+MC04_gdmq00000000_1	AF-O18423-F1-model_v6	0.013	153	5	29	8	160	36	297	0.694	0.515	6.877E-01	5.372E-01	7.946E-02	2.711E-01	46	AF-O18423-F1-model_v6 Lysenin
+MC04_gdmq00000000_1	AF-P44449-F1-model_v6	0.046	86	1	36	2	87	36	270	1.000	0.319	5.547E-01	5.487E-01	1.173E-01	2.708E-01	42	AF-P44449-F1-model_v6 Sulfur carrier protein FdhD
+MC04_gdmq00000000_1	AF-Q3BRP5-F1-model_v6	0.032	31	1	31	72	102	36	904	0.861	0.034	6.382E-01	5.834E-01	3.320E-02	2.700E-01	50	AF-Q3BRP5-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-O80333-F1-model_v6	0.000	32	1	32	7	38	36	458	0.889	0.070	6.310E-01	5.834E-01	6.546E-02	2.656E-01	46	AF-O80333-F1-model_v6 Protochlorophyllide reductase, chloroplastic
+MC04_gdmq00000000_1	AF-Q8PJ55-F1-model_v6	0.032	31	1	31	72	102	36	904	0.861	0.034	6.478E-01	5.905E-01	3.323E-02	2.651E-01	49	AF-Q8PJ55-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q5AFC2-F1-model_v6	0.014	70	1	36	266	330	36	342	1.000	0.190	5.566E-01	5.482E-01	8.294E-02	2.644E-01	44	AF-Q5AFC2-F1-model_v6 Predicted GPI-anchored protein 54
+MC04_gdmq00000000_1	AF-Q14990-F1-model_v6	0.026	76	1	33	126	200	36	250	0.917	0.300	5.369E-01	5.106E-01	1.121E-01	2.608E-01	41	AF-Q14990-F1-model_v6 Outer dense fiber protein 1
+MC04_gdmq00000000_1	AF-Q61999-F1-model_v6	0.026	76	1	33	112	186	36	247	0.917	0.304	5.213E-01	4.971E-01	1.125E-01	2.567E-01	40	AF-Q61999-F1-model_v6 Outer dense fiber protein 1
+MC04_gdmq00000000_1	AF-Q5GXU9-F1-model_v6	0.000	32	1	31	72	102	36	906	0.861	0.034	6.019E-01	5.520E-01	3.191E-02	2.560E-01	48	AF-Q5GXU9-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q29077-F1-model_v6	0.026	76	1	33	126	200	36	262	0.917	0.286	5.202E-01	4.963E-01	1.067E-01	2.556E-01	40	AF-Q29077-F1-model_v6 Outer dense fiber protein 1
+MC04_gdmq00000000_1	AF-Q8NFN8-F1-model_v6	0.029	34	1	32	187	219	36	814	0.889	0.041	6.401E-01	5.913E-01	3.693E-02	2.551E-01	47	AF-Q8NFN8-F1-model_v6 Probable G-protein coupled receptor 156
+MC04_gdmq00000000_1	AF-Q87JI2-F1-model_v6	0.033	30	4	31	293	320	36	373	0.778	0.075	6.109E-01	5.094E-01	6.472E-02	2.514E-01	43	AF-Q87JI2-F1-model_v6 Flagellar P-ring protein 1
+MC04_gdmq00000000_1	AF-P0DKX7-F1-model_v6	0.074	27	4	30	970	996	36	1706	0.750	0.016	6.782E-01	5.657E-01	1.558E-02	2.506E-01	48	AF-P0DKX7-F1-model_v6 Bifunctional hemolysin/adenylate cyclase
+MC04_gdmq00000000_1	AF-B3PI96-F1-model_v6	0.031	32	1	32	64	95	36	930	0.889	0.034	5.858E-01	5.454E-01	3.257E-02	2.480E-01	46	AF-B3PI96-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-P21769-F1-model_v6	0.026	75	1	33	112	186	36	245	0.917	0.306	5.077E-01	4.871E-01	1.155E-01	2.480E-01	38	AF-P21769-F1-model_v6 Outer dense fiber protein 1
+MC04_gdmq00000000_1	AF-A8FYS0-F1-model_v6	0.009	108	1	36	791	896	36	896	1.000	0.118	5.882E-01	5.787E-01	3.566E-02	2.476E-01	45	AF-A8FYS0-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q87EV4-F1-model_v6	0.037	27	4	30	75	101	36	892	0.750	0.030	6.620E-01	5.560E-01	2.943E-02	2.472E-01	46	AF-Q87EV4-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-B0RRB4-F1-model_v6	0.032	31	1	31	86	116	36	916	0.861	0.034	5.729E-01	5.318E-01	3.245E-02	2.458E-01	45	AF-B0RRB4-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-B2I726-F1-model_v6	0.032	31	1	31	72	102	36	892	0.861	0.035	5.871E-01	5.413E-01	3.339E-02	2.449E-01	45	AF-B2I726-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-B2FN90-F1-model_v6	0.037	27	4	30	75	101	36	881	0.750	0.031	6.313E-01	5.421E-01	2.980E-02	2.446E-01	45	AF-B2FN90-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-P14448-F1-model_v6	0.062	32	1	31	307	337	36	741	0.861	0.042	5.981E-01	5.470E-01	3.854E-02	2.410E-01	44	AF-P14448-F1-model_v6 Fibrinogen alpha chain
+MC04_gdmq00000000_1	AF-C5BPV9-F1-model_v6	0.030	33	1	32	64	95	36	940	0.889	0.034	5.503E-01	5.144E-01	3.130E-02	2.389E-01	44	AF-C5BPV9-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q9WTP0-2-F1-model_v6	0.035	28	2	29	92	116	36	1551	0.778	0.016	6.716E-01	5.259E-01	1.575E-02	2.344E-01	45	AF-Q9WTP0-2-F1-model_v6 Band 4.1-like protein 1
+MC04_gdmq00000000_1	AF-B1KRR0-F1-model_v6	0.008	341	2	36	426	759	36	894	0.972	0.374	5.271E-01	5.067E-01	2.942E-02	2.299E-01	43	AF-B1KRR0-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q2SML3-F1-model_v6	0.000	33	1	32	64	95	36	861	0.889	0.037	5.500E-01	5.142E-01	3.404E-02	2.297E-01	42	AF-Q2SML3-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q31GK5-F1-model_v6	0.000	32	1	32	64	95	36	818	0.889	0.039	5.581E-01	5.253E-01	3.706E-02	2.272E-01	41	AF-Q31GK5-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q4WEP7-F1-model_v6	0.006	149	1	36	656	800	36	888	1.000	0.163	5.190E-01	5.119E-01	3.385E-02	2.258E-01	41	AF-Q4WEP7-F1-model_v6 Endochitinase A1
+MC04_gdmq00000000_1	AF-Q21H61-F1-model_v6	0.030	33	1	32	64	95	36	908	0.889	0.035	5.209E-01	4.906E-01	3.209E-02	2.228E-01	41	AF-Q21H61-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q98HD3-F1-model_v6	0.090	33	1	30	101	132	36	235	0.833	0.136	4.849E-01	4.446E-01	1.038E-01	2.217E-01	34	AF-Q98HD3-F1-model_v6 Flagellar L-ring protein
+MC04_gdmq00000000_1	AF-Q5QTY8-F1-model_v6	0.000	33	1	32	64	95	36	896	0.889	0.036	5.337E-01	5.015E-01	3.272E-02	2.199E-01	40	AF-Q5QTY8-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q482T9-F1-model_v6	0.005	180	1	31	384	562	36	889	0.861	0.201	5.539E-01	5.006E-01	3.141E-02	2.197E-01	40	AF-Q482T9-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-Q5AFI4-F1-model_v6	0.088	34	1	32	215	247	36	337	0.889	0.098	4.695E-01	4.449E-01	7.933E-02	2.192E-01	36	AF-Q5AFI4-F1-model_v6 Cell-surface associated glycoprotein DFI1
+MC04_gdmq00000000_1	AF-Q11LN0-F1-model_v6	0.031	32	2	31	161	190	36	235	0.833	0.128	4.819E-01	4.371E-01	9.980E-02	2.186E-01	34	AF-Q11LN0-F1-model_v6 Flagellar L-ring protein
+MC04_gdmq00000000_1	AF-Q609C0-F1-model_v6	0.002	348	4	34	402	746	36	868	0.861	0.397	5.311E-01	4.770E-01	2.978E-02	2.161E-01	40	AF-Q609C0-F1-model_v6 Translation initiation factor IF-2
+MC04_gdmq00000000_1	AF-A6U641-F1-model_v6	0.030	33	2	31	162	191	36	236	0.833	0.127	4.763E-01	4.320E-01	9.715E-02	2.153E-01	33	AF-A6U641-F1-model_v6 Flagellar L-ring protein
+MC04_gdmq00000000_1	AF-C3MG28-F1-model_v6	0.031	32	2	31	162	191	36	236	0.833	0.127	4.750E-01	4.314E-01	9.920E-02	2.150E-01	33	AF-C3MG28-F1-model_v6 Flagellar L-ring protein
+MC04_gdmq00000000_1	AF-Q52082-F1-model_v6	0.016	59	1	36	281	338	36	367	1.000	0.158	4.869E-01	4.812E-01	8.125E-02	2.138E-01	34	AF-Q52082-F1-model_v6 Flagellar P-ring protein
+MC04_gdmq00000000_1	AF-Q1EAR5-F1-model_v6	0.060	33	1	32	713	744	36	895	0.889	0.036	4.999E-01	4.734E-01	3.244E-02	2.104E-01	38	AF-Q1EAR5-F1-model_v6 Endochitinase 2
+MC04_gdmq00000000_1	AF-O13695-F1-model_v6	0.057	35	1	30	165	195	36	536	0.833	0.058	4.869E-01	4.401E-01	4.475E-02	2.080E-01	37	AF-O13695-F1-model_v6 Uncharacterized serine-rich protein C11G7.01
+MC04_gdmq00000000_1	AF-Q9QZL9-F1-model_v6	0.019	157	4	35	72	223	36	230	0.889	0.661	4.395E-01	4.118E-01	9.816E-02	2.076E-01	32	AF-Q9QZL9-F1-model_v6 Dickkopf-like protein 1
+MC04_gdmq00000000_1	AF-Q92223-F1-model_v6	0.029	34	1	32	721	753	36	961	0.889	0.034	4.413E-01	4.221E-01	2.972E-02	1.924E-01	35	AF-Q92223-F1-model_v6 Endochitinase A
+MC04_gdmq00000000_1	AF-Q86Y26-2-F1-model_v6	0.030	33	1	31	83	113	36	442	0.861	0.070	4.245E-01	3.996E-01	5.721E-02	1.756E-01	29	AF-Q86Y26-2-F1-model_v6 NUT family member 1
+MC04_gdmq00000000_1	AF-P12839-F1-model_v6	0.062	32	1	31	782	812	36	846	0.861	0.037	4.406E-01	4.153E-01	3.227E-02	1.698E-01	30	AF-P12839-F1-model_v6 Neurofilament medium polypeptide
+MC23_maechidius_sp_1	AF-Q8ZPD3-F1-model_v6	0.060	50	1	30	6	54	30	171	1.000	0.287	5.603E-01	5.510E-01	1.420E-01	2.808E-01	42	AF-Q8ZPD3-F1-model_v6 L-methionine sulfoximine/L-methionine sulfone acetyltransferase
+MC23_maechidius_sp_1	AF-Q9HUU7-F1-model_v6	0.040	50	1	30	8	55	30	172	1.000	0.279	5.488E-01	5.411E-01	1.409E-01	2.773E-01	41	AF-Q9HUU7-F1-model_v6 L-methionine sulfoximine/L-methionine sulfone acetyltransferase
+MC23_maechidius_sp_1	AF-P21861-F1-model_v6	0.000	73	1	30	57	123	30	171	1.000	0.392	4.177E-01	4.124E-01	1.140E-01	2.308E-01	35	AF-P21861-F1-model_v6 Phosphinothricin N-acetyltransferase

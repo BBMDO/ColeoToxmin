@@ -1,0 +1,21 @@
+EXTERNAL STRUCTURAL SEARCH OF MATURE-PEPTIDE CLUSTERS
+===========================================================================
+
+Clusters analyzed: 26
+PDB alignments: 557
+AlphaFold/Swiss-Prot alignments: 551
+
+                            external_structure_class                                structural_novelty_statement  n_clusters  n_candidates
+                  close_known_structural_counterpart                    known_or_related_structural_architecture           6            49
+too_short_for_reliable_structural_novelty_assessment   insufficient_length_for_reliable_structural_novelty_claim           6             7
+               moderate_known_structural_counterpart                    known_or_related_structural_architecture           5             8
+                       no_close_counterpart_detected no_close_counterpart_detected_in_PDB_or_AlphaFold_SwissProt           5             7
+                     distant_structural_relationship                structurally_distant_from_known_counterparts           4             5
+
+Priority clusters for validation:
+cluster_id          candidate_id  cluster_size  mature_len  plddt_mean        external_structure_class best_external_database  best_external_qtmscore  best_external_qcov best_external_target                                                                                 best_external_description final_validation_priority
+      MC11        gfuh00000000_2             2          24   89.810000   no_close_counterpart_detected    AlphaFold_SwissProt                     NaN                 NaN                  NaN                                                                                                       NaN                      high
+      MC08 dichotomius_satanas_4             2          29   89.050689   no_close_counterpart_detected    AlphaFold_SwissProt                     NaN                 NaN                  NaN                                                                                                       NaN                      high
+      MC25   sitophilus_oryzae_2             1          36   81.966667   no_close_counterpart_detected    AlphaFold_SwissProt                     NaN                 NaN                  NaN                                                                                                       NaN                      high
+      MC07  aphodius_scrutator_2             2          35   89.863714 distant_structural_relationship                    PDB                  0.4738               0.914     1pk5-assembly1_A                                   1pk5-assembly1_A Crystal structure of the orphan nuclear receptor LRH-1                  moderate
+      MC19        gkjj00000000_1             1          28   88.658572 distant_structural_relationship                    PDB                  0.4817               0.750     7ubn-assembly1_Q 7ubn-assembly1_Q Transcription antitermination complex: NusA-containing "engaged" Qlambda-loading complex                  moderate

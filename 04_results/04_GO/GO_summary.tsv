@@ -1,0 +1,146 @@
+GO	Count
+F:serine-type endopeptidase inhibitor activity	56
+C:extracellular region	40
+C:extracellular space	31
+F:toxin activity	28
+F:potassium channel regulator activity	13
+C:nematocyst	12
+F:ion channel inhibitor activity	12
+P:defense response to bacterium	5
+F:calcium channel regulator activity	5
+C:plasma membrane	4
+C:cytoplasm	4
+P:vasodilation	4
+P:defense response to Gram-positive bacterium	3
+C:cytosol	3
+F:ion channel regulator activity	3
+P:innate immune response	3
+P:humoral immune response	3
+P:cell differentiation	2
+P:DNA-templated transcription	2
+F:metal ion binding	2
+C:nucleus	2
+C:side of membrane	1
+F:exo-alpha-sialidase activity	1
+P:ganglioside catabolic process	1
+P:oligosaccharide catabolic process	1
+C:Mrh5C translation activator complex	1
+C:mitochondrion	1
+C:extrinsic component of matrix side of mitochondrial inner membrane	1
+F:mRNA 5'-UTR binding	1
+F:translation regulator activity	1
+P:mitochondrial gene expression	1
+F:protein-RNA sequence-specific adaptor activity	1
+F:mRNA binding	1
+P:skeletal system morphogenesis	1
+C:ciliary neurotrophic factor receptor complex	1
+C:dendrite	1
+C:external side of plasma membrane	1
+C:extracellular exosome	1
+C:interleukin-6 receptor complex	1
+P:mitochondrial translation	1
+F:translation activator activity	1
+P:positive regulation of mitochondrial translational initiation	1
+C:cell surface	1
+C:ciliary membrane	1
+F:hedgehog family protein binding	1
+F:zinc ion binding	1
+P:negative regulation of signal transduction	1
+P:negative regulation of smoothened signaling pathway	1
+P:mitochondrial translational initiation	1
+F:growth factor binding	1
+F:identical protein binding	1
+F:interleukin-11 binding	1
+F:interleukin-11 receptor activity	1
+F:interleukin-27 receptor activity	1
+F:protein tyrosine kinase activator activity	1
+F:scaffold protein binding	1
+P:autocrine signaling	1
+P:B cell differentiation	1
+P:cell surface receptor signaling pathway via JAK-STAT	1
+P:cell surface receptor signaling pathway via STAT	1
+P:ciliary neurotrophic factor-mediated signaling pathway	1
+P:cytokine-mediated signaling pathway	1
+P:inflammatory response	1
+P:interleukin-11-mediated signaling pathway	1
+P:interleukin-27-mediated signaling pathway	1
+P:interleukin-6-mediated signaling pathway	1
+P:intestinal epithelial cell development	1
+P:leukemia inhibitory factor signaling pathway	1
+P:megakaryocyte differentiation	1
+P:negative regulation of apoptotic process	1
+P:negative regulation of cytokine activity	1
+C:membrane	1
+C:membrane raft	1
+C:neuronal cell body	1
+C:oncostatin-M receptor complex	1
+C:receptor complex	1
+F:ciliary neurotrophic factor receptor activity	1
+F:ciliary neurotrophic factor receptor binding	1
+F:coreceptor activity	1
+F:cytokine binding	1
+F:cytokine receptor activity	1
+P:positive regulation of cardiac muscle hypertrophy	1
+P:positive regulation of adaptive immune response	1
+P:positive regulation of acute inflammatory response	1
+P:paracrine signaling	1
+P:oncostatin-M-mediated signaling pathway	1
+P:negative regulation of T-helper 1 type immune response	1
+P:negative regulation of neuron apoptotic process	1
+P:negative regulation of interleukin-6-mediated signaling pathway	1
+P:negative regulation of fat cell proliferation	1
+P:negative regulation of cytokine-mediated signaling pathway	1
+P:positive regulation of vascular endothelial growth factor production	1
+P:positive regulation of interleukin-10 production	1
+P:positive regulation of osteoblast differentiation	1
+P:positive regulation of T cell proliferation	1
+P:response to cytokine	1
+P:positive regulation of cell population proliferation	1
+F:metalloendopeptidase inhibitor activity	1
+P:protein processing	1
+F:serine-type endopeptidase activity	1
+P:T-helper 17 cell lineage commitment	1
+P:regulation of insulin secretion	1
+P:extracellular matrix organization	1
+P:wound healing	1
+P:anatomical structure morphogenesis	1
+F:glutamate-cysteine ligase activity	1
+F:ATP binding	1
+C:CCR4-NOT complex	1
+P:glutathione biosynthetic process	1
+F:3'-5'-RNA exonuclease activity	1
+P:positive regulation of platelet aggregation	1
+P:positive regulation of MAPK cascade	1
+P:positive regulation of Notch signaling pathway	1
+P:regulation of translation	1
+P:mRNA processing	1
+F:poly(A)-specific ribonuclease activity	1
+P:regulatory ncRNA-mediated gene silencing	1
+F:extracellular matrix structural constituent	1
+C:Golgi lumen	1
+C:extracellular matrix	1
+P:maintenance of gastrointestinal epithelium	1
+F:DNA-binding transcription activator activity, RNA polymerase II-specific	1
+F:DNA-binding transcription factor activity, RNA polymerase II-specific	1
+F:DNA-binding transcription repressor activity, RNA polymerase II-specific	1
+F:mitogen-activated protein kinase binding	1
+F:RNA polymerase II cis-regulatory region sequence-specific DNA binding	1
+F:RNA polymerase II-specific DNA-binding transcription factor binding	1
+F:transcription corepressor activity	1
+P:cellular response to osmotic stress	1
+P:negative regulation of transcription by RNA polymerase II	1
+P:positive regulation of transcription by RNA polymerase II	1
+P:regulation of transcription by RNA polymerase II	1
+P:blood coagulation	1
+P:cellular response to lipid	1
+F:receptor antagonist activity	1
+F:transforming growth factor beta binding	1
+P:negative regulation of transforming growth factor beta receptor signaling pathway	1
+P:transforming growth factor beta receptor signaling pathway	1
+P:venom-mediated perturbation of hemostasis	1
+F:Wnt-protein binding	1
+P:establishment of protein localization to extracellular region	1
+P:imaginal disc-derived wing margin morphogenesis	1
+P:positive regulation of canonical Wnt signaling pathway	1
+C:outer membrane-bounded periplasmic space	1
+F:oxidoreductase activity	1

@@ -1,0 +1,1116 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P82176",
+  "secondaryAccessions": [
+    "Q67FQ9"
+  ],
+  "uniProtkbId": "IMPI_GALME",
+  "entryAudit": {
+    "firstPublicDate": "2001-09-26",
+    "lastAnnotationUpdateDate": "2026-06-10",
+    "lastSequenceUpdateDate": "2003-08-15",
+    "entryVersion": 88,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Galleria mellonella",
+    "commonName": "Greater wax moth",
+    "taxonId": 7137,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Endopterygota",
+      "Lepidoptera",
+      "Glossata",
+      "Ditrysia",
+      "Pyraloidea",
+      "Pyralidae",
+      "Galleriinae",
+      "Galleria"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Inducible metalloproteinase inhibitor protein"
+      }
+    },
+    "contains": [
+      {
+        "recommendedName": {
+          "fullName": {
+            "value": "IMPI alpha"
+          }
+        }
+      }
+    ],
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "IMPI"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15115439"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9738891"
+            }
+          ],
+          "value": "Inhibits thermolysin, bacillolysin and pseudolysin, B.polymyxa metalloprotease and human MMP1 and MMP3. No activity on trypsin or cysteine protease papain"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34443685"
+            }
+          ],
+          "value": "Expressed in fat body of last instar larvae"
+        }
+      ],
+      "commentType": "DEVELOPMENTAL STAGE"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15115439"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "34443685"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "9738891"
+            }
+          ],
+          "value": "During humoral immune response (PubMed:9738891). By lipopolysaccharide (LPS) (PubMed:15115439). Induced by A.niger alpha-1,3-glucan (PubMed:34443685)"
+        }
+      ],
+      "commentType": "INDUCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Cleaved"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "value": "Five disulfide bonds are present. When artificially cleaved by thermolysin between Asn-56 and Ile-57, the two obtained chains (called heavy and light chains) remain linked"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "value": "The N-terminus is blocked"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "commentType": "MASS SPECTROMETRY",
+      "molecule": "IMPI alpha",
+      "method": "MALDI",
+      "molWeight": 8360.0,
+      "molWeightError": 0.0,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "Reference",
+          "id": "Ref.4"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 20,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 170,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Inducible metalloproteinase inhibitor protein",
+      "featureId": "PRO_0000021511"
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 20,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 88,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "IMPI alpha",
+      "featureId": "PRO_0000021512"
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 88,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 89,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cleavage",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 48,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 48,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9738891"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 149,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 149,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 26,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 34,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 41,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 43,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 46,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 51,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 60,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 65,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 69,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 71,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 77,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 79,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 80,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 82,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "3SSB"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0325",
+      "category": "PTM",
+      "name": "Glycoprotein"
+    },
+    {
+      "id": "KW-0481",
+      "category": "Molecular function",
+      "name": "Metalloenzyme inhibitor"
+    },
+    {
+      "id": "KW-0483",
+      "category": "Molecular function",
+      "name": "Metalloprotease inhibitor"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "15115439",
+        "citationType": "journal article",
+        "authors": [
+          "Clermont A.",
+          "Wedde M.",
+          "Seitz V.",
+          "Podsiadlowski L.",
+          "Lenze D.",
+          "Hummel M.",
+          "Vilcinskas A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15115439"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1042/bj20031923"
+          }
+        ],
+        "title": "Cloning and expression of an inhibitor of microbial metalloproteinases from insects contributing to innate immunity.",
+        "publicationDate": "2004",
+        "journal": "Biochem. J.",
+        "firstPage": "315",
+        "lastPage": "322",
+        "volume": "382"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "FUNCTION",
+        "INDUCTION"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "CI-5CBLEHU24G51N",
+        "citationType": "submission",
+        "authors": [
+          "Weise C.",
+          "Bender O.",
+          "Kopacek P.",
+          "Hucho F."
+        ],
+        "title": "Hemolymph proteins of the greater wax moth, Galleria mellonella.",
+        "publicationDate": "JUL-2003",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "9738891",
+        "citationType": "journal article",
+        "authors": [
+          "Wedde M.",
+          "Weise C.",
+          "Kopacek P.",
+          "Franke P.",
+          "Vilcinskas A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9738891"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1046/j.1432-1327.1998.2550535.x"
+          }
+        ],
+        "title": "Purification and characterization of an inducible metalloprotease inhibitor from the hemolymph of greater wax moth larvae, Galleria mellonella.",
+        "publicationDate": "1998",
+        "journal": "Eur. J. Biochem.",
+        "firstPage": "535",
+        "lastPage": "543",
+        "volume": "255"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 57-82",
+        "FUNCTION",
+        "INDUCTION",
+        "BLOCKAGE OF N-TERMINUS",
+        "GLYCOSYLATION AT ASN-48"
+      ],
+      "referenceComments": [
+        {
+          "value": "Larval hemolymph",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "CI-FO3DD0E9AENID",
+        "citationType": "submission",
+        "authors": [
+          "Weise C."
+        ],
+        "publicationDate": "JUL-2003",
+        "submissionDatabase": "UniProtKB"
+      },
+      "referencePositions": [
+        "SEQUENCE REVISION TO 63",
+        "MASS SPECTROMETRY"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "34443685",
+        "citationType": "journal article",
+        "authors": [
+          "Staczek S.",
+          "Zdybicka-Barabas A.",
+          "Wojda I.",
+          "Wiater A.",
+          "Mak P.",
+          "Suder P.",
+          "Skrzypiec K.",
+          "Cytrynska M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "34443685"
+          },
+          {
+            "database": "DOI",
+            "id": "10.3390/molecules26165097"
+          }
+        ],
+        "title": "Fungal alpha-1,3-Glucan as a New Pathogen-Associated Molecular Pattern in the Insect Model Host Galleria mellonella.",
+        "publicationDate": "2021",
+        "journal": "Molecules",
+        "firstPage": "5097",
+        "lastPage": "5097",
+        "volume": "26"
+      },
+      "referencePositions": [
+        "DEVELOPMENTAL STAGE",
+        "INDUCTION BY A.NIGER ALPHA-1,3-GLUCAN"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "AY330624",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAQ73240.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AJ577749",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAE12200.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3SSB",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "C/D=19-56, I/J=57-88"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7SKL",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.60 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B/D=19-56, E/F=57-88"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "7SKM",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.85 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B/D=19-56, E/F=57-88"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "3SSB",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7SKL",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PDBsum",
+      "id": "7SKM",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MEROPS",
+      "id": "I08.006",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GlyCosmos",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "2 sites, No reported glycans"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "P82176",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP001652740",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unplaced"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "9738891"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008191",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:metalloendopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "15115439"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009653",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:anatomical structure morphogenesis"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "NAS:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15115439"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0030198",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:extracellular matrix organization"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "NAS:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15115439"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042060",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:wound healing"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "NAS:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15115439"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd19941",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "2.10.25.10:FF:000674",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Mucin-2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.10.25.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Laminin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036084",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ser_inhib-like_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR051368",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "SerProtInhib-TIL_Domain"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002919",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL_dom"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23259:SF70",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "ACCESSORY GLAND PROTEIN ACP62F-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR23259",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "RIDDLE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF01826",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIL"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57567",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Serine protease inhibitors"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MKCLLYLCLWCYCVLVSSSIVLICNGGHEYYECGGACDNVCADLHIQNKTNCPIINIRCNDKCYCEDGYARDVNGKCIPIKDCPKIRSRRSIGIPVDKKCCTGPNEHYDEEKVSCPPETCISLVAKFSCIDSPPPSPGCSCNSGYLRLNLTSPCIPICDCPQMQHSPDCQ",
+    "length": 170,
+    "molWeight": 18759,
+    "crc64": "1A5B272846AD129A",
+    "md5": "9746D4146637F15EDB18C1E51F85AA3A"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "DEVELOPMENTAL STAGE": 1,
+      "INDUCTION": 1,
+      "PTM": 3,
+      "MASS SPECTROMETRY": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 2,
+      "Site": 1,
+      "Glycosylation": 2,
+      "Beta strand": 5,
+      "Helix": 2,
+      "Turn": 1
+    },
+    "uniParcId": "UPI00001B31B1"
+  }
+}

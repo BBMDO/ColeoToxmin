@@ -1,0 +1,185 @@
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search
+easy-search /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representative_pdbs /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_AlphaFold_SwissProt.tsv /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search -e 10 --alignment-type 1 --max-seqs 100 --threads 64 --format-output query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader 
+
+MMseqs Version:                    	10.941cd33
+Seq. id. threshold                 	0
+Coverage threshold                 	0
+Coverage mode                      	0
+Max reject                         	2147483647
+Max accept                         	2147483647
+Add backtrace                      	false
+TMscore threshold                  	0
+TMscore threshold mode             	0
+TMalign hit order                  	0
+TMalign fast                       	1
+Preload mode                       	0
+Threads                            	64
+Verbosity                          	3
+LDDT threshold                     	0
+Sort by structure bit score        	1
+Alignment type                     	1
+Exact TMscore                      	0
+Substitution matrix                	aa:3di.out,nucl:3di.out
+Alignment mode                     	3
+Alignment mode                     	0
+E-value threshold                  	10
+Min alignment length               	0
+Seq. id. mode                      	0
+Alternative alignments             	0
+Max sequence length                	65535
+Compositional bias                 	1
+Compositional bias                 	1
+Gap open cost                      	aa:10,nucl:10
+Gap extension cost                 	aa:1,nucl:1
+Compressed                         	0
+Seed substitution matrix           	aa:3di.out,nucl:3di.out
+Sensitivity                        	9.5
+k-mer length                       	6
+Target search mode                 	0
+k-score                            	seq:2147483647,prof:2147483647
+Max results per query              	100
+Split database                     	0
+Split mode                         	2
+Split memory limit                 	0
+Diagonal scoring                   	true
+Exact k-mer matching               	0
+Mask residues                      	0
+Mask residues probability          	0.999995
+Mask lower case residues           	1
+Mask lower letter repeating N times	6
+Minimum diagonal score             	30
+Selected taxa                      	
+Spaced k-mers                      	1
+Spaced k-mer pattern               	
+Local temporary path               	
+Use GPU                            	0
+Use GPU server                     	0
+Wait for GPU server                	600
+Prefilter mode                     	0
+Exhaustive search mode             	false
+Search iterations                  	1
+Remove temporary files             	true
+MPI runner                         	
+Force restart with latest tmp      	false
+Cluster search                     	0
+Path to ProstT5                    	
+Chain name mode                    	0
+Createdb extraction mode           	0
+Interface distance threshold       	8
+Write mapping file                 	0
+Mask b-factor threshold            	0
+Coord store mode                   	2
+Write lookup file                  	1
+Input format                       	0
+File Inclusion Regex               	.*
+File Exclusion Regex               	^$
+Alignment format                   	0
+Format alignment output            	query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader
+Database output                    	false
+Report mode                        	2
+Greedy best hits                   	false
+
+Alignment backtraces will be computed, since they were requested by output format.
+createdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representative_pdbs /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query --gpu 0 --chain-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 64 -v 3 
+
+Output file: /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query
+[===============================================================] ==26 0s 23ms
+Time for merging to query_ss: 0h 0m 0s 962ms
+Time for merging to query_h: 0h 0m 0s 717ms
+Time for merging to query_ca: 0h 0m 0s 859ms
+Time for merging to query: 0h 0m 0s 805ms
+Ignore 0 out of 26.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 4s 615ms
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp
+search /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/result /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp -a 1 --threads 64 --alignment-type 1 --alignment-mode 3 -e 10 -s 9.5 -k 6 --max-seqs 100 --remove-tmp-files 1 
+
+prefilter /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query_ss /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot_ss /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/pref --sub-mat 'aa:3di.out,nucl:3di.out' --seed-sub-mat 'aa:3di.out,nucl:3di.out' -s 9.5 -k 6 --target-search-mode 0 --k-score seq:2147483647,prof:2147483647 --alph-size aa:21,nucl:5 --max-seq-len 65535 --max-seqs 100 --split 0 --split-mode 2 --split-memory-limit 0 -c 0 --cov-mode 0 --comp-bias-corr 1 --comp-bias-corr-scale 0.15 --diag-score 1 --exact-kmer-matching 0 --mask 0 --mask-prob 0.999995 --mask-lower-case 1 --mask-n-repeat 6 --min-ungapped-score 30 --add-self-matches 0 --spaced-kmer-mode 1 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --threads 64 --compressed 0 -v 3 
+
+Query database size: 26 type: Aminoacid
+Estimated memory consumption: 4G
+Target database size: 590183 type: Aminoacid
+Index table k-mer threshold: 78 at k-mer size 6 
+Index table: counting k-mers
+[=================================================================] 590.18K 10s 88ms
+Index table: Masked residues: 29052553
+Index table: fill
+[=================================================================] 590.18K 1s 221ms
+Index statistics
+Entries:          171734718
+DB size:          1470 MB
+Avg k-mer size:   2.683355
+Top 10 k-mers
+    LVLVVV	218276
+    SVSVVV	183325
+    VVSVVV	134453
+    LVVVVV	125787
+    SVVVVV	97127
+    VVVCVV	80954
+    DPSVVV	77950
+    LVSVVV	68355
+    PVSVVV	61939
+    VVQVVV	52995
+Time for index table init: 0h 0m 12s 443ms
+Process prefiltering step 1 of 1
+
+k-mer similarity threshold: 78
+Starting prefiltering scores calculation (step 1 of 1)
+Query db start 1 to 26
+Target db start 1 to 590183
+[=================================================================] 26 0s 3ms
+
+1395.308628 k-mers per position
+1185118 DB matches per sequence
+4 overflows
+80 sequences passed prefiltering per query sequence
+100 median result list length
+5 sequences with 0 size result lists
+Time for merging to pref: 0h 0m 0s 469ms
+Time for processing: 0h 0m 14s 872ms
+structurealign /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/pref /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/strualn --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --sort-by-structure-bits 0 --alignment-type 1 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 1 --alignment-mode 1 --alignment-output-mode 0 --wrapped-scoring 0 -e 10 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 64 --compressed 0 -v 3 
+
+[=================================================================] 26 0s 38ms
+Time for merging to strualn: 0h 0m 2s 180ms
+Time for processing: 0h 0m 30s 641ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/strualn /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/aln --min-seq-id 0 -c 0 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 1 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query
+Target database: /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot
+[=================================================================] 26 0s 14ms
+Time for merging to aln: 0h 0m 0s 710ms
+Time for processing: 0h 0m 5s 821ms
+Removing temporary files
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/strualn -v 3 
+
+Time for processing: 0h 0m 0s 283ms
+mvdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/aln /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/result -v 3 
+
+Time for processing: 0h 0m 0s 825ms
+Removing temporary files
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/strualn -v 3 
+
+Time for processing: 0h 0m 0s 4ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/search_tmp/16462427015892296232/pref -v 3 
+
+Time for processing: 0h 0m 0s 65ms
+convertalis /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query /mnt/external/TC/databases/foldseek_external/alphafold_swissprot/alphafold_swissprot /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/result /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/representatives_vs_AlphaFold_SwissProt.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 0 --format-output query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 64 --compressed 0 -v 3 --exact-tmscore 0 
+
+[=================================================================] 12 0s 54ms
+Time for merging to representatives_vs_AlphaFold_SwissProt.tsv: 0h 0m 0s 59ms
+Time for processing: 0h 0m 1s 555ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/result -v 3 
+
+Time for processing: 0h 0m 0s 150ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query -v 3 
+
+Time for processing: 0h 0m 0s 16ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query_h -v 3 
+
+Time for processing: 0h 0m 0s 3ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query_ca -v 3 
+
+Time for processing: 0h 0m 0s 6ms
+rmdb /mnt/external/TC/alphafold3_revision/analysis_mature/08_external_structure_search/tmp_AFSP_search/1859082824892867438/query_ss -v 3 
+
+Time for processing: 0h 0m 0s 14ms

@@ -1,0 +1,721 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q9TWG0",
+  "uniProtkbId": "VKT1_ANESU",
+  "entryAudit": {
+    "firstPublicDate": "2004-11-23",
+    "lastAnnotationUpdateDate": "2026-01-28",
+    "lastSequenceUpdateDate": "2000-05-01",
+    "entryVersion": 93,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 3.0,
+  "organism": {
+    "scientificName": "Anemonia sulcata",
+    "commonName": "Mediterranean snakelocks sea anemone",
+    "taxonId": 6108,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Cnidaria",
+      "Anthozoa",
+      "Hexacorallia",
+      "Actiniaria",
+      "Actiniidae",
+      "Anemonia"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "22683676"
+          }
+        ],
+        "value": "KappaPI-actitoxin-Avd3b"
+      },
+      "shortNames": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "22683676"
+            }
+          ],
+          "value": "KappaPI-AITX-Avd3b"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000303",
+              "source": "PubMed",
+              "id": "7559645"
+            }
+          ],
+          "value": "Kunitz-type serine protease inhibitor kalicludine-1"
+        },
+        "shortNames": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000303",
+                "source": "PubMed",
+                "id": "7559645"
+              }
+            ],
+            "value": "AsKC1"
+          }
+        ]
+      }
+    ]
+  },
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7559645"
+            }
+          ],
+          "value": "Dual-function toxin that inhibits both the serine protease trypsin (Kd<30 nM) and voltage-gated potassium channels Kv1.2/KCNA2 (IC(50)=2800 nM)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305",
+                "source": "PubMed",
+                "id": "7559645"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        },
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000305"
+              }
+            ],
+            "value": "Nematocyst",
+            "id": "SL-0177"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the venom Kunitz-type family. Sea anemone type 2 potassium channel toxin subfamily"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Opinions are divided on whether Anemonia viridis (Forsskal, 1775) and Anemonia sulcata (Pennant, 1777) are separate species"
+        }
+      ],
+      "commentType": "CAUTION"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "KappaPI-actitoxin-Avd3b",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7559645"
+        }
+      ],
+      "featureId": "PRO_0000155412"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 5,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 55,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "BPTI/Kunitz inhibitor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 16,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reactive bond for trypsin",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P31713"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 5,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 55,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 14,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 38,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 30,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 51,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0872",
+      "category": "Molecular function",
+      "name": "Ion channel impairing toxin"
+    },
+    {
+      "id": "KW-0166",
+      "category": "Cellular component",
+      "name": "Nematocyst"
+    },
+    {
+      "id": "KW-0632",
+      "category": "Molecular function",
+      "name": "Potassium channel impairing toxin"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    },
+    {
+      "id": "KW-0800",
+      "category": "Molecular function",
+      "name": "Toxin"
+    },
+    {
+      "id": "KW-1220",
+      "category": "Molecular function",
+      "name": "Voltage-gated potassium channel impairing toxin"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "7559645",
+        "citationType": "journal article",
+        "authors": [
+          "Schweitz H.",
+          "Bruhn T.",
+          "Guillemare E.",
+          "Moinier D.",
+          "Lancelin J.-M.",
+          "Beress L.",
+          "Lazdunski M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7559645"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/jbc.270.42.25121"
+          }
+        ],
+        "title": "Kalicludines and kaliseptine. Two different classes of sea anemone toxins for voltage sensitive K+ channels.",
+        "publicationDate": "1995",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "25121",
+        "lastPage": "25126",
+        "volume": "270"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE",
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "22683676",
+        "citationType": "journal article",
+        "authors": [
+          "Oliveira J.S.",
+          "Fuentes-Silva D.",
+          "King G.F."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22683676"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.toxicon.2012.05.020"
+          }
+        ],
+        "title": "Development of a rational nomenclature for naming peptide and protein toxins from sea anemones.",
+        "publicationDate": "2012",
+        "journal": "Toxicon",
+        "firstPage": "539",
+        "lastPage": "550",
+        "volume": "60"
+      },
+      "referencePositions": [
+        "NOMENCLATURE"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q9TWG0",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q9TWG0",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:TreeGrafter"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042151",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:nematocyst"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-SubCell"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008200",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:ion channel inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-ARBA"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0015459",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:potassium channel regulator activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0090729",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:toxin activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd22633",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_actitoxin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.410.10:FF:000021",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Serine protease inhibitor, putative"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "4.10.410.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pancreatic trypsin inhibitor Kunitz domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002223",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020901",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Prtase_inh_Kunz-CS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050098",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TFPI/VKTCI-like"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10083:SF374",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ INHIBITOR DOMAIN-CONTAINING PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10083",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KUNITZ-TYPE PROTEASE INHIBITOR-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00014",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00759",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BASICPTASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00131",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KU"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57362",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00280",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50279",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "INKDCLLPMDVGRCRASHPRYYYNSSSKRCEKFIYGGCRGNANNFHTLEECEKVCGVR",
+    "length": 58,
+    "molWeight": 6691,
+    "crc64": "253E068896B4BDCD",
+    "md5": "F99E32F25160CACE5F3B816A2F006E27"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "SIMILARITY": 1,
+      "CAUTION": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Domain": 1,
+      "Site": 1,
+      "Disulfide bond": 3
+    },
+    "uniParcId": "UPI000007F2C4"
+  }
+}

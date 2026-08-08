@@ -1,0 +1,58 @@
+cluster_id	candidate_id	cluster_size	sacc	go_transfer_support	go_id	go_aspect	go_term	go_evidence
+MC01	gjbk00000000_1	15	A0A6B9KZ59	strong_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC01	gjbk00000000_1	15	A0A6B9KZ59	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC02	gkjd00000000_3	10	C8YJ94	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IEA:TreeGrafter
+MC02	gkjd00000000_3	10	C8YJ94	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC02	gkjd00000000_3	10	C8YJ94	strong_GO_transfer_support	GO:0090729	MF	toxin activity	IEA:UniProtKB-KW
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IEA:TreeGrafter
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0042151	CC	nematocyst	IEA:UniProtKB-SubCell
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0008200	MF	ion channel inhibitor activity	IEA:UniProtKB-ARBA
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0015459	MF	potassium channel regulator activity	IEA:UniProtKB-KW
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC03	gaco00000000_1	9	P0DN19	strong_GO_transfer_support	GO:0090729	MF	toxin activity	IEA:UniProtKB-KW
+MC05	hydroscapha_redfordi_1	5	P81602	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IEA:TreeGrafter
+MC05	hydroscapha_redfordi_1	5	P81602	strong_GO_transfer_support	GO:0050830	BP	defense response to Gram-positive bacterium	IEA:UniProtKB-ARBA
+MC05	hydroscapha_redfordi_1	5	P81602	strong_GO_transfer_support	GO:0006959	BP	humoral immune response	IEA:TreeGrafter
+MC05	hydroscapha_redfordi_1	5	P81602	strong_GO_transfer_support	GO:0045087	BP	innate immune response	IEA:UniProtKB-KW
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0005615	CC	extracellular space	IEA:TreeGrafter
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0042151	CC	nematocyst	IEA:UniProtKB-SubCell
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0008200	MF	ion channel inhibitor activity	IEA:UniProtKB-ARBA
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0015459	MF	potassium channel regulator activity	IEA:UniProtKB-KW
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC06	brassicogethes_aeneus_2	4	Q9TWG0	moderate_GO_transfer_support	GO:0090729	MF	toxin activity	IEA:UniProtKB-KW
+MC07	aphodius_scrutator_2	2	P83516	moderate_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC07	aphodius_scrutator_2	2	P83516	moderate_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC07	aphodius_scrutator_2	2	P83516	moderate_GO_transfer_support	GO:0042742	BP	defense response to bacterium	IEA:UniProtKB-KW
+MC09	gdlg00000000_1	2	P83516	moderate_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC09	gdlg00000000_1	2	P83516	moderate_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC09	gdlg00000000_1	2	P83516	moderate_GO_transfer_support	GO:0042742	BP	defense response to bacterium	IEA:UniProtKB-KW
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IEA:TreeGrafter
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0042151	CC	nematocyst	IEA:UniProtKB-SubCell
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0008200	MF	ion channel inhibitor activity	IEA:UniProtKB-ARBA
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0015459	MF	potassium channel regulator activity	IEA:UniProtKB-KW
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC13	psylliodes_chrysocephalus_2	2	Q9TWG0	strong_GO_transfer_support	GO:0090729	MF	toxin activity	IEA:UniProtKB-KW
+MC16	euwallacea_fornicatus_1	1	B2BS84	moderate_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC16	euwallacea_fornicatus_1	1	B2BS84	moderate_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC18	ghma00000000_3	1	P00768	strong_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC18	ghma00000000_3	1	P00768	strong_GO_transfer_support	GO:0004252	MF	serine-type endopeptidase activity	IEA:UniProtKB-EC
+MC18	ghma00000000_3	1	P00768	strong_GO_transfer_support	GO:0016485	BP	protein processing	IEA:UniProtKB-ARBA
+MC20	hbua00000000_1	1	P82176	moderate_GO_transfer_support	GO:0005615	CC	extracellular space	IDA:UniProtKB
+MC20	hbua00000000_1	1	P82176	moderate_GO_transfer_support	GO:0008191	MF	metalloendopeptidase inhibitor activity	IDA:UniProtKB
+MC20	hbua00000000_1	1	P82176	moderate_GO_transfer_support	GO:0009653	BP	anatomical structure morphogenesis	NAS:UniProtKB
+MC20	hbua00000000_1	1	P82176	moderate_GO_transfer_support	GO:0030198	BP	extracellular matrix organization	NAS:UniProtKB
+MC20	hbua00000000_1	1	P82176	moderate_GO_transfer_support	GO:0042060	BP	wound healing	NAS:UniProtKB
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IDA:FlyBase
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0017147	MF	Wnt-protein binding	IMP:FlyBase
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0035592	BP	establishment of protein localization to extracellular region	IDA:FlyBase
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0008587	BP	imaginal disc-derived wing margin morphogenesis	IMP:FlyBase
+MC21	heteronyx_sp_3	1	Q9VDG1	strong_GO_transfer_support	GO:0090263	BP	positive regulation of canonical Wnt signaling pathway	IMP:FlyBase
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0005615	CC	extracellular space	IBA:GO_Central
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0048019	MF	receptor antagonist activity	IBA:GO_Central
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0050431	MF	transforming growth factor beta binding	IBA:GO_Central
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0030512	BP	negative regulation of transforming growth factor beta receptor signaling pathway	IEA:Ensembl
+MC23	maechidius_sp_1	1	Q08E66	strong_GO_transfer_support	GO:0007179	BP	transforming growth factor beta receptor signaling pathway	IBA:GO_Central
+MC25	sitophilus_oryzae_2	1	B5KL29	moderate_GO_transfer_support	GO:0005576	CC	extracellular region	IEA:UniProtKB-SubCell
+MC25	sitophilus_oryzae_2	1	B5KL29	moderate_GO_transfer_support	GO:0004867	MF	serine-type endopeptidase inhibitor activity	IEA:UniProtKB-KW

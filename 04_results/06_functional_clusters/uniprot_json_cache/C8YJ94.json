@@ -1,0 +1,663 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "C8YJ94",
+  "uniProtkbId": "KUN2_TABYA",
+  "entryAudit": {
+    "firstPublicDate": "2022-08-03",
+    "lastAnnotationUpdateDate": "2025-02-05",
+    "lastSequenceUpdateDate": "2009-11-03",
+    "entryVersion": 46,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 3.0,
+  "organism": {
+    "scientificName": "Tabanus yao",
+    "commonName": "Horsefly",
+    "taxonId": 485572,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Endopterygota",
+      "Diptera",
+      "Brachycera",
+      "Tabanomorpha",
+      "Tabanoidea",
+      "Tabanidae",
+      "Tabanus"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000303",
+            "source": "PubMed",
+            "id": "19531497"
+          }
+        ],
+        "value": "Tabkunin 2"
+      }
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000312",
+              "source": "EMBL",
+              "id": "ACS72289.1"
+            }
+          ],
+          "value": "Serine protease inhibitor 2"
+        }
+      }
+    ],
+    "flag": "Precursor"
+  },
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "19531497"
+            }
+          ],
+          "value": "Potent anticoagulant protein that inhibits the hydrolytic activities of all serine proteases tested (trypsin, thrombin, elastase, and chymotrypsin), with the highest efficacy on thrombin"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "19531497"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305",
+              "source": "PubMed",
+              "id": "19531497"
+            }
+          ],
+          "value": "Expressed in salivary glands"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "commentType": "MASS SPECTROMETRY",
+      "method": "MALDI",
+      "molWeight": 6063.1,
+      "molWeightError": 0.0,
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "19531497"
+        }
+      ]
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 20,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "19531497"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 21,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 76,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Tabkunin 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000305",
+          "source": "PubMed",
+          "id": "19531497"
+        }
+      ],
+      "featureId": "PRO_5002994607"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 75,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "BPTI/Kunitz inhibitor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 75,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 34,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 58,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 50,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 71,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-1203",
+      "category": "Molecular function",
+      "name": "Blood coagulation cascade inhibiting toxin"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-1199",
+      "category": "Molecular function",
+      "name": "Hemostasis impairing toxin"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    },
+    {
+      "id": "KW-0800",
+      "category": "Molecular function",
+      "name": "Toxin"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "19531497",
+        "citationType": "journal article",
+        "authors": [
+          "Ma D.",
+          "Wang Y.",
+          "Yang H.",
+          "Wu J.",
+          "An S.",
+          "Gao L.",
+          "Xu X.",
+          "Lai R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "19531497"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1074/mcp.m900186-mcp200"
+          }
+        ],
+        "title": "Anti-thrombosis repertoire of blood-feeding horsefly salivary glands.",
+        "publicationDate": "2009",
+        "journal": "Mol. Cell. Proteomics",
+        "firstPage": "2071",
+        "lastPage": "2079",
+        "volume": "8"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA]",
+        "PROTEIN SEQUENCE OF 21-45",
+        "SUBCELLULAR LOCATION",
+        "MASS SPECTROMETRY",
+        "FUNCTION"
+      ],
+      "referenceComments": [
+        {
+          "value": "Salivary gland",
+          "type": "TISSUE"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000312",
+          "source": "EMBL",
+          "id": "ACS72289.1"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "FJ469601",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ACS72289.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "C8YJ94",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "C8YJ94",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MEROPS",
+      "id": "I02.026",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:TreeGrafter"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0090729",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:toxin activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd00109",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz-type"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.410.10:FF:000021",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Serine protease inhibitor, putative"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "4.10.410.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pancreatic trypsin inhibitor Kunitz domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002223",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020901",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Prtase_inh_Kunz-CS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050098",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TFPI/VKTCI-like"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10083",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KUNITZ-TYPE PROTEASE INHIBITOR-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10083:SF376",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "SERINE PEPTIDASE INHIBITOR, KUNITZ TYPE, 3"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00014",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00759",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BASICPTASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00131",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KU"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57362",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00280",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50279",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MKVLSLIFVIFSVLVLFASAKDPVCDQPKAVGRCFAAFPKFYYNSSSGQCQAFIYGGCGGNENNFNTLEECNAKCA",
+    "length": 76,
+    "molWeight": 8245,
+    "crc64": "B76B271CF81DE653",
+    "md5": "7A13E2E654B6DA306C1FED4C00A2E5D1"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "MASS SPECTROMETRY": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 1,
+      "Domain": 1,
+      "Disulfide bond": 3
+    },
+    "uniParcId": "UPI0001B71E50"
+  }
+}

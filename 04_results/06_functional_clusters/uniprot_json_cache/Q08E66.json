@@ -1,0 +1,1765 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q08E66",
+  "uniProtkbId": "WFKN2_BOVIN",
+  "entryAudit": {
+    "firstPublicDate": "2007-10-23",
+    "lastAnnotationUpdateDate": "2026-06-10",
+    "lastSequenceUpdateDate": "2006-10-31",
+    "entryVersion": 106,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 3.0,
+  "organism": {
+    "scientificName": "Bos taurus",
+    "commonName": "Bovine",
+    "taxonId": 9913,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Laurasiatheria",
+      "Artiodactyla",
+      "Ruminantia",
+      "Pecora",
+      "Bovidae",
+      "Bovinae",
+      "Bos"
+    ]
+  },
+  "proteinExistence": "2: Evidence at transcript level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+      }
+    },
+    "flag": "Precursor"
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "WFIKKN2"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Protease-inhibitor that contains multiple distinct protease inhibitor domains. Probably has serine protease- and metalloprotease-inhibitor activity. Inhibits the biological activity of mature myostatin, but not activin (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Interacts with both mature and propeptide myostatin/MSTN"
+        }
+      ],
+      "commentType": "SUBUNIT"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the WFIKKN family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 32,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 33,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 574,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2",
+      "featureId": "PRO_0000307819"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 37,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 90,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "WAP",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00722"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 124,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 175,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Kazal-like",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 208,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 301,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Ig-like C2-type"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 326,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 376,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "BPTI/Kunitz inhibitor 1",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 384,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 434,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "BPTI/Kunitz inhibitor 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 443,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 564,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "NTR",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00295"
+        }
+      ]
+    },
+    {
+      "type": "Site",
+      "location": {
+        "start": {
+          "value": 138,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 139,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Reactive bond",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00798"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 517,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 517,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 77,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 60,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 64,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 76,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 70,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 86,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 132,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 162,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 136,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 155,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 144,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 173,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 229,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 285,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 326,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 376,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 335,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 359,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 351,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 372,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 384,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 434,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 393,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 417,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 409,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 430,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 443,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 513,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 446,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 515,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 457,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 564,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0325",
+      "category": "PTM",
+      "name": "Glycoprotein"
+    },
+    {
+      "id": "KW-0393",
+      "category": "Domain",
+      "name": "Immunoglobulin domain"
+    },
+    {
+      "id": "KW-0481",
+      "category": "Molecular function",
+      "name": "Metalloenzyme inhibitor"
+    },
+    {
+      "id": "KW-0483",
+      "category": "Molecular function",
+      "name": "Metalloprotease inhibitor"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0677",
+      "category": "Domain",
+      "name": "Repeat"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "CI-1L3IRH0VBLO1M",
+        "citationType": "submission",
+        "authoringGroup": [
+          "NIH - Mammalian Gene Collection (MGC) project"
+        ],
+        "publicationDate": "SEP-2006",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Hereford",
+          "type": "STRAIN"
+        },
+        {
+          "value": "Hippocampus",
+          "type": "TISSUE"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "BC123391",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAI23392.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001070353.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001076885.1"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "81"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9913.ENSBTAP00000000973",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GlyCosmos",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "1 site, No reported glycans"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "3 sites"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9913-ENSBTAP00000000973",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSBTAT00000000973.5",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSBTAP00000000973.5"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSBTAG00000000731.5"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSBTAT00085081985",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSBTAP00085003117"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSBTAG00085026013"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "531979",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "bta:531979",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "124857",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSBTAG00000000731",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VGNC",
+      "id": "VGNC:55888",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "WFIKKN2"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG4597",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000160624",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q08E66",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "LFTRWMW",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "8187079at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000009136",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 19"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSBTAG00000000731",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in anterior segment of eyeball and 83 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005615",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0048019",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:receptor antagonist activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0050431",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:transforming growth factor beta binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0030512",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:negative regulation of transforming growth factor beta receptor signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0007179",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:transforming growth factor beta receptor signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd05765",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "IgI_3_WFIKKN-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd00104",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KAZAL_FS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd22605",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_WFIKKN_1-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd22606",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_WFIKKN_2-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd03575",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "NTR_WFIKKN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.410.10:FF:000002",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, follistatin/kazal, immunoglobulin, kunitz and netrin domain-containing 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "2.40.50.120:FF:000004",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "2.60.40.10:FF:000473",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "3.30.60.30:FF:000014",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.410.10:FF:000009",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.75.10:FF:000002",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.40.50.120",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "3.30.60.30",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "-"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "4.10.75.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Elafin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.60.40.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Immunoglobulins"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "4.10.410.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pancreatic trypsin inhibitor Kunitz domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036645",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Elafin-like_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR007110",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036179",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR013783",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig-like_fold"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR013098",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig_I-set"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR003599",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig_sub"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR003598",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Ig_sub2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002350",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036058",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002223",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001134",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Netrin_domain"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR018933",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Netrin_module_non-TIMP"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020901",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Prtase_inh_Kunz-CS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008993",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIMP-like_OB-fold"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR008197",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR033638",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WFIKKN1/2_Ig-like_3"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR45938",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "ACP24A4-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR45938:SF7",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP, KAZAL, IMMUNOGLOBULIN, KUNITZ AND NTR DOMAIN-CONTAINING PROTEIN 2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF07679",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "I-set"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00014",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF01759",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "NTR"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00095",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00759",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BASICPTASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00409",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "IG"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00408",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "IGc2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00131",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KU"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00217",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57362",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57256",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Elafin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF48726",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Immunoglobulin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF100895",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kazal-type serine protease inhibitors"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF50242",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TIMP-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00280",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50279",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50835",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "IG_LIKE"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51465",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KAZAL_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50189",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "NTR"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51390",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "WAP"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MWALRGCRSGSRWGQGAALLLLLLGVPPRGLALPPLRYSHAGICPNDMNPNLWVDAQSTCKRECETDQECETYEKCCPNVCGTKSCVAARYMDVKGKKGPVGMPKEATCDHFMCLQQGSECDIWDGQPVCKCRDRCEKEPSFTCASDGLTYYNRCYMDAEACSKGITLAVVTCRYHFTWPNTSPSPPETTVHPTTAPPETPGLDATAPALLNHPAHQSVTVGETVSFLCDVVGRPRPEITWEKQLEDRENVVMRPNHVRGNVVVTNIAQLVIYNAQPQDAGIYTCTARNAAGVLRADFPLSVVSGGQASATAESSPNGTALPAAECLKPPDSDDCGEEQTRWYFDAQANNCLTFTFGHCHRNRNHFETYEACMLACMSGSLAMCSLPALQGPCKAYVPRWAYNSQTGQCQSFVYGGCEGNGNNFESREDCEESCPFPRGNQRCRACKPRQKLVTSFCRSDFVILGRISELTEEPDSGRALVTVDEVLKDEKMGLKFLGQEPLEVTLLHMDWTCPCPNVTVGEAPLIIMGEVDGGMAVLRPDSFVGASSTRRARKLREVMHKKTCDVLKDFPGLQ",
+    "length": 574,
+    "molWeight": 62994,
+    "crc64": "3CB4E9EE3AC08CCC",
+    "md5": "AA4D5516297931E42B375C6A31AC0B74"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBUNIT": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 1,
+      "Domain": 6,
+      "Site": 1,
+      "Glycosylation": 1,
+      "Disulfide bond": 17
+    },
+    "uniParcId": "UPI0000E26795"
+  }
+}

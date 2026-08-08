@@ -1,0 +1,606 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "B5KL29",
+  "secondaryAccessions": [
+    "B5L5Q4"
+  ],
+  "uniProtkbId": "VKT3_OXYSC",
+  "entryAudit": {
+    "firstPublicDate": "2009-06-16",
+    "lastAnnotationUpdateDate": "2025-06-18",
+    "lastSequenceUpdateDate": "2008-10-14",
+    "entryVersion": 44,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 2.0,
+  "organism": {
+    "scientificName": "Oxyuranus scutellatus scutellatus",
+    "commonName": "Australian taipan",
+    "synonyms": [
+      "Coastal taipan"
+    ],
+    "taxonId": 8667,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Lepidosauria",
+      "Squamata",
+      "Bifurcata",
+      "Unidentata",
+      "Episquamata",
+      "Toxicofera",
+      "Serpentes",
+      "Colubroidea",
+      "Elapidae",
+      "Hydrophiinae",
+      "Oxyuranus"
+    ]
+  },
+  "proteinExistence": "2: Evidence at transcript level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Kunitz-type serine protease inhibitor scutellin-3"
+      }
+    },
+    "flag": "Precursor"
+  },
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Serine protease inhibitor"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Secreted",
+            "id": "SL-0243"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "value": "Expressed by the venom gland"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the venom Kunitz-type family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Signal",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 24,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 83,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Kunitz-type serine protease inhibitor scutellin-3",
+      "featureId": "PRO_5000395588"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 31,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "BPTI/Kunitz inhibitor",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 31,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 40,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 64,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 56,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 77,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00031"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0646",
+      "category": "Molecular function",
+      "name": "Protease inhibitor"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0722",
+      "category": "Molecular function",
+      "name": "Serine protease inhibitor"
+    },
+    {
+      "id": "KW-0732",
+      "category": "Domain",
+      "name": "Signal"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "18979207",
+        "citationType": "journal article",
+        "authors": [
+          "St Pierre L.",
+          "Earl S.T.",
+          "Filippovich I.",
+          "Sorokina N.",
+          "Masci P.P.",
+          "De Jersey J.",
+          "Lavin M.F."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18979207"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1007/s00018-008-8573-5"
+          }
+        ],
+        "title": "Common evolution of waprin and Kunitz-like toxin families in Australian venomous snakes.",
+        "publicationDate": "2008",
+        "journal": "Cell. Mol. Life Sci.",
+        "firstPage": "4039",
+        "lastPage": "4054",
+        "volume": "65"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Venom gland",
+          "type": "TISSUE"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "EF990737",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABV64391.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "EU401840",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ACC77789.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "EU401842",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ACC77791.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "B5KL29",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "B5KL29",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MEROPS",
+      "id": "I02.052",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005576",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular region"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-SubCell"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004867",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase inhibitor activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-KW"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd22594",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_textilinin-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "4.10.410.10:FF:000020",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Collagen, type VI, alpha 3"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "4.10.410.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Pancreatic trypsin inhibitor Kunitz domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002223",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036880",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR020901",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Prtase_inh_Kunz-CS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050098",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TFPI/VKTCI-like"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR10083",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KUNITZ-TYPE PROTEASE INHIBITOR-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00014",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Kunitz_BPTI"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00759",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BASICPTASE"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00131",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KU"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF57362",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI-like"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00280",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50279",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "BPTI_KUNITZ_2"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MSSGGLLLLLGLLTLWEVLTPVSSKDRPKFCELPADIGPCEDFTGAFHYSPREHECIEFIYGGCKGNANNFNTLEECESACAA",
+    "length": 83,
+    "molWeight": 9029,
+    "crc64": "A677DA241D71C58E",
+    "md5": "9885081287A79DC404920AAF12B14A47"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "TISSUE SPECIFICITY": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Signal": 1,
+      "Chain": 1,
+      "Domain": 1,
+      "Disulfide bond": 3
+    },
+    "uniParcId": "UPI00017C1476"
+  }
+}

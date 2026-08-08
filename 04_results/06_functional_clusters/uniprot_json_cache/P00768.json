@@ -1,0 +1,719 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P00768",
+  "uniProtkbId": "CTR2_VESOR",
+  "entryAudit": {
+    "firstPublicDate": "1986-07-21",
+    "lastAnnotationUpdateDate": "2026-01-28",
+    "lastSequenceUpdateDate": "1986-07-21",
+    "entryVersion": 108,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 3.0,
+  "organism": {
+    "scientificName": "Vespa orientalis",
+    "commonName": "Oriental hornet",
+    "taxonId": 7447,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Endopterygota",
+      "Hymenoptera",
+      "Apocrita",
+      "Aculeata",
+      "Vespoidea",
+      "Vespidae",
+      "Vespinae",
+      "Vespa"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Chymotrypsin-2"
+      },
+      "ecNumbers": [
+        {
+          "value": "3.4.21.1"
+        }
+      ]
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Chymotrypsin II"
+        }
+      }
+    ]
+  },
+  "comments": [
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "Preferential cleavage: Tyr-|-Xaa, Trp-|-Xaa, Phe-|-Xaa, Leu-|-Xaa.",
+        "ecNumber": "3.4.21.1",
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU10078"
+          },
+          {
+            "evidenceCode": "ECO:0000255",
+            "source": "PROSITE-ProRule",
+            "id": "PRU10079"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Secreted, extracellular space",
+            "id": "SL-0112"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000255",
+              "source": "PROSITE-ProRule",
+              "id": "PRU00274"
+            }
+          ],
+          "value": "Belongs to the peptidase S1 family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 216,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Chymotrypsin-2",
+      "featureId": "PRO_0000088677"
+    },
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 216,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Peptidase S1",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00274"
+        }
+      ]
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 39,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 39,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Charge relay system",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6786354"
+        }
+      ]
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 82,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 82,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Charge relay system",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6786354"
+        }
+      ]
+    },
+    {
+      "type": "Active site",
+      "location": {
+        "start": {
+          "value": 173,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 173,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Charge relay system",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6786354"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 25,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 40,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00274"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6340663"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 146,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 159,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00274"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6340663"
+        }
+      ]
+    },
+    {
+      "type": "Disulfide bond",
+      "location": {
+        "start": {
+          "value": 169,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 193,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00274"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "6340663"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-1015",
+      "category": "PTM",
+      "name": "Disulfide bond"
+    },
+    {
+      "id": "KW-0378",
+      "category": "Molecular function",
+      "name": "Hydrolase"
+    },
+    {
+      "id": "KW-0645",
+      "category": "Molecular function",
+      "name": "Protease"
+    },
+    {
+      "id": "KW-0964",
+      "category": "Cellular component",
+      "name": "Secreted"
+    },
+    {
+      "id": "KW-0720",
+      "category": "Molecular function",
+      "name": "Serine protease"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "6340663",
+        "citationType": "journal article",
+        "authors": [
+          "Jany K.-D.",
+          "Bekelar K.",
+          "Pfleiderer G.",
+          "Ishay J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "6340663"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0006-291x(83)91251-2"
+          }
+        ],
+        "title": "Amino acid sequence of an insect chymotrypsin from the larvae of the hornet, Vespa orientalis.",
+        "publicationDate": "1983",
+        "journal": "Biochem. Biophys. Res. Commun.",
+        "firstPage": "1",
+        "lastPage": "7",
+        "volume": "110"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE",
+        "DISULFIDE BONDS"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "6786354",
+        "citationType": "journal article",
+        "authors": [
+          "Jany K.-D.",
+          "Bekelar K.",
+          "Ishay J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "6786354"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0005-2795(81)90164-1"
+          }
+        ],
+        "title": "The amino acid sequences around the reactive serine and histidine residues of the chymotrypsin-like protease from the hornet, Vespa orientalis.",
+        "publicationDate": "1981",
+        "journal": "Biochim. Biophys. Acta",
+        "firstPage": "197",
+        "lastPage": "200",
+        "volume": "668"
+      },
+      "referencePositions": [
+        "ACTIVE SITE"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "PIR",
+      "id": "A00954",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "KYVH2O"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P00768",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P00768",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MEROPS",
+      "id": "S01.438",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005576",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:extracellular region"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-SubCell"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0004252",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:serine-type endopeptidase activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-EC"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0016485",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:protein processing"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-ARBA"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd00190",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Tryp_SPc"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "2.40.10.10:FF:000047",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Trypsin eta"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "2.40.10.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Trypsin-like serine proteases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR050430",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Peptidase_S1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009003",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Peptidase_S1_PA"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR043504",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Peptidase_S1_PA_chymotrypsin"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001314",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Peptidase_S1A"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR001254",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Trypsin_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR018114",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TRYPSIN_HIS"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR033116",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TRYPSIN_SER"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24276:SF98",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "FI18310P1-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR24276",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "POLYSERASE-RELATED"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00089",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Trypsin"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00722",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CHYMOTRYPSIN"
+        }
+      ]
+    },
+    {
+      "database": "SMART",
+      "id": "SM00020",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Tryp_SPc"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF50494",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Trypsin-like serine proteases"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS50240",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TRYPSIN_DOM"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00134",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TRYPSIN_HIS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS00135",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "TRYPSIN_SER"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "IVGGTNAPRGKYPYQVSLRAPKHFCGGSISKRYVLTAAHCLVGKSEHQVTVGSVLLNKEEAVYNAKELIVNKNYNSIRLINDIGLIRVSKDISFTQLVQPVKLPVSNTIKAGDPVVLTGWGRIYVNGPIPNNLQQITLSIVNQQTCKSKHWGLTDSQICTFTKRGEGACHGDSGGPLVANGVQIGIVSYGHPCAIGSPNVFTRVYSFLDWIQKNQL",
+    "length": 216,
+    "molWeight": 23471,
+    "crc64": "F235BF992AEFEDE1",
+    "md5": "6F34872EEC30E568BD4558FDC1C8A69D"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "CATALYTIC ACTIVITY": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Domain": 1,
+      "Active site": 3,
+      "Disulfide bond": 3
+    },
+    "uniParcId": "UPI000012865C"
+  }
+}

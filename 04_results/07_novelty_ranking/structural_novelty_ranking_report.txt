@@ -1,0 +1,25 @@
+STRUCTURAL NOVELTY AND VALIDATION PRIORITY
+======================================================================
+
+Clusters analyzed: 26
+Clusters with external intercluster TM-score: 16
+High priority: 0
+Moderate priority: 12
+Selected for external structural search: 12
+
+ priority_rank cluster_id            candidate_id  cluster_size  n_species  plddt_mean closest_external_cluster  max_intercluster_tm  novelty_evidence_score  validation_priority_score  combined_priority_score    priority_class
+             1       MC19          gkjj00000000_1             1          1   88.658572                     MC01               0.4665                0.790075                   0.443293                 0.651362 moderate_priority
+             2       MC04          gdmq00000000_1             6          5   72.608889                     MC01               0.7111                0.580005                   0.656514                 0.610609 moderate_priority
+             3       MC14         bolboceras_sp_1             1          1   97.687273                      NaN                  NaN                0.691322                   0.488436                 0.610168 moderate_priority
+             4       MC26 spercheus_emarginatus_2             1          1   96.912222                      NaN                  NaN                0.691322                   0.484561                 0.608618 moderate_priority
+             5       MC24            orphnus_sp_2             1          1   93.491110                      NaN                  NaN                0.691322                   0.467456                 0.601776 moderate_priority
+             6       MC17    geotrupes_spiniger_2             1          1   92.185833                      NaN                  NaN                0.691322                   0.460929                 0.599165 moderate_priority
+             7       MC15        eophileurus_sp_2             1          1   70.601515                     MC01               0.5538                0.750790                   0.353008                 0.591677 moderate_priority
+             8       MC22     hygrobia_hermanni_1             1          1   85.830001                      NaN                  NaN                0.691322                   0.429150                 0.586454 moderate_priority
+             9       MC12         lepiserica_sp_1             2          2   94.367500                     MC05               0.6802                0.593910                   0.556299                 0.578865 moderate_priority
+            10       MC11          gfuh00000000_2             2          2   89.810000                      NaN                  NaN                0.591322                   0.533511                 0.568198 moderate_priority
+            11       MC08   dichotomius_satanas_4             2          2   89.050689                      NaN                  NaN                0.591322                   0.529715                 0.566679 moderate_priority
+            12       MC10          gdnw00000000_1             2          1   88.736363                     MC13               0.6413                0.611415                   0.492429                 0.563820 moderate_priority
+            13       MC01          gjbk00000000_1            15          8   87.161429                     MC02               0.8895                0.049725                   0.935807                 0.404158    lower_priority
+            14       MC05  hydroscapha_redfordi_1             5          4   92.196750                     MC12               0.6802                0.143910                   0.700207                 0.366429    lower_priority
+            15       MC06 brassicogethes_aeneus_2             4          3   93.033637                     MC25               0.6917                0.138735                   0.646757                 0.341944    lower_priority
