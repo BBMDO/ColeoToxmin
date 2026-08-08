@@ -1,0 +1,123 @@
+nohup: ignorando entrada
+[2026-08-06 18:13:33] ============================================================
+[2026-08-06 18:13:33] BUSCA ESTRUTURAL CONFIRMATÓRIA
+[2026-08-06 18:13:33] Queries: 3
+[2026-08-06 18:13:33] Iniciando: PDB confirmatory search
+[2026-08-06 18:13:33] Banco: /mnt/external/TC/databases/foldseek_external/pdb/pdb
+[2026-08-06 18:13:33] Temporário: /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT
+[2026-08-06 18:13:33] Saída: /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/priority3_vs_PDB_exhaustive.tsv
+easy-search /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/queries /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/priority3_vs_PDB_exhaustive.tsv /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT -e 1000 -s 11.0 --exhaustive-search 1 --alignment-type 1 --max-seqs 1000 --remove-tmp-files 0 --threads 64 --format-output query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader 
+
+MMseqs Version:                    	10.941cd33
+Seq. id. threshold                 	0
+Coverage threshold                 	0
+Coverage mode                      	0
+Max reject                         	2147483647
+Max accept                         	2147483647
+Add backtrace                      	false
+TMscore threshold                  	0
+TMscore threshold mode             	0
+TMalign hit order                  	0
+TMalign fast                       	1
+Preload mode                       	0
+Threads                            	64
+Verbosity                          	3
+LDDT threshold                     	0
+Sort by structure bit score        	1
+Alignment type                     	1
+Exact TMscore                      	0
+Substitution matrix                	aa:3di.out,nucl:3di.out
+Alignment mode                     	3
+Alignment mode                     	0
+E-value threshold                  	1000
+Min alignment length               	0
+Seq. id. mode                      	0
+Alternative alignments             	0
+Max sequence length                	65535
+Compositional bias                 	1
+Compositional bias                 	1
+Gap open cost                      	aa:10,nucl:10
+Gap extension cost                 	aa:1,nucl:1
+Compressed                         	0
+Seed substitution matrix           	aa:3di.out,nucl:3di.out
+Sensitivity                        	11
+k-mer length                       	6
+Target search mode                 	0
+k-score                            	seq:2147483647,prof:2147483647
+Max results per query              	1000
+Split database                     	0
+Split mode                         	2
+Split memory limit                 	0
+Diagonal scoring                   	true
+Exact k-mer matching               	0
+Mask residues                      	0
+Mask residues probability          	0.999995
+Mask lower case residues           	1
+Mask lower letter repeating N times	6
+Minimum diagonal score             	30
+Selected taxa                      	
+Spaced k-mers                      	1
+Spaced k-mer pattern               	
+Local temporary path               	
+Use GPU                            	0
+Use GPU server                     	0
+Wait for GPU server                	600
+Prefilter mode                     	0
+Exhaustive search mode             	true
+Search iterations                  	1
+Remove temporary files             	false
+MPI runner                         	
+Force restart with latest tmp      	false
+Cluster search                     	0
+Path to ProstT5                    	
+Chain name mode                    	0
+Createdb extraction mode           	0
+Interface distance threshold       	8
+Write mapping file                 	0
+Mask b-factor threshold            	0
+Coord store mode                   	2
+Write lookup file                  	1
+Input format                       	0
+File Inclusion Regex               	.*
+File Exclusion Regex               	^$
+Alignment format                   	0
+Format alignment output            	query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader
+Database output                    	false
+Report mode                        	2
+Greedy best hits                   	false
+
+Alignment backtraces will be computed, since they were requested by output format.
+createdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/queries /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query --gpu 0 --chain-name-mode 0 --db-extraction-mode 0 --distance-threshold 8 --write-mapping 0 --mask-bfactor-threshold 0 --coord-store-mode 2 --write-lookup 1 --input-format 0 --file-include '.*' --file-exclude '^$' --threads 64 -v 3 
+
+Output file: /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query
+[=================================================================] 3 0s 39ms
+Time for merging to query_ss: 0h 0m 0s 951ms
+Time for merging to query_h: 0h 0m 1s 440ms
+Time for merging to query_ca: 0h 0m 1s 241ms
+Time for merging to query: 0h 0m 1s 172ms
+Ignore 0 out of 3.
+Too short: 0, incorrect: 0, not proteins: 0.
+Time for processing: 0h 0m 8s 240ms
+Create directory /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp
+search /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/result /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp -a 1 --threads 64 --alignment-type 1 --alignment-mode 3 -e 1000 -s 11 -k 6 --max-seqs 1000 --exhaustive-search 1 --remove-tmp-files 0 
+
+structurealign /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp/10171855861398420010/pref /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp/10171855861398420010/strualn --tmscore-threshold 0 --tmscore-threshold-mode 0 --lddt-threshold 0 --sort-by-structure-bits 0 --alignment-type 1 --exact-tmscore 0 --sub-mat 'aa:3di.out,nucl:3di.out' -a 1 --alignment-mode 1 --alignment-output-mode 0 --wrapped-scoring 0 -e 1000 --min-seq-id 0 --min-aln-len 0 --seq-id-mode 0 --alt-ali 0 -c 0 --cov-mode 0 --max-seq-len 65535 --comp-bias-corr 1 --comp-bias-corr-scale 0.5 --max-rejected 2147483647 --max-accept 2147483647 --add-self-matches 0 --db-load-mode 0 --pca substitution:1.100,context:1.400 --pcb substitution:4.100,context:5.800 --score-bias 0 --realign 0 --realign-score-bias -0.2 --realign-max-seqs 2147483647 --corr-score-weight 0 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --zdrop 40 --threads 64 --compressed 0 -v 3 
+
+[=================================================================] 3 0s 120ms
+Time for merging to strualn: 0h 0m 0s 298ms
+Time for processing: 0h 0m 11s 750ms
+tmalign /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp/10171855861398420010/strualn /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp/10171855861398420010/aln --min-seq-id 0 -c 0 --cov-mode 0 --max-rejected 2147483647 --max-accept 2147483647 -a 1 --add-self-matches 0 --tmscore-threshold 0 --tmscore-threshold-mode 0 --tmalign-hit-order 0 --tmalign-fast 1 --db-load-mode 0 --threads 64 -v 3 
+
+Query database: /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query
+Target database: /mnt/external/TC/databases/foldseek_external/pdb/pdb
+[=================================================================] 3 0s 21ms
+Time for merging to aln: 0h 0m 0s 66ms
+Time for processing: 0h 10m 41s 777ms
+mvdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/search_tmp/10171855861398420010/aln /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/result -v 3 
+
+Time for processing: 0h 0m 0s 134ms
+convertalis /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/result /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/priority3_vs_PDB_exhaustive.tsv --sub-mat 'aa:3di.out,nucl:3di.out' --format-mode 0 --format-output query,target,fident,alnlen,qstart,qend,tstart,tend,qlen,tlen,qcov,tcov,alntmscore,qtmscore,ttmscore,evalue,bits,theader --translation-table 1 --gap-open aa:10,nucl:10 --gap-extend aa:1,nucl:1 --db-output 0 --db-load-mode 0 --search-type 0 --threads 64 --compressed 0 -v 3 --exact-tmscore 0 
+
+[Backtrace cigar is missing in the alignment result. Please recompute the alignment with the -a flag.
+Command: mmseqs align /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/query /mnt/external/TC/databases/foldseek_external/pdb/pdb /mnt/external/TC/alphafold3_revision/analysis_mature/10_confirmatory_structure_search/tmp_PDB_exhaustive.ZSSRBT/16266650206427064141/result alnNew -a
+Error: Convert Alignments died
